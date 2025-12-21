@@ -1,0 +1,281 @@
+[2025-12-19 16:21:29] [INFO ] HeaderNavigationTest - beforeSuite - Init Extent Report
+[2025-12-19 16:21:31] [INFO ] HeaderNavigationTest - Check login page redirect
+[2025-12-19 16:21:31] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-19 16:21:31] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-19 16:21:31] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-19 16:21:32] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:22:57] [INFO ] HeaderNavigationTest - beforeSuite - Init Extent Report
+[2025-12-19 16:22:59] [INFO ] HeaderNavigationTest - Check logo is visible
+[2025-12-19 16:22:59] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-19 16:22:59] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 16:22:59] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-19 16:22:59] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 16:22:59] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:22:59] [INFO ] HeaderNavigationTest - Check page scroll to SHowtimes section
+[2025-12-19 16:22:59] [INFO ] TopBarNavigation - clickShowtimes
+[2025-12-19 16:22:59] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-19 16:22:59] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-19 16:22:59] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: showtimes in 10s
+[2025-12-19 16:23:09] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:24:23] [INFO ] HeaderNavigationTest - beforeSuite - Init Extent Report
+[2025-12-19 16:24:25] [INFO ] HeaderNavigationTest - Check logo is visible
+[2025-12-19 16:24:25] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-19 16:24:25] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 16:24:25] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-19 16:24:25] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 16:24:25] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:24:25] [INFO ] HeaderNavigationTest - Check page scroll to SHowtimes section
+[2025-12-19 16:24:25] [INFO ] TopBarNavigation - clickShowtimes
+[2025-12-19 16:24:25] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-19 16:24:25] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-19 16:24:25] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: showtimes in 10s
+[2025-12-19 16:24:35] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:44:04] [INFO ] HeaderNavigationTest - beforeSuite - Init Extent Report
+[2025-12-19 16:44:04] [INFO ] TestListener - onStart
+[2025-12-19 16:44:06] [INFO ] TestListener - onTestStart
+[2025-12-19 16:44:06] [INFO ] HeaderNavigationTest - Check logo is visible
+[2025-12-19 16:44:06] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-19 16:44:06] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 16:44:06] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-19 16:44:06] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 16:44:06] [INFO ] TestListener - onTestSuccess: TC01_Verify_Logo_Displayed - PASSED
+[2025-12-19 16:44:06] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:44:06] [INFO ] TestListener - onTestStart
+[2025-12-19 16:44:06] [INFO ] HeaderNavigationTest - Check page scroll to SHowtimes section
+[2025-12-19 16:44:06] [INFO ] TopBarNavigation - clickShowtimes
+[2025-12-19 16:44:06] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-19 16:44:06] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-19 16:44:06] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-19 16:44:08] [INFO ] TestListener - onTestSuccess: TC03_Verify_Showtimes_Scroll - PASSED
+[2025-12-19 16:44:08] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:44:08] [INFO ] TestListener - onTestStart
+[2025-12-19 16:44:08] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-19 16:44:08] [INFO ] TopBarNavigation - clickCinemas
+[2025-12-19 16:44:08] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
+[2025-12-19 16:44:08] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
+[2025-12-19 16:44:08] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
+[2025-12-19 16:44:09] [INFO ] TestListener - onTestSuccess: TC04_Verify_Cinemas_Scroll - PASSED
+[2025-12-19 16:44:09] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:44:09] [INFO ] TestListener - onTestStart
+[2025-12-19 16:44:09] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-19 16:44:09] [INFO ] TopBarNavigation - clickNews
+[2025-12-19 16:44:09] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Tin Tức')] in 10s
+[2025-12-19 16:44:09] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Tin Tức')] in 10s
+[2025-12-19 16:44:09] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: tinTuc in 10s
+[2025-12-19 16:44:11] [INFO ] TestListener - onTestSuccess: TC05_Verify_News_Scroll - PASSED
+[2025-12-19 16:44:11] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:44:11] [INFO ] TestListener - onTestStart
+[2025-12-19 16:44:11] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-19 16:44:11] [INFO ] TopBarNavigation - clickMobileApp
+[2025-12-19 16:44:11] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Ứng Dụng')] in 10s
+[2025-12-19 16:44:11] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Ứng Dụng')] in 10s
+[2025-12-19 16:44:11] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: ungDung in 10s
+[2025-12-19 16:44:13] [INFO ] TestListener - onTestSuccess: TC06_Verify_MobileApp_Scroll - PASSED
+[2025-12-19 16:44:13] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:44:13] [INFO ] TestListener - onTestStart
+[2025-12-19 16:44:13] [INFO ] HeaderNavigationTest - Check login page redirect
+[2025-12-19 16:44:13] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-19 16:44:13] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-19 16:44:13] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-19 16:44:13] [INFO ] TestListener - onTestSuccess: TC07_Verify_Login_Redirect - PASSED
+[2025-12-19 16:44:13] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:44:13] [INFO ] TestListener - onTestStart
+[2025-12-19 16:44:13] [INFO ] HeaderNavigationTest - Check register page redirect
+[2025-12-19 16:44:13] [INFO ] TopBarNavigation - navigateRegisterPage
+[2025-12-19 16:44:13] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-19 16:44:13] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-19 16:44:13] [INFO ] TestListener - onTestSuccess: TC08_Verify_Register_Redirect - PASSED
+[2025-12-19 16:44:13] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:44:13] [INFO ] TestListener - onFinish
+[2025-12-19 16:46:25] [INFO ] HeaderNavigationTest - beforeSuite - Init Extent Report
+[2025-12-19 16:46:25] [INFO ] TestListener - onStart
+[2025-12-19 16:46:28] [INFO ] TestListener - onTestStart
+[2025-12-19 16:46:28] [INFO ] HeaderNavigationTest - Check logo is visible
+[2025-12-19 16:46:28] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-19 16:46:28] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 16:46:28] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-19 16:46:28] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 16:46:28] [INFO ] TestListener - onTestSuccess: TC01_Verify_Logo_Displayed - PASSED
+[2025-12-19 16:46:28] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:46:28] [INFO ] TestListener - onTestStart
+[2025-12-19 16:46:28] [INFO ] HeaderNavigationTest - Check page scroll to SHowtimes section
+[2025-12-19 16:46:28] [INFO ] TopBarNavigation - clickShowtimes
+[2025-12-19 16:46:28] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-19 16:46:28] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-19 16:46:28] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-19 16:46:29] [INFO ] TestListener - onTestSuccess: TC03_Verify_Showtimes_Scroll - PASSED
+[2025-12-19 16:46:29] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:46:29] [INFO ] TestListener - onTestStart
+[2025-12-19 16:46:29] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-19 16:46:29] [INFO ] TopBarNavigation - clickCinemas
+[2025-12-19 16:46:29] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
+[2025-12-19 16:46:29] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
+[2025-12-19 16:46:29] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
+[2025-12-19 16:46:31] [INFO ] TestListener - onTestSuccess: TC04_Verify_Cinemas_Scroll - PASSED
+[2025-12-19 16:46:31] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:46:31] [INFO ] TestListener - onTestStart
+[2025-12-19 16:46:31] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-19 16:46:31] [INFO ] TopBarNavigation - clickNews
+[2025-12-19 16:46:31] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Tin Tức')] in 10s
+[2025-12-19 16:46:31] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Tin Tức')] in 10s
+[2025-12-19 16:46:31] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: tinTuc in 10s
+[2025-12-19 16:46:33] [INFO ] TestListener - onTestSuccess: TC05_Verify_News_Scroll - PASSED
+[2025-12-19 16:46:33] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:46:33] [INFO ] TestListener - onTestStart
+[2025-12-19 16:46:33] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-19 16:46:33] [INFO ] TopBarNavigation - clickMobileApp
+[2025-12-19 16:46:33] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Ứng Dụng')] in 10s
+[2025-12-19 16:46:33] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Ứng Dụng')] in 10s
+[2025-12-19 16:46:33] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: ungDung in 10s
+[2025-12-19 16:46:34] [INFO ] TestListener - onTestSuccess: TC06_Verify_MobileApp_Scroll - PASSED
+[2025-12-19 16:46:34] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:46:34] [INFO ] TestListener - onTestStart
+[2025-12-19 16:46:34] [INFO ] HeaderNavigationTest - Check login page redirect
+[2025-12-19 16:46:34] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-19 16:46:34] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-19 16:46:34] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-19 16:46:34] [INFO ] TestListener - onTestSuccess: TC07_Verify_Login_Redirect - PASSED
+[2025-12-19 16:46:34] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:46:34] [INFO ] TestListener - onTestStart
+[2025-12-19 16:46:34] [INFO ] HeaderNavigationTest - Check register page redirect
+[2025-12-19 16:46:34] [INFO ] TopBarNavigation - navigateRegisterPage
+[2025-12-19 16:46:34] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-19 16:46:34] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-19 16:46:34] [INFO ] TestListener - onTestFailure: TC08_Verify_Register_Redirect - FAILED
+[2025-12-19 16:46:35] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC08_Verify_Register_Redirect_20251219_04_46_35.png
+[2025-12-19 16:46:35] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:46:35] [INFO ] TestListener - onFinish
+[2025-12-19 16:52:42] [INFO ] HeaderNavigationTest - beforeSuite - Init Extent Report
+[2025-12-19 16:52:42] [INFO ] TestListener - onStart
+[2025-12-19 16:52:45] [INFO ] TestListener - onTestStart
+[2025-12-19 16:52:45] [INFO ] HeaderNavigationTest - Check logo is visible
+[2025-12-19 16:52:45] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-19 16:52:45] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 16:52:45] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-19 16:52:45] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 16:52:45] [INFO ] TestListener - onTestSuccess: TC01_Verify_Logo_Displayed - PASSED
+[2025-12-19 16:52:45] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:52:45] [INFO ] TestListener - onTestStart
+[2025-12-19 16:52:45] [INFO ] HeaderNavigationTest - Check logo redirect homepage when in different page
+[2025-12-19 16:52:45] [INFO ] TopBarNavigation - navigateRegisterPage
+[2025-12-19 16:52:45] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-19 16:52:45] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-19 16:52:45] [INFO ] TopBarNavigation - clickLogo
+[2025-12-19 16:52:45] [INFO ] TopBarNavigation - click: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 16:52:45] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 16:52:45] [INFO ] TestListener - onTestSuccess: TC02_Verify_Logo_Redirects_Homepage - PASSED
+[2025-12-19 16:52:45] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:52:46] [INFO ] TestListener - onTestStart
+[2025-12-19 16:52:46] [INFO ] HeaderNavigationTest - Check page scroll to SHowtimes section
+[2025-12-19 16:52:46] [INFO ] TopBarNavigation - clickShowtimes
+[2025-12-19 16:52:46] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-19 16:52:46] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-19 16:52:46] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-19 16:52:47] [INFO ] TestListener - onTestSuccess: TC03_Verify_Showtimes_Scroll - PASSED
+[2025-12-19 16:52:47] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:52:47] [INFO ] TestListener - onTestStart
+[2025-12-19 16:52:47] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-19 16:52:47] [INFO ] TopBarNavigation - clickCinemas
+[2025-12-19 16:52:47] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
+[2025-12-19 16:52:47] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
+[2025-12-19 16:52:47] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
+[2025-12-19 16:52:49] [INFO ] TestListener - onTestSuccess: TC04_Verify_Cinemas_Scroll - PASSED
+[2025-12-19 16:52:49] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:52:49] [INFO ] TestListener - onTestStart
+[2025-12-19 16:52:49] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-19 16:52:49] [INFO ] TopBarNavigation - clickNews
+[2025-12-19 16:52:49] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Tin Tức')] in 10s
+[2025-12-19 16:52:49] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Tin Tức')] in 10s
+[2025-12-19 16:52:49] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: tinTuc in 10s
+[2025-12-19 16:52:50] [INFO ] TestListener - onTestSuccess: TC05_Verify_News_Scroll - PASSED
+[2025-12-19 16:52:50] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:52:50] [INFO ] TestListener - onTestStart
+[2025-12-19 16:52:50] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-19 16:52:50] [INFO ] TopBarNavigation - clickMobileApp
+[2025-12-19 16:52:50] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Ứng Dụng')] in 10s
+[2025-12-19 16:52:50] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Ứng Dụng')] in 10s
+[2025-12-19 16:52:50] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: ungDung in 10s
+[2025-12-19 16:52:52] [INFO ] TestListener - onTestSuccess: TC06_Verify_MobileApp_Scroll - PASSED
+[2025-12-19 16:52:52] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:52:52] [INFO ] TestListener - onTestStart
+[2025-12-19 16:52:52] [INFO ] HeaderNavigationTest - Check login page redirect
+[2025-12-19 16:52:52] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-19 16:52:52] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-19 16:52:52] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-19 16:52:52] [INFO ] TestListener - onTestSuccess: TC07_Verify_Login_Redirect - PASSED
+[2025-12-19 16:52:52] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:52:52] [INFO ] TestListener - onTestStart
+[2025-12-19 16:52:52] [INFO ] HeaderNavigationTest - Check register page redirect
+[2025-12-19 16:52:52] [INFO ] TopBarNavigation - navigateRegisterPage
+[2025-12-19 16:52:52] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-19 16:52:52] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-19 16:52:52] [INFO ] TestListener - onTestSuccess: TC08_Verify_Register_Redirect - PASSED
+[2025-12-19 16:52:52] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 16:52:52] [INFO ] TestListener - onFinish
+[2025-12-19 22:03:43] [INFO ] HeaderNavigationTest - beforeSuite - Init Extent Report
+[2025-12-19 22:03:43] [INFO ] TestListener - onStart
+[2025-12-19 22:03:46] [INFO ] TestListener - onTestStart
+[2025-12-19 22:03:46] [INFO ] HeaderNavigationTest - Check logo is visible
+[2025-12-19 22:03:46] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-19 22:03:46] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 22:03:46] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-19 22:03:46] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 22:03:46] [INFO ] TestListener - onTestSuccess: TC01_Verify_Logo_Displayed - PASSED
+[2025-12-19 22:03:46] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 22:03:46] [INFO ] TestListener - onTestStart
+[2025-12-19 22:03:46] [INFO ] HeaderNavigationTest - Check logo redirect homepage when in different page
+[2025-12-19 22:03:46] [INFO ] TopBarNavigation - navigateRegisterPage
+[2025-12-19 22:03:46] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-19 22:03:46] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-19 22:03:46] [INFO ] TopBarNavigation - clickLogo
+[2025-12-19 22:03:46] [INFO ] TopBarNavigation - click: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 22:03:46] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-19 22:03:46] [INFO ] TestListener - onTestSuccess: TC02_Verify_Logo_Redirects_Homepage - PASSED
+[2025-12-19 22:03:46] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 22:03:46] [INFO ] TestListener - onTestStart
+[2025-12-19 22:03:46] [INFO ] HeaderNavigationTest - Check page scroll to SHowtimes section
+[2025-12-19 22:03:46] [INFO ] TopBarNavigation - clickShowtimes
+[2025-12-19 22:03:46] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-19 22:03:46] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-19 22:03:46] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-19 22:03:48] [INFO ] TestListener - onTestSuccess: TC03_Verify_Showtimes_Scroll - PASSED
+[2025-12-19 22:03:48] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 22:03:48] [INFO ] TestListener - onTestStart
+[2025-12-19 22:03:48] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-19 22:03:48] [INFO ] TopBarNavigation - clickCinemas
+[2025-12-19 22:03:48] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
+[2025-12-19 22:03:48] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
+[2025-12-19 22:03:48] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
+[2025-12-19 22:03:49] [INFO ] TestListener - onTestSuccess: TC04_Verify_Cinemas_Scroll - PASSED
+[2025-12-19 22:03:49] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 22:03:49] [INFO ] TestListener - onTestStart
+[2025-12-19 22:03:49] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-19 22:03:49] [INFO ] TopBarNavigation - clickNews
+[2025-12-19 22:03:49] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Tin Tức')] in 10s
+[2025-12-19 22:03:49] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Tin Tức')] in 10s
+[2025-12-19 22:03:49] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: tinTuc in 10s
+[2025-12-19 22:03:51] [INFO ] TestListener - onTestSuccess: TC05_Verify_News_Scroll - PASSED
+[2025-12-19 22:03:51] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 22:03:51] [INFO ] TestListener - onTestStart
+[2025-12-19 22:03:51] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-19 22:03:51] [INFO ] TopBarNavigation - clickMobileApp
+[2025-12-19 22:03:51] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Ứng Dụng')] in 10s
+[2025-12-19 22:03:51] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Ứng Dụng')] in 10s
+[2025-12-19 22:03:51] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: ungDung in 10s
+[2025-12-19 22:03:53] [INFO ] TestListener - onTestSuccess: TC06_Verify_MobileApp_Scroll - PASSED
+[2025-12-19 22:03:53] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 22:03:53] [INFO ] TestListener - onTestStart
+[2025-12-19 22:03:53] [INFO ] HeaderNavigationTest - Check login page redirect
+[2025-12-19 22:03:53] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-19 22:03:53] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-19 22:03:53] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-19 22:03:53] [INFO ] TestListener - onTestSuccess: TC07_Verify_Login_Redirect - PASSED
+[2025-12-19 22:03:53] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 22:03:53] [INFO ] TestListener - onTestStart
+[2025-12-19 22:03:53] [INFO ] HeaderNavigationTest - Check register page redirect
+[2025-12-19 22:03:53] [INFO ] TopBarNavigation - navigateRegisterPage
+[2025-12-19 22:03:53] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-19 22:03:53] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-19 22:03:53] [INFO ] TestListener - onTestSuccess: TC08_Verify_Register_Redirect - PASSED
+[2025-12-19 22:03:53] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-19 22:03:53] [INFO ] TestListener - onFinish

@@ -1,0 +1,310 @@
+[2025-12-21 13:01:44] [INFO ] TestListener - onStart
+[2025-12-21 13:01:44] [INFO ] TestListener - onTestStart
+[2025-12-21 13:01:44] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:01:44] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:01:44] [INFO ] TestListener - onTestFailure: Clicking_CTA_redirects_to_booking_flow - FAILED
+[2025-12-21 13:01:44] [INFO ] TestListener - onTestFailure: Clicking_CTA_redirects_to_booking_flow - FAILED
+[2025-12-21 13:17:10] [INFO ] HomeMovieSearchTest - beforeSuite - Init Extent Report
+[2025-12-21 13:17:10] [INFO ] TestListener - onStart
+[2025-12-21 13:17:14] [INFO ] TestListener - onTestStart
+[2025-12-21 13:17:14] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:17:14] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] option in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='date']/option[normalize-space()='03/10/2021 ~ 08:22'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='date']/option[normalize-space()='03/10/2021 ~ 08:22'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - click: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-21 13:17:16] [INFO ] TestListener - onTestSuccess: Clicking_CTA_redirects_to_booking_flow - PASSED
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:17:16] [INFO ] TestListener - onTestStart
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:17:16] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:17:18] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:17:18] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:17:18] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:17:18] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:17:18] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:17:18] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:17:18] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-21 13:17:18] [INFO ] TestListener - onTestSuccess: Location_updates_dynamically_based_on_movie - PASSED
+[2025-12-21 13:17:18] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:17:18] [INFO ] TestListener - onTestStart
+[2025-12-21 13:17:18] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:17:18] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:17:20] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:17:20] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:17:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:17:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:17:20] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:17:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:17:20] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-21 13:17:20] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 13:17:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 13:17:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:17:20] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:17:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:17:21] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] option in 10s
+[2025-12-21 13:17:21] [INFO ] TestListener - onTestSuccess: Showtime_updates_based_on_movie_and_location - PASSED
+[2025-12-21 13:17:21] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:17:21] [INFO ] TestListener - onTestStart
+[2025-12-21 13:17:21] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:17:21] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:17:22] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:17:22] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:17:22] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:17:22] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:17:22] [INFO ] TestListener - onTestSuccess: Verify_movie_dropdown_lists_all_available_movies - PASSED
+[2025-12-21 13:17:22] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:17:22] [INFO ] TestListener - onTestStart
+[2025-12-21 13:17:22] [INFO ] HomeMovieSearchTest - Check all inputs of search bar are visible
+[2025-12-21 13:17:22] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.id: homeTool in 10s
+[2025-12-21 13:17:24] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:17:24] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:17:24] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:17:24] [INFO ] TestListener - onTestSuccess: Verify_search_bar_visibility_on_homepage - PASSED
+[2025-12-21 13:17:24] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:17:24] [INFO ] TestListener - onFinish
+[2025-12-21 13:27:11] [INFO ] HomeMovieSearchTest - beforeSuite - Init Extent Report
+[2025-12-21 13:27:11] [INFO ] TestListener - onStart
+[2025-12-21 13:27:14] [INFO ] TestListener - onTestStart
+[2025-12-21 13:27:14] [INFO ] HomeMovieSearchTest - Check if booking flow success
+[2025-12-21 13:27:14] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:27:14] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] option in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='date']/option[normalize-space()='03/10/2021 ~ 08:22'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='date']/option[normalize-space()='03/10/2021 ~ 08:22'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - click: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-21 13:27:15] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-21 13:27:16] [INFO ] TestListener - onTestSuccess: TC_Clicking_CTA_redirects_to_booking_flow - PASSED
+[2025-12-21 13:27:16] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:27:16] [INFO ] TestListener - onTestStart
+[2025-12-21 13:27:16] [INFO ] HomeMovieSearchTest - Check location update based on movie
+[2025-12-21 13:27:16] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:27:16] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:27:17] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:27:17] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:27:17] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:27:17] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:27:17] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:27:17] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:27:17] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-21 13:27:17] [INFO ] TestListener - onTestSuccess: TC_Location_updates_dynamically_based_on_movie - PASSED
+[2025-12-21 13:27:17] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:27:17] [INFO ] TestListener - onTestStart
+[2025-12-21 13:27:17] [INFO ] HomeMovieSearchTest - Check location update based on movie
+[2025-12-21 13:27:17] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:27:17] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:27:19] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:27:19] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:27:19] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:27:19] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:27:19] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:27:19] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:27:19] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-21 13:27:19] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 13:27:19] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 13:27:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:27:20] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:27:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:27:20] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] option in 10s
+[2025-12-21 13:27:20] [INFO ] TestListener - onTestSuccess: TC_Showtime_updates_based_on_movie_and_location - PASSED
+[2025-12-21 13:27:20] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:27:20] [INFO ] TestListener - onTestStart
+[2025-12-21 13:27:20] [INFO ] HomeMovieSearchTest - Check movie dropdown
+[2025-12-21 13:27:20] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:27:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:27:22] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:27:22] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:27:22] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:27:22] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:27:22] [INFO ] TestListener - onTestSuccess: TC_Verify_movie_dropdown_lists_all_available_movies - PASSED
+[2025-12-21 13:27:22] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:27:22] [INFO ] TestListener - onTestStart
+[2025-12-21 13:27:22] [INFO ] HomeMovieSearchTest - Check all inputs of search bar are visible
+[2025-12-21 13:27:22] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.id: homeTool in 10s
+[2025-12-21 13:27:23] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:27:23] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:27:23] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:27:23] [INFO ] TestListener - onTestSuccess: TC_Verify_search_bar_visibility_on_homepage - PASSED
+[2025-12-21 13:27:23] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:27:24] [INFO ] TestListener - onFinish
+[2025-12-21 13:32:07] [INFO ] HomeMovieSearchTest - beforeSuite - Init Extent Report
+[2025-12-21 13:32:07] [INFO ] TestListener - onStart
+[2025-12-21 13:32:09] [INFO ] TestListener - onTestStart
+[2025-12-21 13:32:09] [INFO ] HomeMovieSearchTest - Check if booking flow success, will direct to correct purchase page
+[2025-12-21 13:32:09] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:32:09] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:32:10] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] option in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='date']/option[normalize-space()='03/10/2021 ~ 08:22'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='date']/option[normalize-space()='03/10/2021 ~ 08:22'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - click: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-21 13:32:11] [INFO ] TestListener - onTestSuccess: TC_Clicking_CTA_redirects_to_booking_flow - PASSED
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:32:11] [INFO ] TestListener - onTestStart
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearchTest - Check location update based on movie
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:32:11] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:32:13] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:32:13] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:32:13] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:32:13] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:32:13] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:32:13] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:32:13] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-21 13:32:13] [INFO ] TestListener - onTestSuccess: TC_Location_updates_dynamically_based_on_movie - PASSED
+[2025-12-21 13:32:13] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:32:13] [INFO ] TestListener - onTestStart
+[2025-12-21 13:32:13] [INFO ] HomeMovieSearchTest - Check location update based on movie
+[2025-12-21 13:32:13] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:32:13] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] option in 10s
+[2025-12-21 13:32:14] [INFO ] TestListener - onTestSuccess: TC_Showtime_updates_based_on_movie_and_location - PASSED
+[2025-12-21 13:32:14] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:32:15] [INFO ] TestListener - onTestStart
+[2025-12-21 13:32:15] [INFO ] HomeMovieSearchTest - Check movie dropdown
+[2025-12-21 13:32:15] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:32:15] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:32:16] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:32:16] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:32:16] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:32:16] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 13:32:16] [INFO ] TestListener - onTestSuccess: TC_Verify_movie_dropdown_lists_all_available_movies - PASSED
+[2025-12-21 13:32:16] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:32:16] [INFO ] TestListener - onTestStart
+[2025-12-21 13:32:16] [INFO ] HomeMovieSearchTest - Check all inputs of search bar are visible
+[2025-12-21 13:32:16] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.id: homeTool in 10s
+[2025-12-21 13:32:18] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 13:32:18] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 13:32:18] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 13:32:18] [INFO ] TestListener - onTestSuccess: TC_Verify_search_bar_visibility_on_homepage - PASSED
+[2025-12-21 13:32:18] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 13:32:18] [INFO ] TestListener - onFinish
+[2025-12-21 14:02:21] [INFO ] HomeMovieSearchTest - beforeSuite - Init Extent Report
+[2025-12-21 14:02:21] [INFO ] TestListener - onStart
+[2025-12-21 14:02:24] [INFO ] TestListener - onTestStart
+[2025-12-21 14:02:24] [INFO ] HomeMovieSearchTest - Check if booking flow success, will direct to purchase page
+[2025-12-21 14:02:24] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 14:02:24] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 14:02:25] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 14:02:25] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 14:02:25] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 14:02:25] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 14:02:25] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 14:02:25] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 14:02:25] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-21 14:02:25] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 14:02:25] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 14:02:26] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 14:02:26] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 14:02:26] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 14:02:26] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] option in 10s
+[2025-12-21 14:02:26] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='date']/option[normalize-space()='03/10/2021 ~ 08:22'] in 10s
+[2025-12-21 14:02:26] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='date']/option[normalize-space()='03/10/2021 ~ 08:22'] in 10s
+[2025-12-21 14:02:26] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-21 14:02:26] [INFO ] HomeMovieSearch - click: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-21 14:02:26] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-21 14:02:26] [INFO ] TestListener - onTestSuccess: TC_Clicking_CTA_redirects_to_booking_flow - PASSED
+[2025-12-21 14:02:26] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 14:02:26] [INFO ] TestListener - onTestStart
+[2025-12-21 14:02:26] [INFO ] HomeMovieSearchTest - Check location update based on movie
+[2025-12-21 14:02:26] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 14:02:26] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 14:02:28] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 14:02:28] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 14:02:28] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 14:02:28] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 14:02:28] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 14:02:28] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 14:02:28] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-21 14:02:28] [INFO ] TestListener - onTestSuccess: TC_Location_updates_dynamically_based_on_movie - PASSED
+[2025-12-21 14:02:28] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 14:02:28] [INFO ] TestListener - onTestStart
+[2025-12-21 14:02:28] [INFO ] HomeMovieSearchTest - Check location update based on movie
+[2025-12-21 14:02:28] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 14:02:28] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] option in 10s
+[2025-12-21 14:02:30] [INFO ] TestListener - onTestSuccess: TC_Showtime_updates_based_on_movie_and_location - PASSED
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 14:02:30] [INFO ] TestListener - onTestStart
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearchTest - Check movie dropdown
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 14:02:30] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 14:02:32] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 14:02:32] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 14:02:32] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 14:02:32] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-21 14:02:32] [INFO ] TestListener - onTestSuccess: TC_Verify_movie_dropdown_lists_all_available_movies - PASSED
+[2025-12-21 14:02:32] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 14:02:32] [INFO ] TestListener - onTestStart
+[2025-12-21 14:02:32] [INFO ] HomeMovieSearchTest - Check all inputs of search bar are visible
+[2025-12-21 14:02:32] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.id: homeTool in 10s
+[2025-12-21 14:02:33] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] in 10s
+[2025-12-21 14:02:33] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-21 14:02:33] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] in 10s
+[2025-12-21 14:02:33] [INFO ] TestListener - onTestSuccess: TC_Verify_search_bar_visibility_on_homepage - PASSED
+[2025-12-21 14:02:33] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-21 14:02:33] [INFO ] TestListener - onFinish

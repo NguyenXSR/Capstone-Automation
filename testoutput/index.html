@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Gradle_suite" class="navigator-link">
+              <span class="suite-name border-failed">Gradle suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Gradle_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Gradle_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Gradle_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Gradle_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Gradle_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Gradle_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Gradle_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 1 failed,  5 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Gradle_suite" class="hide-methods failed suite-Gradle_suite"> (hide)</a> <!-- hide-methods failed suite-Gradle_suite -->
+                      <a href="#" panel-name="suite-Gradle_suite" class="show-methods failed suite-Gradle_suite"> (show)</a> <!-- show-methods failed suite-Gradle_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Gradle_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gradle_suite" title="testcases.homepage.HeaderNavigationTest" class="method navigator-link" hash-for-method="TC03_Verify_Showtimes_Scroll">TC03_Verify_Showtimes_Scroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Gradle_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Gradle_suite" class="hide-methods skipped suite-Gradle_suite"> (hide)</a> <!-- hide-methods skipped suite-Gradle_suite -->
+                      <a href="#" panel-name="suite-Gradle_suite" class="show-methods skipped suite-Gradle_suite"> (show)</a> <!-- show-methods skipped suite-Gradle_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Gradle_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gradle_suite" title="testcases.homepage.HeaderNavigationTest" class="method navigator-link" hash-for-method="TC04_Verify_Cinemas_Scroll">TC04_Verify_Cinemas_Scroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gradle_suite" title="testcases.homepage.HeaderNavigationTest" class="method navigator-link" hash-for-method="TC05_Verify_News_Scroll">TC05_Verify_News_Scroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gradle_suite" title="testcases.homepage.HeaderNavigationTest" class="method navigator-link" hash-for-method="TC06_Verify_MobileApp_Scroll">TC06_Verify_MobileApp_Scroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gradle_suite" title="testcases.homepage.HeaderNavigationTest" class="method navigator-link" hash-for-method="TC07_Verify_Login_Redirect">TC07_Verify_Login_Redirect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gradle_suite" title="testcases.homepage.HeaderNavigationTest" class="method navigator-link" hash-for-method="TC08_Verify_Register_Redirect">TC08_Verify_Register_Redirect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Gradle_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Gradle_suite" class="hide-methods passed suite-Gradle_suite"> (hide)</a> <!-- hide-methods passed suite-Gradle_suite -->
+                      <a href="#" panel-name="suite-Gradle_suite" class="show-methods passed suite-Gradle_suite"> (show)</a> <!-- show-methods passed suite-Gradle_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Gradle_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gradle_suite" title="testcases.homepage.HeaderNavigationTest" class="method navigator-link" hash-for-method="TC01_Verify_Logo_Displayed">TC01_Verify_Logo_Displayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Gradle_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Gradle_suite" class="panel Gradle_suite">
+          <div class="suite-Gradle_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.homepage.HeaderNavigationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03_Verify_Showtimes_Scroll">
+                  </a> <!-- TC03_Verify_Showtimes_Scroll -->
+                  <span class="method-name">TC03_Verify_Showtimes_Scroll</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: showtimes (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.7.2&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.110, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52785}, goog:processID: 88812, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52785/devtoo..., se:cdpVersion: 143.0.7499.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f090cde4e062dd1c6875b92726e88bc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at base.BasePage.waitForVisibilityOfElementLocated(BasePage.java:24)
+	at base.BasePage.waitForVisibilityOfElementLocated(BasePage.java:28)
+	at pages.components.HomeSection.isShowtimesVisible(HomeSection.java:14)
+	at testcases.homepage.HeaderNavigationTest.TC03_Verify_Showtimes_Scroll(HeaderNavigationTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gradle_suite-class-failed -->
+          <div class="suite-Gradle_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.homepage.HeaderNavigationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04_Verify_Cinemas_Scroll">
+                  </a> <!-- TC04_Verify_Cinemas_Scroll -->
+                  <span class="method-name">TC04_Verify_Cinemas_Scroll</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: test-output/screenshots/TC03_Verify_Showtimes_Scroll_20251219_162436.png (No such file or directory)
+	at reports.ExtentReportManager.captureScreenshot(ExtentReportManager.java:67)
+	at base.BaseTest.afterMethod(BaseTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+Caused by: java.io.FileNotFoundException: test-output/screenshots/TC03_Verify_Showtimes_Scroll_20251219_162436.png (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:230)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:195)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:183)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:278)
+	at com.google.common.io.Files.copy(Files.java:326)
+	at reports.ExtentReportManager.captureScreenshot(ExtentReportManager.java:63)
+	... 48 more
+... Removed 45 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC05_Verify_News_Scroll">
+                  </a> <!-- TC05_Verify_News_Scroll -->
+                  <span class="method-name">TC05_Verify_News_Scroll</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: test-output/screenshots/TC03_Verify_Showtimes_Scroll_20251219_162436.png (No such file or directory)
+	at reports.ExtentReportManager.captureScreenshot(ExtentReportManager.java:67)
+	at base.BaseTest.afterMethod(BaseTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+Caused by: java.io.FileNotFoundException: test-output/screenshots/TC03_Verify_Showtimes_Scroll_20251219_162436.png (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:230)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:195)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:183)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:278)
+	at com.google.common.io.Files.copy(Files.java:326)
+	at reports.ExtentReportManager.captureScreenshot(ExtentReportManager.java:63)
+	... 48 more
+... Removed 45 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC06_Verify_MobileApp_Scroll">
+                  </a> <!-- TC06_Verify_MobileApp_Scroll -->
+                  <span class="method-name">TC06_Verify_MobileApp_Scroll</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: test-output/screenshots/TC03_Verify_Showtimes_Scroll_20251219_162436.png (No such file or directory)
+	at reports.ExtentReportManager.captureScreenshot(ExtentReportManager.java:67)
+	at base.BaseTest.afterMethod(BaseTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+Caused by: java.io.FileNotFoundException: test-output/screenshots/TC03_Verify_Showtimes_Scroll_20251219_162436.png (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:230)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:195)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:183)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:278)
+	at com.google.common.io.Files.copy(Files.java:326)
+	at reports.ExtentReportManager.captureScreenshot(ExtentReportManager.java:63)
+	... 48 more
+... Removed 45 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07_Verify_Login_Redirect">
+                  </a> <!-- TC07_Verify_Login_Redirect -->
+                  <span class="method-name">TC07_Verify_Login_Redirect</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: test-output/screenshots/TC03_Verify_Showtimes_Scroll_20251219_162436.png (No such file or directory)
+	at reports.ExtentReportManager.captureScreenshot(ExtentReportManager.java:67)
+	at base.BaseTest.afterMethod(BaseTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+Caused by: java.io.FileNotFoundException: test-output/screenshots/TC03_Verify_Showtimes_Scroll_20251219_162436.png (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:230)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:195)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:183)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:278)
+	at com.google.common.io.Files.copy(Files.java:326)
+	at reports.ExtentReportManager.captureScreenshot(ExtentReportManager.java:63)
+	... 48 more
+... Removed 45 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08_Verify_Register_Redirect">
+                  </a> <!-- TC08_Verify_Register_Redirect -->
+                  <span class="method-name">TC08_Verify_Register_Redirect</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: test-output/screenshots/TC03_Verify_Showtimes_Scroll_20251219_162436.png (No such file or directory)
+	at reports.ExtentReportManager.captureScreenshot(ExtentReportManager.java:67)
+	at base.BaseTest.afterMethod(BaseTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+Caused by: java.io.FileNotFoundException: test-output/screenshots/TC03_Verify_Showtimes_Scroll_20251219_162436.png (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:230)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:195)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:183)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:278)
+	at com.google.common.io.Files.copy(Files.java:326)
+	at reports.ExtentReportManager.captureScreenshot(ExtentReportManager.java:63)
+	... 48 more
+... Removed 45 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gradle_suite-class-skipped -->
+          <div class="suite-Gradle_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.homepage.HeaderNavigationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01_Verify_Logo_Displayed">
+                  </a> <!-- TC01_Verify_Logo_Displayed -->
+                  <span class="method-name">TC01_Verify_Logo_Displayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gradle_suite-class-passed -->
+        </div> <!-- panel Gradle_suite -->
+        <div panel-name="test-xml-Gradle_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Gradle suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Gradle test&quot; verbose=&quot;0&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.homepage.HeaderNavigationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Gradle test --&gt;
+&lt;/suite&gt; &lt;!-- Gradle suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Gradle_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Gradle suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Gradle test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Gradle_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Gradle suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Gradle_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Gradle suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Gradle_suite');
+function tableData_Gradle_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC03_Verify_Showtimes_Scroll')
+data.setCell(0, 2, 'testcases.homepage.HeaderNavigationTest')
+data.setCell(0, 3, 10322);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC01_Verify_Logo_Displayed')
+data.setCell(1, 2, 'testcases.homepage.HeaderNavigationTest')
+data.setCell(1, 3, 36);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC08_Verify_Register_Redirect')
+data.setCell(2, 2, 'testcases.homepage.HeaderNavigationTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC04_Verify_Cinemas_Scroll')
+data.setCell(3, 2, 'testcases.homepage.HeaderNavigationTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC07_Verify_Login_Redirect')
+data.setCell(4, 2, 'testcases.homepage.HeaderNavigationTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC05_Verify_News_Scroll')
+data.setCell(5, 2, 'testcases.homepage.HeaderNavigationTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC06_Verify_MobileApp_Scroll')
+data.setCell(6, 2, 'testcases.homepage.HeaderNavigationTest')
+data.setCell(6, 3, 0);
+window.suiteTableData['Gradle_suite']= { tableData: data, tableDiv: 'times-div-Gradle_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Gradle_suite">
+              </div> <!-- times-div-Gradle_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Gradle_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Gradle suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Gradle_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Gradle_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.homepage.HeaderNavigationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=HeaderNavigationTest.TC01_Verify_Logo_Displayed()[pri:...)</span>
+                <span class="method-start">1182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">1873 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC01_Verify_Logo_Displayed</span>
+                <span class="method-start">1876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC01_Verify_Logo_Displayed status=SUCCESS method=HeaderNavigationTest.TC01_Verify_L...)</span>
+                <span class="method-start">1912 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([TestResult name={null} status=CREATED method=HeaderNavigationTest.TC03_Verify_Showtimes_Scroll()[pr...)</span>
+                <span class="method-start">1913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">1946 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC03_Verify_Showtimes_Scroll</span>
+                <span class="method-start">1946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterMethod([TestResult name=TC03_Verify_Showtimes_Scroll status=FAILURE method=HeaderNavigationTest.TC03_Verify...)</span>
+                <span class="method-start">12274 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">12583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">12583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">12585 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">12586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">12586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">12586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">12587 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">12587 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">12587 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">12588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">12588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">12588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">12589 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpPages</span>
+                <span class="method-start">12589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">12589 ms</span>
+              </div> <!-- configuration-method before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
