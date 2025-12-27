@@ -2,7 +2,8 @@ package pages;
 
 //import pages.components.HomeMovieListing;
 import pages.components.HomeMovieSearch;
-import pages.components.MovieListingsSection;
+import pages.components.HomeMovieListingsSection;
+import pages.components.HomeMovieSelectorTable;
 
 public class HomePage extends CommonPage {
 
@@ -12,7 +13,13 @@ public class HomePage extends CommonPage {
         return movieSearch;
     }
 
-    private final MovieListingsSection movieListings = new MovieListingsSection();
-    public MovieListingsSection movieListings() { return movieListings; }
+    private final HomeMovieListingsSection movieListings = new HomeMovieListingsSection();
+    public HomeMovieListingsSection movieListings() {
+        return movieListings;
+    }
+
+    private final HomeMovieSelectorTable movieSelectorTable = new HomeMovieSelectorTable();
+    public HomeMovieSelectorTable movieSelectorTable() {
+        return movieSelectorTable;}
 
 }

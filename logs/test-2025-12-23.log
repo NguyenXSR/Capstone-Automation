@@ -1,0 +1,286 @@
+[2025-12-23 23:04:31] [INFO ] MovieDetailBookingFlowTest - beforeSuite - Init Extent Report
+[2025-12-23 23:04:31] [INFO ] TestListener - onStart
+[2025-12-23 23:04:35] [INFO ] TestListener - onTestStart
+[2025-12-23 23:04:35] [INFO ] MovieDetailBookingFlowTest - Navigate to detail page
+[2025-12-23 23:04:35] [INFO ] MovieDetailPage - waitForVisibilityOfElementLocated: By.cssSelector: h1.MuiTypography-root.MuiTypography-h1 in 10s
+[2025-12-23 23:04:36] [INFO ] MovieDetailBookingFlowTest - Step 2: Click 'Mua Vé' button
+[2025-12-23 23:04:36] [INFO ] MovieDetailPage - click: By.xpath: //a[text()='Mua vé'] in 10s
+[2025-12-23 23:04:36] [INFO ] MovieDetailPage - waitForElementToBeClickable: By.xpath: //a[text()='Mua vé'] in 10s
+[2025-12-23 23:04:36] [INFO ] MovieDetailBookingFlowTest - Step 3: Verify showtime section is visible
+[2025-12-23 23:04:36] [INFO ] MovieDetailPage - waitForVisibilityOfElementLocated: By.id: cinemaList in 10s
+[2025-12-23 23:04:36] [INFO ] MovieDetailBookingFlowTest - Step 4: Select cinema brand 
+[2025-12-23 23:04:36] [INFO ] MovieDetailPage - click: By.xpath: //img[@class='MuiAvatar-img'][@alt='cgv'] in 10s
+[2025-12-23 23:04:36] [INFO ] MovieDetailPage - waitForElementToBeClickable: By.xpath: //img[@class='MuiAvatar-img'][@alt='cgv'] in 10s
+[2025-12-23 23:04:36] [INFO ] MovieDetailBookingFlowTest - Step 5: Select showtime
+[2025-12-23 23:04:36] [INFO ] MovieDetailPage - click: By.xpath: //p[contains(@class,'MuiTypography-body1') and normalize-space(.)='08:25'] in 10s
+[2025-12-23 23:04:36] [INFO ] MovieDetailPage - waitForElementToBeClickable: By.xpath: //p[contains(@class,'MuiTypography-body1') and normalize-space(.)='08:25'] in 10s
+[2025-12-23 23:04:36] [INFO ] TestListener - onTestSuccess: TC_MD_01_Verify_Booking_Flow_From_Detail_To_Purchase - PASSED
+[2025-12-23 23:04:36] [INFO ] MovieDetailBookingFlowTest - Test completed
+[2025-12-23 23:04:36] [INFO ] TestListener - onFinish
+[2025-12-23 23:05:58] [INFO ] MovieDetailBookingFlowTest - beforeSuite - Init Extent Report
+[2025-12-23 23:05:58] [INFO ] TestListener - onStart
+[2025-12-23 23:06:00] [INFO ] TestListener - onTestStart
+[2025-12-23 23:06:00] [INFO ] MovieDetailBookingFlowTest - Navigate to detail page
+[2025-12-23 23:06:01] [INFO ] MovieDetailPage - waitForVisibilityOfElementLocated: By.cssSelector: h1.MuiTypography-root.MuiTypography-h1 in 10s
+[2025-12-23 23:06:01] [INFO ] MovieDetailBookingFlowTest - Step 2: Click 'Mua Vé' button
+[2025-12-23 23:06:01] [INFO ] MovieDetailPage - click: By.xpath: //a[text()='Mua vé'] in 10s
+[2025-12-23 23:06:01] [INFO ] MovieDetailPage - waitForElementToBeClickable: By.xpath: //a[text()='Mua vé'] in 10s
+[2025-12-23 23:06:01] [INFO ] MovieDetailBookingFlowTest - Step 3: Verify showtime section is visible
+[2025-12-23 23:06:01] [INFO ] MovieDetailPage - waitForVisibilityOfElementLocated: By.id: cinemaList in 10s
+[2025-12-23 23:06:01] [INFO ] MovieDetailBookingFlowTest - Step 4: Select cinema brand 
+[2025-12-23 23:06:01] [INFO ] MovieDetailPage - click: By.xpath: //img[@class='MuiAvatar-img'][@alt='cgv'] in 10s
+[2025-12-23 23:06:01] [INFO ] MovieDetailPage - waitForElementToBeClickable: By.xpath: //img[@class='MuiAvatar-img'][@alt='cgv'] in 10s
+[2025-12-23 23:06:01] [INFO ] MovieDetailBookingFlowTest - Step 5: Select showtime
+[2025-12-23 23:06:01] [INFO ] MovieDetailPage - click: By.xpath: //p[contains(@class,'MuiTypography-body1') and normalize-space(.)='08:25'] in 10s
+[2025-12-23 23:06:01] [INFO ] MovieDetailPage - waitForElementToBeClickable: By.xpath: //p[contains(@class,'MuiTypography-body1') and normalize-space(.)='08:25'] in 10s
+[2025-12-23 23:06:01] [INFO ] TestListener - onTestSuccess: TC_MD_01_Verify_Booking_Flow_From_Detail_To_Purchase - PASSED
+[2025-12-23 23:06:01] [INFO ] MovieDetailBookingFlowTest - Test completed
+[2025-12-23 23:06:01] [INFO ] TestListener - onFinish
+[2025-12-23 23:09:10] [INFO ] TC01_RegisterTest - beforeSuite - Init Extent Report
+[2025-12-23 23:09:10] [INFO ] TestListener - onStart
+[2025-12-23 23:09:12] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:12] [INFO ] TC01_RegisterTest - Step 1: Click link 'Đăng Ký'
+[2025-12-23 23:09:12] [INFO ] TopBarNavigation - navigateRegisterPage
+[2025-12-23 23:09:12] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-23 23:09:12] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-23 23:09:12] [INFO ] TC01_RegisterTest - Step 2: Enter account
+[2025-12-23 23:09:12] [INFO ] RegisterPage - enterAccount: a05f44d3-bb95-43f3-93e7-7c83674390f9
+[2025-12-23 23:09:12] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with a05f44d3-bb95-43f3-93e7-7c83674390f9 in 10s
+[2025-12-23 23:09:12] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-23 23:09:12] [INFO ] TC01_RegisterTest - Step 3: Enter password
+[2025-12-23 23:09:12] [INFO ] RegisterPage - enterPassword: Test123456@
+[2025-12-23 23:09:12] [INFO ] RegisterPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-23 23:09:12] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-23 23:09:13] [INFO ] TC01_RegisterTest - Step 4: Enter confirm password
+[2025-12-23 23:09:13] [INFO ] RegisterPage - enterConfirmPassword: Test123456@
+[2025-12-23 23:09:13] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with Test123456@ in 10s
+[2025-12-23 23:09:13] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2025-12-23 23:09:13] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:13] [INFO ] TC01_RegisterTest - Step 5: Enter name
+[2025-12-23 23:09:13] [INFO ] RegisterPage - enterName: John A
+[2025-12-23 23:09:13] [INFO ] RegisterPage - sendKeys: By.id: hoTen with John A in 10s
+[2025-12-23 23:09:13] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2025-12-23 23:09:13] [INFO ] TC01_RegisterTest - Step 6: Enter email
+[2025-12-23 23:09:13] [INFO ] RegisterPage - enterEmail: a05f44d3-bb95-43f3-93e7-7c83674390f9@example.com
+[2025-12-23 23:09:13] [INFO ] RegisterPage - sendKeys: By.id: email with a05f44d3-bb95-43f3-93e7-7c83674390f9@example.com in 10s
+[2025-12-23 23:09:13] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2025-12-23 23:09:13] [INFO ] TC02_LoginTest - Step 1: Click 'Dang Nhap' link on the top right
+[2025-12-23 23:09:13] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-23 23:09:13] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-23 23:09:13] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-23 23:09:13] [INFO ] TC01_RegisterTest - Step 7: Click register button
+[2025-12-23 23:09:13] [INFO ] RegisterPage - clickRegister
+[2025-12-23 23:09:13] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2025-12-23 23:09:13] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2025-12-23 23:09:13] [INFO ] TC02_LoginTest - Step 2: Enter account to login
+[2025-12-23 23:09:13] [INFO ] LoginPage - enterAccount: a68cf217-d33b-4132-b180-864697ac8427
+[2025-12-23 23:09:13] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with a68cf217-d33b-4132-b180-864697ac8427 in 10s
+[2025-12-23 23:09:13] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-23 23:09:13] [INFO ] TC01_RegisterTest - Step 8: Verify user register successfully
+[2025-12-23 23:09:13] [INFO ] TC01_RegisterTest - VP1: 'Đăng ký thành công' message display
+[2025-12-23 23:09:13] [INFO ] RegisterPage - getRegisterMessage
+[2025-12-23 23:09:13] [INFO ] RegisterPage - getText: By.id: swal2-title in 10s
+[2025-12-23 23:09:13] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-23 23:09:13] [INFO ] TC02_LoginTest - Step 3: Enter password to login
+[2025-12-23 23:09:13] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-23 23:09:13] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-23 23:09:13] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-23 23:09:13] [INFO ] TC02_LoginTest - Step 4: Click Login
+[2025-12-23 23:09:13] [INFO ] LoginPage - clickLogin
+[2025-12-23 23:09:13] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-23 23:09:13] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-23 23:09:13] [INFO ] TC02_LoginTest - VP1: 'Đăng nhập thành công' message displays
+[2025-12-23 23:09:13] [INFO ] LoginPage - getLoginMsg
+[2025-12-23 23:09:13] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-23 23:09:13] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-23 23:09:13] [INFO ] RegisterPage - waitRegisterMessageDisappear
+[2025-12-23 23:09:13] [INFO ] RegisterPage - waitForInvisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-23 23:09:13] [INFO ] TestListener - onTestSuccess: testLogin - PASSED
+[2025-12-23 23:09:13] [INFO ] TC02_LoginTest - Test completed
+[2025-12-23 23:09:15] [INFO ] TC01_RegisterTest - VP2: Check register page still displays
+[2025-12-23 23:09:15] [INFO ] TC01_RegisterTest - VP3: Check new account logins successfully
+[2025-12-23 23:09:15] [INFO ] TC01_RegisterTest - Click on Login button
+[2025-12-23 23:09:15] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-23 23:09:15] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-23 23:09:15] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-23 23:09:15] [INFO ] TC01_RegisterTest - Enter account to login
+[2025-12-23 23:09:15] [INFO ] LoginPage - enterAccount: a05f44d3-bb95-43f3-93e7-7c83674390f9
+[2025-12-23 23:09:15] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with a05f44d3-bb95-43f3-93e7-7c83674390f9 in 10s
+[2025-12-23 23:09:15] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-23 23:09:15] [INFO ] TC01_RegisterTest - Enter password to login
+[2025-12-23 23:09:15] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-23 23:09:15] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-23 23:09:15] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-23 23:09:15] [INFO ] TC01_RegisterTest - Click Login
+[2025-12-23 23:09:15] [INFO ] LoginPage - clickLogin
+[2025-12-23 23:09:15] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-23 23:09:15] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-23 23:09:15] [INFO ] TC01_RegisterTest - VP3.1: 'Đăng nhập thành công' message displays
+[2025-12-23 23:09:15] [INFO ] LoginPage - getLoginMsg
+[2025-12-23 23:09:15] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-23 23:09:15] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-23 23:09:15] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:16] [INFO ] HeaderNavigationTest - Check logo is visible
+[2025-12-23 23:09:16] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-23 23:09:16] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-23 23:09:16] [INFO ] TopBarNavigation - CheckLogoDisplayed
+[2025-12-23 23:09:16] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-23 23:09:16] [INFO ] TestListener - onTestSuccess: TC01_Verify_Logo_Displayed - PASSED
+[2025-12-23 23:09:16] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-23 23:09:16] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:16] [INFO ] HeaderNavigationTest - Check logo redirect homepage when in different page
+[2025-12-23 23:09:16] [INFO ] TopBarNavigation - navigateRegisterPage
+[2025-12-23 23:09:16] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-23 23:09:16] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-23 23:09:16] [INFO ] TopBarNavigation - clickLogo
+[2025-12-23 23:09:16] [INFO ] TopBarNavigation - click: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-23 23:09:16] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //img[@alt='Logo'] in 10s
+[2025-12-23 23:09:16] [INFO ] TestListener - onTestSuccess: TC02_Verify_Logo_Redirects_Homepage - PASSED
+[2025-12-23 23:09:16] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-23 23:09:16] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:16] [INFO ] HeaderNavigationTest - Check page scroll to SHowtimes section
+[2025-12-23 23:09:16] [INFO ] TopBarNavigation - clickShowtimes
+[2025-12-23 23:09:16] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-23 23:09:16] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-23 23:09:16] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-23 23:09:16] [INFO ] TestListener - onTestSuccess: testRegister - PASSED
+[2025-12-23 23:09:16] [INFO ] TC01_RegisterTest - Test completed
+[2025-12-23 23:09:17] [INFO ] TestListener - onTestSuccess: TC03_Verify_Showtimes_Scroll - PASSED
+[2025-12-23 23:09:17] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-23 23:09:17] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:17] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-23 23:09:17] [INFO ] TopBarNavigation - clickCinemas
+[2025-12-23 23:09:17] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
+[2025-12-23 23:09:17] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
+[2025-12-23 23:09:17] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
+[2025-12-23 23:09:18] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:18] [INFO ] HomeMovieSearchTest - Check if booking flow success, will direct to purchase page
+[2025-12-23 23:09:18] [INFO ] HomeMovieSearchTest - Step 1: select movie
+[2025-12-23 23:09:18] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-23 23:09:18] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-23 23:09:19] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-23 23:09:19] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-23 23:09:19] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-23 23:09:19] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-23 23:09:19] [INFO ] TestListener - onTestSuccess: TC04_Verify_Cinemas_Scroll - PASSED
+[2025-12-23 23:09:19] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-23 23:09:19] [INFO ] HomeMovieSearchTest - Step 2: select location
+[2025-12-23 23:09:19] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-23 23:09:19] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-23 23:09:19] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:19] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-23 23:09:19] [INFO ] TopBarNavigation - clickNews
+[2025-12-23 23:09:19] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Tin Tức')] in 10s
+[2025-12-23 23:09:19] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Tin Tức')] in 10s
+[2025-12-23 23:09:19] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: tinTuc in 10s
+[2025-12-23 23:09:19] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-23 23:09:19] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-23 23:09:19] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearchTest - SStep 3: select showtime
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='date'] in 10s
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] option in 10s
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='date']/option[normalize-space()='03/10/2021 ~ 08:22'] in 10s
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='date']/option[normalize-space()='03/10/2021 ~ 08:22'] in 10s
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearchTest - SStep 3: select showtime
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearch - click: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-23 23:09:20] [INFO ] TestListener - onTestSuccess: TC_Clicking_CTA_redirects_to_booking_flow - PASSED
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-23 23:09:20] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearchTest - Check all inputs of search bar are visible
+[2025-12-23 23:09:20] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.id: homeTool in 10s
+[2025-12-23 23:09:21] [INFO ] TestListener - onTestSuccess: TC05_Verify_News_Scroll - PASSED
+[2025-12-23 23:09:21] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-23 23:09:21] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:21] [INFO ] HeaderNavigationTest - Check page scroll to Cinemas section
+[2025-12-23 23:09:21] [INFO ] TopBarNavigation - clickMobileApp
+[2025-12-23 23:09:21] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Ứng Dụng')] in 10s
+[2025-12-23 23:09:21] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Ứng Dụng')] in 10s
+[2025-12-23 23:09:21] [INFO ] HomeSection - waitForVisibilityOfElementLocated: By.id: ungDung in 10s
+[2025-12-23 23:09:21] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] in 10s
+[2025-12-23 23:09:21] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-23 23:09:21] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] in 10s
+[2025-12-23 23:09:21] [INFO ] TestListener - onTestSuccess: TC_Verify_search_bar_visibility_on_homepage - PASSED
+[2025-12-23 23:09:21] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-23 23:09:22] [INFO ] TestListener - onTestSuccess: TC06_Verify_MobileApp_Scroll - PASSED
+[2025-12-23 23:09:22] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-23 23:09:22] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:22] [INFO ] HeaderNavigationTest - Check login page redirect
+[2025-12-23 23:09:22] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-23 23:09:22] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-23 23:09:22] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-23 23:09:22] [INFO ] TestListener - onTestSuccess: TC07_Verify_Login_Redirect - PASSED
+[2025-12-23 23:09:22] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-23 23:09:22] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:22] [INFO ] HeaderNavigationTest - Check register page redirect
+[2025-12-23 23:09:22] [INFO ] TopBarNavigation - navigateRegisterPage
+[2025-12-23 23:09:22] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-23 23:09:22] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-23 23:09:22] [INFO ] TestListener - onTestSuccess: TC08_Verify_Register_Redirect - PASSED
+[2025-12-23 23:09:22] [INFO ] HeaderNavigationTest - Test completed
+[2025-12-23 23:09:23] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:23] [INFO ] MovieListingsTest - Verify movie listing displays
+[2025-12-23 23:09:23] [INFO ] TopBarNavigation - clickShowtimes
+[2025-12-23 23:09:23] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-23 23:09:23] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-23 23:09:23] [INFO ] MovieListingsSection - isMovieListingVisible
+[2025-12-23 23:09:23] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-23 23:09:24] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:24] [INFO ] MovieDetailBookingFlowTest - Navigate to detail page
+[2025-12-23 23:09:24] [INFO ] MovieDetailPage - waitForVisibilityOfElementLocated: By.cssSelector: h1.MuiTypography-root.MuiTypography-h1 in 10s
+[2025-12-23 23:09:25] [INFO ] TestListener - onTestSuccess: TC01_Verify_MovieListing_Displays - PASSED
+[2025-12-23 23:09:25] [INFO ] MovieListingsTest - Test completed
+[2025-12-23 23:09:25] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:25] [INFO ] MovieListingsTest - Hover shows action buttons
+[2025-12-23 23:09:25] [INFO ] TopBarNavigation - clickShowtimes
+[2025-12-23 23:09:25] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-23 23:09:25] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Lịch Chiếu')] in 10s
+[2025-12-23 23:09:25] [INFO ] MovieDetailBookingFlowTest - Step 2: Click 'Mua Vé' button
+[2025-12-23 23:09:25] [INFO ] MovieDetailPage - click: By.xpath: //a[text()='Mua vé'] in 10s
+[2025-12-23 23:09:25] [INFO ] MovieDetailPage - waitForElementToBeClickable: By.xpath: //a[text()='Mua vé'] in 10s
+[2025-12-23 23:09:25] [INFO ] MovieListingsSection - hoverMovieCard: Man of Steel
+[2025-12-23 23:09:25] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.xpath: //*[contains(normalize-space(.),'Man of Steel')]/ancestor::a[starts-with(@href,'/detail/')][1] in 10s
+[2025-12-23 23:09:25] [INFO ] MovieDetailBookingFlowTest - Step 3: Verify showtime section is visible
+[2025-12-23 23:09:25] [INFO ] MovieDetailPage - waitForVisibilityOfElementLocated: By.id: cinemaList in 10s
+[2025-12-23 23:09:25] [INFO ] MovieDetailBookingFlowTest - Step 4: Select cinema brand 
+[2025-12-23 23:09:25] [INFO ] MovieDetailPage - click: By.xpath: //img[@class='MuiAvatar-img'][@alt='cgv'] in 10s
+[2025-12-23 23:09:25] [INFO ] MovieDetailPage - waitForElementToBeClickable: By.xpath: //img[@class='MuiAvatar-img'][@alt='cgv'] in 10s
+[2025-12-23 23:09:25] [INFO ] MovieDetailBookingFlowTest - Step 5: Select showtime
+[2025-12-23 23:09:25] [INFO ] MovieDetailPage - click: By.xpath: //p[contains(@class,'MuiTypography-body1') and normalize-space(.)='08:25'] in 10s
+[2025-12-23 23:09:25] [INFO ] MovieDetailPage - waitForElementToBeClickable: By.xpath: //p[contains(@class,'MuiTypography-body1') and normalize-space(.)='08:25'] in 10s
+[2025-12-23 23:09:25] [INFO ] TestListener - onTestSuccess: TC_MD_01_Verify_Booking_Flow_From_Detail_To_Purchase - PASSED
+[2025-12-23 23:09:25] [INFO ] MovieDetailBookingFlowTest - Test completed
+[2025-12-23 23:09:27] [INFO ] MovieListingsSection - areActionButtonsVisible: Man of Steel
+[2025-12-23 23:09:27] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.xpath: //div[contains(normalize-space(.),'Man of Steel')]/ancestor::a[1]//button[contains(@class,'MuiFab-root')] in 10s
+[2025-12-23 23:09:27] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.xpath: //div[contains(normalize-space(.),'Man of Steel')]/ancestor::a[1]//a[starts-with(@href,'/detail/')] in 10s
+[2025-12-23 23:09:27] [INFO ] TestListener - onTestSuccess: TC02_Verify_Hover_Shows_ActionButtons - PASSED
+[2025-12-23 23:09:27] [INFO ] MovieListingsTest - Test completed
+[2025-12-23 23:09:27] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:27] [INFO ] MovieListingsTest - Play button opens trailer modal
+[2025-12-23 23:09:27] [INFO ] MovieListingsSection - scrollToMovieListing
+[2025-12-23 23:09:27] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[not(ancestor::a)] in 10s
+[2025-12-23 23:09:29] [INFO ] MovieListingsSection - hoverMovieCard: Man of Steel
+[2025-12-23 23:09:29] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.xpath: //*[contains(normalize-space(.),'Man of Steel')]/ancestor::a[starts-with(@href,'/detail/')][1] in 10s
+[2025-12-23 23:09:29] [INFO ] MovieListingsSection - clickPlay: Man of Steel
+[2025-12-23 23:09:29] [INFO ] MovieListingsSection - click: By.xpath: //div[contains(normalize-space(.),'Man of Steel')]/ancestor::a[1]//button[contains(@class,'MuiFab-root')] in 10s
+[2025-12-23 23:09:29] [INFO ] MovieListingsSection - waitForElementToBeClickable: By.xpath: //div[contains(normalize-space(.),'Man of Steel')]/ancestor::a[1]//button[contains(@class,'MuiFab-root')] in 10s
+[2025-12-23 23:09:29] [INFO ] MovieListingsSection - isTrailerModalOpened
+[2025-12-23 23:09:29] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.cssSelector: .modal-video in 10s
+[2025-12-23 23:09:29] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.cssSelector: .modal-video-movie-wrap iframe in 10s
+[2025-12-23 23:09:29] [INFO ] TestListener - onTestSuccess: TC03_Verify_PlayButton_Opens_TrailerModal - PASSED
+[2025-12-23 23:09:29] [INFO ] MovieListingsTest - Test completed
+[2025-12-23 23:09:29] [INFO ] TestListener - onTestStart
+[2025-12-23 23:09:29] [INFO ] MovieListingsTest - Buy button redirects to detail
+[2025-12-23 23:09:29] [INFO ] MovieListingsSection - scrollToMovieListing
+[2025-12-23 23:09:29] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[not(ancestor::a)] in 10s
+[2025-12-23 23:09:31] [INFO ] MovieListingsSection - hoverMovieCard: Man of Steel
+[2025-12-23 23:09:31] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.xpath: //*[contains(normalize-space(.),'Man of Steel')]/ancestor::a[starts-with(@href,'/detail/')][1] in 10s
+[2025-12-23 23:09:31] [INFO ] MovieListingsSection - clickBuyTicketNow: Man of Steel
+[2025-12-23 23:09:31] [INFO ] MovieListingsSection - click: By.xpath: //div[contains(normalize-space(.),'Man of Steel')]/ancestor::a[1]//a[starts-with(@href,'/detail/')] in 10s
+[2025-12-23 23:09:31] [INFO ] MovieListingsSection - waitForElementToBeClickable: By.xpath: //div[contains(normalize-space(.),'Man of Steel')]/ancestor::a[1]//a[starts-with(@href,'/detail/')] in 10s
+[2025-12-23 23:09:31] [INFO ] TestListener - onTestSuccess: TC04_Verify_BuyButton_Redirects_To_Detail - PASSED
+[2025-12-23 23:09:31] [INFO ] MovieListingsTest - Test completed
+[2025-12-23 23:09:32] [INFO ] TestListener - onFinish

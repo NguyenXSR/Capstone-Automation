@@ -1,0 +1,444 @@
+[2025-12-22 19:34:05] [INFO ] HomeMovieSearchTest - beforeSuite - Init Extent Report
+[2025-12-22 19:34:05] [INFO ] TestListener - onStart
+[2025-12-22 19:34:07] [INFO ] TestListener - onTestStart
+[2025-12-22 19:34:07] [INFO ] HomeMovieSearchTest - Check if booking flow success, will direct to purchase page
+[2025-12-22 19:34:07] [INFO ] HomeMovieSearchTest - Step 1: select movie
+[2025-12-22 19:34:07] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='film'] in 10s
+[2025-12-22 19:34:07] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='film'] in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] option in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='film']/option[normalize-space()='Man of Steel'] in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearchTest - Step 2: select location
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] option in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='cinema']/option[normalize-space()='MegaGS - Cao Thắng'] in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearchTest - SStep 3: select showtime
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - click: By.cssSelector: select[name='date'] in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.cssSelector: select[name='date'] in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] option in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - click: By.xpath: //select[@name='date']/option[normalize-space()='03/10/2021 ~ 08:22'] in 10s
+[2025-12-22 19:34:09] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //select[@name='date']/option[normalize-space()='03/10/2021 ~ 08:22'] in 10s
+[2025-12-22 19:34:10] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-22 19:34:10] [INFO ] HomeMovieSearchTest - SStep 3: select showtime
+[2025-12-22 19:34:10] [INFO ] HomeMovieSearch - click: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-22 19:34:10] [INFO ] HomeMovieSearch - waitForElementToBeClickable: By.xpath: //span[normalize-space()='MUA VÉ NGAY'] in 10s
+[2025-12-22 19:34:10] [INFO ] TestListener - onTestSuccess: TC_Clicking_CTA_redirects_to_booking_flow - PASSED
+[2025-12-22 19:34:10] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-22 19:34:10] [INFO ] TestListener - onTestStart
+[2025-12-22 19:34:10] [INFO ] HomeMovieSearchTest - Check all inputs of search bar are visible
+[2025-12-22 19:34:10] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.id: homeTool in 10s
+[2025-12-22 19:34:11] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='film'] in 10s
+[2025-12-22 19:34:11] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='cinema'] in 10s
+[2025-12-22 19:34:11] [INFO ] HomeMovieSearch - waitForVisibilityOfElementLocated: By.cssSelector: select[name='date'] in 10s
+[2025-12-22 19:34:11] [INFO ] TestListener - onTestSuccess: TC_Verify_search_bar_visibility_on_homepage - PASSED
+[2025-12-22 19:34:11] [INFO ] HomeMovieSearchTest - Test completed
+[2025-12-22 19:34:11] [INFO ] TestListener - onFinish
+[2025-12-22 21:18:21] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 21:18:22] [INFO ] TestListener - onStart
+[2025-12-22 21:18:24] [INFO ] TestListener - onTestStart
+[2025-12-22 21:18:24] [INFO ] MovieListingCardTest - Check clicking buy tickets redirects to details page
+[2025-12-22 21:18:24] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:18:26] [INFO ] TestListener - onTestFailure: Verify_clicking_buy_tickets_redirects_to_details_page - FAILED
+[2025-12-22 21:18:26] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_buy_tickets_redirects_to_details_page_20251222_09_18_26.png
+[2025-12-22 21:18:26] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 21:18:27] [INFO ] TestListener - onTestStart
+[2025-12-22 21:18:27] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 21:18:27] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:18:28] [INFO ] TestListener - onTestFailure: Verify_clicking_play_btn_opens_trailer_modal - FAILED
+[2025-12-22 21:18:28] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_play_btn_opens_trailer_modal_20251222_09_18_28.png
+[2025-12-22 21:18:28] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 21:18:28] [INFO ] TestListener - onTestStart
+[2025-12-22 21:18:28] [INFO ] MovieListingCardTest - Check hover effect shows overlay and play button
+[2025-12-22 21:18:28] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:18:30] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:18:30] [INFO ] TestListener - onTestFailure: Verify_hover_effect_shows_overlay_and_play_button - FAILED
+[2025-12-22 21:18:30] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_hover_effect_shows_overlay_and_play_button_20251222_09_18_30.png
+[2025-12-22 21:18:30] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 21:18:30] [INFO ] TestListener - onFinish
+[2025-12-22 21:28:01] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 21:28:01] [INFO ] TestListener - onStart
+[2025-12-22 21:28:03] [INFO ] TestListener - onTestStart
+[2025-12-22 21:28:03] [INFO ] MovieListingCardTest - Check clicking buy tickets redirects to details page
+[2025-12-22 21:28:03] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:28:04] [INFO ] TestListener - onTestFailure: Verify_clicking_buy_tickets_redirects_to_details_page - FAILED
+[2025-12-22 21:28:04] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_buy_tickets_redirects_to_details_page_20251222_09_28_04.png
+[2025-12-22 21:28:04] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 21:28:05] [INFO ] TestListener - onTestStart
+[2025-12-22 21:28:05] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 21:28:05] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:28:06] [INFO ] TestListener - onTestFailure: Verify_clicking_play_btn_opens_trailer_modal - FAILED
+[2025-12-22 21:28:06] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_play_btn_opens_trailer_modal_20251222_09_28_06.png
+[2025-12-22 21:28:06] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 21:28:06] [INFO ] TestListener - onTestStart
+[2025-12-22 21:28:07] [INFO ] MovieListingCardTest - Check hover effect shows overlay and play button
+[2025-12-22 21:28:07] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:28:08] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:28:08] [INFO ] TestListener - onTestFailure: Verify_hover_effect_shows_overlay_and_play_button - FAILED
+[2025-12-22 21:28:08] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_hover_effect_shows_overlay_and_play_button_20251222_09_28_08.png
+[2025-12-22 21:28:08] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 21:28:09] [INFO ] TestListener - onFinish
+[2025-12-22 21:28:56] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 21:28:58] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 21:28:58] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:34:17] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 21:34:17] [INFO ] TestListener - onStart
+[2025-12-22 21:34:20] [INFO ] TestListener - onTestStart
+[2025-12-22 21:34:20] [INFO ] MovieListingCardTest - Check clicking buy tickets redirects to details page
+[2025-12-22 21:34:20] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:34:21] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 21:34:21] [INFO ] TestListener - onTestFailure: Verify_clicking_buy_tickets_redirects_to_details_page - FAILED
+[2025-12-22 21:34:22] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_buy_tickets_redirects_to_details_page_20251222_09_34_22.png
+[2025-12-22 21:34:22] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 21:34:22] [INFO ] TestListener - onTestStart
+[2025-12-22 21:34:22] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 21:34:22] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:34:24] [INFO ] TestListener - onTestFailure: Verify_clicking_play_btn_opens_trailer_modal - FAILED
+[2025-12-22 21:34:24] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_play_btn_opens_trailer_modal_20251222_09_34_24.png
+[2025-12-22 21:34:24] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 21:34:24] [INFO ] TestListener - onTestStart
+[2025-12-22 21:34:24] [INFO ] MovieListingCardTest - Check hover effect shows overlay and play button
+[2025-12-22 21:34:24] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:34:25] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:34:25] [INFO ] TestListener - onTestFailure: Verify_hover_effect_shows_overlay_and_play_button - FAILED
+[2025-12-22 21:34:25] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_hover_effect_shows_overlay_and_play_button_20251222_09_34_25.png
+[2025-12-22 21:34:25] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 21:34:26] [INFO ] TestListener - onFinish
+[2025-12-22 21:43:58] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 21:43:58] [INFO ] TestListener - onStart
+[2025-12-22 21:44:00] [INFO ] TestListener - onTestStart
+[2025-12-22 21:44:00] [INFO ] MovieListingCardTest - Check clicking buy tickets redirects to details page
+[2025-12-22 21:44:00] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:44:02] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 21:44:02] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 21:44:02] [INFO ] TestListener - onTestFailure: Verify_clicking_buy_tickets_redirects_to_details_page - FAILED
+[2025-12-22 21:44:02] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_buy_tickets_redirects_to_details_page_20251222_09_44_02.png
+[2025-12-22 21:44:02] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 21:44:03] [INFO ] TestListener - onTestStart
+[2025-12-22 21:44:03] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 21:44:03] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:44:04] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 21:44:05] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 21:44:10] [INFO ] TestListener - onTestFailure: Verify_clicking_play_btn_opens_trailer_modal - FAILED
+[2025-12-22 21:44:10] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_play_btn_opens_trailer_modal_20251222_09_44_10.png
+[2025-12-22 21:44:10] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 21:44:10] [INFO ] TestListener - onTestStart
+[2025-12-22 21:44:10] [INFO ] MovieListingCardTest - Check hover effect shows overlay and play button
+[2025-12-22 21:44:10] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:44:12] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:44:12] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 21:44:12] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 21:44:12] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 21:44:22] [INFO ] TestListener - onTestFailure: Verify_hover_effect_shows_overlay_and_play_button - FAILED
+[2025-12-22 21:44:22] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_hover_effect_shows_overlay_and_play_button_20251222_09_44_22.png
+[2025-12-22 21:44:22] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 21:44:23] [INFO ] TestListener - onFinish
+[2025-12-22 21:49:50] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 21:49:52] [INFO ] MovieListingCardTest - Check hover effect shows overlay and play button
+[2025-12-22 21:49:52] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:49:53] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:49:53] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 21:49:53] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 21:49:54] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 21:50:01] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 21:54:55] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 21:54:57] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 21:54:57] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 21:54:58] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 21:54:58] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 21:54:59] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:02:18] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 22:02:21] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 22:02:21] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:02:22] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:02:22] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:02:27] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:10:33] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 22:10:35] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 22:10:35] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:10:37] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:10:37] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:10:47] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:14:42] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 22:14:44] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 22:14:44] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:14:46] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:14:46] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:14:56] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:19:18] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 22:19:21] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 22:19:21] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:19:23] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:19:23] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:19:33] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:20:11] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 22:20:13] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 22:20:13] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:20:14] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:20:14] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:20:25] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:24:29] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 22:24:31] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 22:24:31] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:24:33] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:24:33] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:24:44] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:26:22] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 22:26:25] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 22:26:25] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:26:26] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:26:26] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:26:32] [INFO ] HomeMovieCardItem - waitForVisibilityOfElementLocated: By.cssSelector: .modal-video in 10s
+[2025-12-22 22:26:32] [INFO ] HomeMovieCardItem - waitForVisibilityOfElementLocated: By.cssSelector: .modal-video in 10s
+[2025-12-22 22:26:42] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:30:44] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 22:30:44] [INFO ] TestListener - onStart
+[2025-12-22 22:30:46] [INFO ] TestListener - onTestStart
+[2025-12-22 22:30:46] [INFO ] MovieListingCardTest - Check clicking buy tickets redirects to details page
+[2025-12-22 22:30:46] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:30:47] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:30:47] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:30:48] [INFO ] TestListener - onTestFailure: Verify_clicking_buy_tickets_redirects_to_details_page - FAILED
+[2025-12-22 22:30:48] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_buy_tickets_redirects_to_details_page_20251222_10_30_48.png
+[2025-12-22 22:30:48] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:30:48] [INFO ] TestListener - onTestStart
+[2025-12-22 22:30:48] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 22:30:48] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:30:49] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:30:50] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:30:55] [INFO ] TestListener - onTestFailure: Verify_clicking_play_btn_opens_trailer_modal - FAILED
+[2025-12-22 22:30:55] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_play_btn_opens_trailer_modal_20251222_10_30_55.png
+[2025-12-22 22:30:55] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:30:55] [INFO ] TestListener - onTestStart
+[2025-12-22 22:30:55] [INFO ] MovieListingCardTest - Check hover effect shows overlay and play button
+[2025-12-22 22:30:55] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:30:57] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:30:57] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:30:58] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:30:58] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:31:08] [INFO ] TestListener - onTestFailure: Verify_hover_effect_shows_overlay_and_play_button - FAILED
+[2025-12-22 22:31:08] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_hover_effect_shows_overlay_and_play_button_20251222_10_31_08.png
+[2025-12-22 22:31:08] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:31:08] [INFO ] TestListener - onFinish
+[2025-12-22 22:37:24] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 22:37:24] [INFO ] TestListener - onStart
+[2025-12-22 22:37:26] [INFO ] TestListener - onTestStart
+[2025-12-22 22:37:26] [INFO ] MovieListingCardTest - Check clicking buy tickets redirects to details page
+[2025-12-22 22:37:26] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:37:27] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:37:27] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:37:27] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:37:27] [INFO ] TestListener - onTestFailure: Verify_clicking_buy_tickets_redirects_to_details_page - FAILED
+[2025-12-22 22:37:28] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_buy_tickets_redirects_to_details_page_20251222_10_37_28.png
+[2025-12-22 22:37:28] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:37:28] [INFO ] TestListener - onTestStart
+[2025-12-22 22:37:28] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 22:37:28] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:37:29] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:37:30] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:37:30] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:37:35] [INFO ] TestListener - onTestFailure: Verify_clicking_play_btn_opens_trailer_modal - FAILED
+[2025-12-22 22:37:35] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_play_btn_opens_trailer_modal_20251222_10_37_35.png
+[2025-12-22 22:37:35] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:37:35] [INFO ] TestListener - onTestStart
+[2025-12-22 22:37:35] [INFO ] MovieListingCardTest - Check hover effect shows overlay and play button
+[2025-12-22 22:37:35] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:37:37] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:37:37] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:37:38] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:37:38] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:37:38] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:37:48] [INFO ] TestListener - onTestFailure: Verify_hover_effect_shows_overlay_and_play_button - FAILED
+[2025-12-22 22:37:48] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_hover_effect_shows_overlay_and_play_button_20251222_10_37_48.png
+[2025-12-22 22:37:48] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:37:49] [INFO ] TestListener - onFinish
+[2025-12-22 22:43:36] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 22:43:36] [INFO ] TestListener - onStart
+[2025-12-22 22:43:39] [INFO ] TestListener - onTestStart
+[2025-12-22 22:43:39] [INFO ] MovieListingCardTest - Check clicking buy tickets redirects to details page
+[2025-12-22 22:43:39] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:43:40] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:43:40] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:43:40] [INFO ] HomeMovieCardItem - waitForElementToBeClickable: By.xpath: //div[@id='lichChieu']//a[@class='jss440'][normalize-space()='MUA VÉ'] in 10s
+[2025-12-22 22:43:51] [INFO ] TestListener - onTestFailure: Verify_clicking_buy_tickets_redirects_to_details_page - FAILED
+[2025-12-22 22:43:51] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_buy_tickets_redirects_to_details_page_20251222_10_43_51.png
+[2025-12-22 22:43:51] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:43:51] [INFO ] TestListener - onTestStart
+[2025-12-22 22:43:51] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 22:43:51] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:43:53] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:43:53] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:43:53] [INFO ] HomeMovieCardItem - waitForElementToBeClickable: By.xpath: //div[@id='lichChieu']//button[.//img[@alt='video-button']] in 10s
+[2025-12-22 22:44:04] [INFO ] TestListener - onTestFailure: Verify_clicking_play_btn_opens_trailer_modal - FAILED
+[2025-12-22 22:44:04] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_play_btn_opens_trailer_modal_20251222_10_44_04.png
+[2025-12-22 22:44:04] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:44:04] [INFO ] TestListener - onTestStart
+[2025-12-22 22:44:04] [INFO ] MovieListingCardTest - Check hover effect shows overlay and play button
+[2025-12-22 22:44:04] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:44:05] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:44:05] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:44:06] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:44:06] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:44:17] [INFO ] TestListener - onTestFailure: Verify_hover_effect_shows_overlay_and_play_button - FAILED
+[2025-12-22 22:44:17] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_hover_effect_shows_overlay_and_play_button_20251222_10_44_17.png
+[2025-12-22 22:44:17] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:44:17] [INFO ] TestListener - onFinish
+[2025-12-22 22:47:38] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 22:47:38] [INFO ] TestListener - onStart
+[2025-12-22 22:47:40] [INFO ] TestListener - onTestStart
+[2025-12-22 22:47:40] [INFO ] MovieListingCardTest - Check clicking buy tickets redirects to details page
+[2025-12-22 22:47:40] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:47:42] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:47:42] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:47:42] [INFO ] HomeMovieCardItem - waitForElementToBeClickable: By.xpath: //div[@id='lichChieu']//a[normalize-space()='MUA VÉ'] in 10s
+[2025-12-22 22:47:53] [INFO ] TestListener - onTestFailure: Verify_clicking_buy_tickets_redirects_to_details_page - FAILED
+[2025-12-22 22:47:53] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_buy_tickets_redirects_to_details_page_20251222_10_47_53.png
+[2025-12-22 22:47:53] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:47:53] [INFO ] TestListener - onTestStart
+[2025-12-22 22:47:53] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 22:47:53] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:47:54] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:47:55] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:47:55] [INFO ] HomeMovieCardItem - waitForElementToBeClickable: By.xpath: //div[@id='lichChieu']//button[.//img[@alt='video-button']] in 10s
+[2025-12-22 22:48:05] [INFO ] TestListener - onTestFailure: Verify_clicking_play_btn_opens_trailer_modal - FAILED
+[2025-12-22 22:48:06] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_play_btn_opens_trailer_modal_20251222_10_48_06.png
+[2025-12-22 22:48:06] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:48:06] [INFO ] TestListener - onTestStart
+[2025-12-22 22:48:06] [INFO ] MovieListingCardTest - Check hover effect shows overlay and play button
+[2025-12-22 22:48:06] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:48:07] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 22:48:07] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 22:48:08] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:48:08] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 22:48:18] [INFO ] TestListener - onTestFailure: Verify_hover_effect_shows_overlay_and_play_button - FAILED
+[2025-12-22 22:48:19] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_hover_effect_shows_overlay_and_play_button_20251222_10_48_19.png
+[2025-12-22 22:48:19] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 22:48:19] [INFO ] TestListener - onFinish
+[2025-12-22 23:00:13] [INFO ] MovieListingCardTest - beforeSuite - Init Extent Report
+[2025-12-22 23:00:13] [INFO ] TestListener - onStart
+[2025-12-22 23:00:15] [INFO ] TestListener - onTestStart
+[2025-12-22 23:00:15] [INFO ] MovieListingCardTest - Check clicking buy tickets redirects to details page
+[2025-12-22 23:00:15] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:00:17] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 23:00:17] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 23:00:27] [INFO ] TestListener - onTestFailure: Verify_clicking_buy_tickets_redirects_to_details_page - FAILED
+[2025-12-22 23:00:27] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_buy_tickets_redirects_to_details_page_20251222_11_00_27.png
+[2025-12-22 23:00:27] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 23:00:27] [INFO ] TestListener - onTestStart
+[2025-12-22 23:00:27] [INFO ] MovieListingCardTest - Check clicking play btn opens trailer modal with video
+[2025-12-22 23:00:27] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:00:29] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 23:00:30] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 23:00:40] [INFO ] TestListener - onTestFailure: Verify_clicking_play_btn_opens_trailer_modal - FAILED
+[2025-12-22 23:00:40] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_play_btn_opens_trailer_modal_20251222_11_00_40.png
+[2025-12-22 23:00:40] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 23:00:40] [INFO ] TestListener - onTestStart
+[2025-12-22 23:00:40] [INFO ] MovieListingCardTest - Check hover effect shows overlay and play button
+[2025-12-22 23:00:40] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:00:42] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:00:42] [INFO ] HomeMovieListing - waitForVisibilityOfElementLocated: By.xpath: //div[@id='lichChieu']//div[contains(@class,'CarouselItem')]//a[.//div[span and contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'avatar 2')]] in 10s
+[2025-12-22 23:00:42] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 23:00:43] [INFO ] HomeMovieCardItem - Hover movie card
+[2025-12-22 23:00:53] [INFO ] TestListener - onTestFailure: Verify_hover_effect_shows_overlay_and_play_button - FAILED
+[2025-12-22 23:00:53] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_hover_effect_shows_overlay_and_play_button_20251222_11_00_53.png
+[2025-12-22 23:00:53] [INFO ] MovieListingCardTest - Test completed
+[2025-12-22 23:00:53] [INFO ] TestListener - onFinish
+[2025-12-22 23:34:46] [INFO ] MovieListingsTest - beforeSuite - Init Extent Report
+[2025-12-22 23:34:46] [INFO ] TestListener - onStart
+[2025-12-22 23:34:49] [INFO ] TestListener - onTestStart
+[2025-12-22 23:34:49] [INFO ] MovieListingsTest - Hover then click Buy Tickets should redirect to /details
+[2025-12-22 23:34:49] [INFO ] MovieListingsSection - clickBuyTicketsOnCard index=0
+[2025-12-22 23:34:49] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:34:50] [INFO ] TestListener - onTestFailure: Verify_clicking_buy_tickets_redirects_to_details_page - FAILED
+[2025-12-22 23:34:50] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_buy_tickets_redirects_to_details_page_20251222_11_34_50.png
+[2025-12-22 23:34:50] [INFO ] MovieListingsTest - Test completed
+[2025-12-22 23:34:50] [INFO ] TestListener - onTestStart
+[2025-12-22 23:34:50] [INFO ] MovieListingsTest - Hover then click Play should open trailer modal
+[2025-12-22 23:34:50] [INFO ] MovieListingsSection - clickPlayTrailerOnCard index=0
+[2025-12-22 23:34:50] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:34:52] [INFO ] TestListener - onTestFailure: Verify_clicking_play_button_opens_trailer_modal - FAILED
+[2025-12-22 23:34:52] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_play_button_opens_trailer_modal_20251222_11_34_52.png
+[2025-12-22 23:34:52] [INFO ] MovieListingsTest - Test completed
+[2025-12-22 23:34:52] [INFO ] TestListener - onTestStart
+[2025-12-22 23:34:52] [INFO ] MovieListingsTest - Hover on movie card should show overlay
+[2025-12-22 23:34:52] [INFO ] MovieListingsSection - hoverOnMovieCard index=0
+[2025-12-22 23:34:52] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:34:54] [INFO ] TestListener - onTestFailure: Verify_hover_effect_on_movie_card_shows_overlay - FAILED
+[2025-12-22 23:34:54] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_hover_effect_on_movie_card_shows_overlay_20251222_11_34_54.png
+[2025-12-22 23:34:54] [INFO ] MovieListingsTest - Test completed
+[2025-12-22 23:34:54] [INFO ] TestListener - onFinish
+[2025-12-22 23:36:37] [INFO ] MovieListingsTest - beforeSuite - Init Extent Report
+[2025-12-22 23:36:37] [INFO ] TestListener - onStart
+[2025-12-22 23:36:40] [INFO ] TestListener - onTestStart
+[2025-12-22 23:36:40] [INFO ] MovieListingsTest - Hover then click Buy Tickets should redirect to /details
+[2025-12-22 23:36:40] [INFO ] MovieListingsSection - clickBuyTicketsOnCard index=0
+[2025-12-22 23:36:40] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:36:51] [INFO ] TestListener - onTestFailure: Verify_clicking_buy_tickets_redirects_to_details_page - FAILED
+[2025-12-22 23:36:51] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_buy_tickets_redirects_to_details_page_20251222_11_36_51.png
+[2025-12-22 23:36:51] [INFO ] MovieListingsTest - Test completed
+[2025-12-22 23:36:52] [INFO ] TestListener - onTestStart
+[2025-12-22 23:36:52] [INFO ] MovieListingsTest - Hover then click Play should open trailer modal
+[2025-12-22 23:36:52] [INFO ] MovieListingsSection - clickPlayTrailerOnCard index=0
+[2025-12-22 23:36:52] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:36:53] [INFO ] TestListener - onTestFailure: Verify_clicking_play_button_opens_trailer_modal - FAILED
+[2025-12-22 23:36:53] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_play_button_opens_trailer_modal_20251222_11_36_53.png
+[2025-12-22 23:36:53] [INFO ] MovieListingsTest - Test completed
+[2025-12-22 23:36:53] [INFO ] TestListener - onTestStart
+[2025-12-22 23:36:53] [INFO ] MovieListingsTest - Hover on movie card should show overlay
+[2025-12-22 23:36:53] [INFO ] MovieListingsSection - hoverOnMovieCard index=2
+[2025-12-22 23:36:53] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:36:55] [INFO ] TestListener - onTestFailure: Verify_hover_effect_on_movie_card_shows_overlay - FAILED
+[2025-12-22 23:36:55] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_hover_effect_on_movie_card_shows_overlay_20251222_11_36_55.png
+[2025-12-22 23:36:55] [INFO ] MovieListingsTest - Test completed
+[2025-12-22 23:36:55] [INFO ] TestListener - onFinish
+[2025-12-22 23:39:27] [INFO ] MovieListingsTest - beforeSuite - Init Extent Report
+[2025-12-22 23:39:27] [INFO ] TestListener - onStart
+[2025-12-22 23:39:29] [INFO ] TestListener - onTestStart
+[2025-12-22 23:39:29] [INFO ] MovieListingsTest - Hover then click Buy Tickets should redirect to /details
+[2025-12-22 23:39:29] [INFO ] MovieListingsSection - clickBuyTicketsOnCard index=0
+[2025-12-22 23:39:29] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:39:41] [INFO ] TestListener - onTestFailure: Verify_clicking_buy_tickets_redirects_to_details_page - FAILED
+[2025-12-22 23:39:41] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_buy_tickets_redirects_to_details_page_20251222_11_39_41.png
+[2025-12-22 23:39:41] [INFO ] MovieListingsTest - Test completed
+[2025-12-22 23:39:41] [INFO ] TestListener - onTestStart
+[2025-12-22 23:39:41] [INFO ] MovieListingsTest - Hover then click Play should open trailer modal
+[2025-12-22 23:39:41] [INFO ] MovieListingsSection - clickPlayTrailerOnCard index=0
+[2025-12-22 23:39:41] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:39:43] [INFO ] TestListener - onTestFailure: Verify_clicking_play_button_opens_trailer_modal - FAILED
+[2025-12-22 23:39:43] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_play_button_opens_trailer_modal_20251222_11_39_43.png
+[2025-12-22 23:39:43] [INFO ] MovieListingsTest - Test completed
+[2025-12-22 23:39:43] [INFO ] TestListener - onTestStart
+[2025-12-22 23:39:43] [INFO ] MovieListingsTest - Hover on movie card should show overlay
+[2025-12-22 23:39:43] [INFO ] MovieListingsSection - hoverOnMovieCard index=2
+[2025-12-22 23:39:43] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:39:44] [INFO ] TestListener - onTestFailure: Verify_hover_effect_on_movie_card_shows_overlay - FAILED
+[2025-12-22 23:39:45] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_hover_effect_on_movie_card_shows_overlay_20251222_11_39_45.png
+[2025-12-22 23:39:45] [INFO ] MovieListingsTest - Test completed
+[2025-12-22 23:39:45] [INFO ] TestListener - onFinish
+[2025-12-22 23:44:44] [INFO ] MovieListingsTest - beforeSuite - Init Extent Report
+[2025-12-22 23:44:44] [INFO ] TestListener - onStart
+[2025-12-22 23:44:47] [INFO ] TestListener - onTestStart
+[2025-12-22 23:44:47] [INFO ] MovieListingsTest - Hover then click Buy Tickets should redirect to /detail
+[2025-12-22 23:44:47] [INFO ] MovieListingsSection - clickBuyTicketsOnCard index=0
+[2025-12-22 23:44:47] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:44:48] [INFO ] TestListener - onTestFailure: Verify_clicking_buy_tickets_redirects_to_details_page - FAILED
+[2025-12-22 23:44:48] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_buy_tickets_redirects_to_details_page_20251222_11_44_48.png
+[2025-12-22 23:44:48] [INFO ] MovieListingsTest - Test completed
+[2025-12-22 23:44:48] [INFO ] TestListener - onTestStart
+[2025-12-22 23:44:48] [INFO ] MovieListingsTest - Hover then click Play should open trailer modal
+[2025-12-22 23:44:48] [INFO ] MovieListingsSection - clickPlayTrailerOnCard index=0
+[2025-12-22 23:44:48] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:44:50] [INFO ] TestListener - onTestFailure: Verify_clicking_play_button_opens_trailer_modal - FAILED
+[2025-12-22 23:44:50] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_clicking_play_button_opens_trailer_modal_20251222_11_44_50.png
+[2025-12-22 23:44:50] [INFO ] MovieListingsTest - Test completed
+[2025-12-22 23:44:50] [INFO ] TestListener - onTestStart
+[2025-12-22 23:44:50] [INFO ] MovieListingsTest - Hover on movie card should show overlay
+[2025-12-22 23:44:50] [INFO ] MovieListingsSection - hoverOnMovieCard index=2
+[2025-12-22 23:44:50] [INFO ] MovieListingsSection - waitForVisibilityOfElementLocated: By.id: lichChieu in 10s
+[2025-12-22 23:44:51] [INFO ] TestListener - onTestFailure: Verify_hover_effect_on_movie_card_shows_overlay - FAILED
+[2025-12-22 23:44:51] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/Verify_hover_effect_on_movie_card_shows_overlay_20251222_11_44_51.png
+[2025-12-22 23:44:51] [INFO ] MovieListingsTest - Test completed
+[2025-12-22 23:44:52] [INFO ] TestListener - onFinish

@@ -7,20 +7,20 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
-import pages.components.HomeSection;
+import pages.components.MainHomeSection;
 import reports.ExtentReportManager;
 
 @Listeners(TestListener.class)
 public class HeaderNavigationTest extends BaseTest {
 
     private HomePage homePage;
-    private HomeSection homeSection;
+    private MainHomeSection homeSection;
 
     //khai báo Page object
     @BeforeMethod
     public void setUpPages() {
         homePage = new HomePage();
-        homeSection = new HomeSection();
+        homeSection = new MainHomeSection();
     }
 
     @Test

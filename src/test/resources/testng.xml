@@ -11,8 +11,10 @@
             <class name="testcases.TC02_LoginTest"/>
             <class name="testcases.homepage.HeaderNavigationTest"/>
             <class name="testcases.homepage.HomeMovieSearchTest"/>
-            <class name="testcases.homepage.MovieListingsTest"/>
+            <class name="testcases.homepage.HomeMovieListingsTest"/>
             <class name="testcases.detailpage.MovieDetailBookingFlowTest"/>
+            <class name="testcases.purchasepage.SeatSelectionTest"/>
+            <class name="testcases.homepage.MovieSelectorTableTest"/>
 
         </classes>
     </test>

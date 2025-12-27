@@ -1,0 +1,16 @@
+[2025-12-24 16:49:01] [INFO ] MovieDetailBookingFlowTest - beforeSuite - Init Extent Report
+[2025-12-24 16:49:01] [INFO ] TestListener - onStart
+[2025-12-24 16:49:04] [INFO ] TestListener - onTestStart
+[2025-12-24 16:49:04] [INFO ] MovieDetailBookingFlowTest - Navigate to detail page
+[2025-12-24 16:49:04] [INFO ] MovieDetailPage - waitForVisibilityOfElementLocated: By.cssSelector: h1.MuiTypography-root.MuiTypography-h1 in 10s
+[2025-12-24 16:49:05] [INFO ] MovieDetailBookingFlowTest - Step 2: Click 'Mua Vé' button
+[2025-12-24 16:49:05] [INFO ] MovieDetailPage - click: By.xpath: //a[text()='Mua vé'] in 10s
+[2025-12-24 16:49:05] [INFO ] MovieDetailPage - waitForElementToBeClickable: By.xpath: //a[text()='Mua vé'] in 10s
+[2025-12-24 16:49:05] [INFO ] MovieDetailBookingFlowTest - Step 3: Verify showtime section is visible
+[2025-12-24 16:49:05] [INFO ] MovieDetailPage - waitForVisibilityOfElementLocated: By.id: cinemaList in 10s
+[2025-12-24 16:49:05] [INFO ] MovieDetailBookingFlowTest - Step 4: Select cinema brand 
+[2025-12-24 16:49:05] [INFO ] MovieDetailPage - click: By.xpath: //img[@class='MuiAvatar-img'][@alt='cgv'] in 10s
+[2025-12-24 16:49:05] [INFO ] MovieDetailPage - waitForElementToBeClickable: By.xpath: //img[@class='MuiAvatar-img'][@alt='cgv'] in 10s
+[2025-12-24 16:49:05] [INFO ] TestListener - onTestSuccess: TC_MD_01_Verify_Booking_Flow_From_Detail_To_Purchase - PASSED
+[2025-12-24 16:49:05] [INFO ] MovieDetailBookingFlowTest - Test completed
+[2025-12-24 16:49:05] [INFO ] TestListener - onFinish

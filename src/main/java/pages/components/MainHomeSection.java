@@ -4,7 +4,7 @@ import base.BasePage;
 import drivers.DriverFactory;
 import org.openqa.selenium.By;
 
-public class HomeSection extends BasePage {
+public class MainHomeSection extends BasePage {
     private final By showtimesSection = By.id("lichChieu");
     private final By cinemasSection   = By.id("cumRap");
     private final By newsSection      = By.id("tinTuc");

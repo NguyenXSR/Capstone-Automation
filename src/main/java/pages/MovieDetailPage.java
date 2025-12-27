@@ -1,9 +1,10 @@
 package pages;
-
-import base.BasePage;
 import drivers.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class MovieDetailPage extends CommonPage {
 
@@ -18,10 +19,9 @@ public class MovieDetailPage extends CommonPage {
         return By.xpath("//img[@class='MuiAvatar-img'][@alt='" + brandName + "']");
     }
 
+    // Showtime clickable items in tabpanel
+    private final By showtimeItems = By.xpath("//div[@role='tabpanel']/div/div/div[2]/div[1]");
 
-    private  By showtimeItem (String time) {
-        return By.xpath("//p[contains(@class,'MuiTypography-body1') and normalize-space(.)='" + time + "']");
-    }
 
 
     private WebDriver driver() {
@@ -51,8 +51,15 @@ public class MovieDetailPage extends CommonPage {
         click(driver(), brandByAlt(brandName));
     }
 
-    public void selectShowtime(String time) {
-        click(driver(), showtimeItem(time));
+
+
+
+    public void clickFirstAvailableShowtime() {
+        List<WebElement> items = DriverFactory.getDriver().findElements(showtimeItems);
+        if (items.isEmpty()) {
+            throw new RuntimeException("No available showtime found!");
+        }
+        items.get(0).click();
     }
 
 }
