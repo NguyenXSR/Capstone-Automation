@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Dec 27, 2025 04:24:21 PM</span></a>
+<a href="#"><span class="badge badge-primary">Dec 29, 2025 05:04:29 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,7 +66,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -74,25 +74,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">TC01_Verify_MovieSelectorTable_Functionality</p>
+            <p class="name">TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character</p>
             <p class="text-sm">
-              <span>4:24:22 PM</span> / <span>00:00:03:200</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>5:04:30 PM</span> / <span>00:00:12:724</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">TC01_Verify_MovieSelectorTable_Functionality</h5>
-<span class='badge badge-success'>12.27.2025 4:24:22 PM</span>
-<span class='badge badge-danger'>12.27.2025 4:24:25 PM</span>
-<span class='badge badge-default'>00:00:03:200</span>
+<h5 class="test-status text-fail">TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character</h5>
+<span class='badge badge-success'>12.29.2025 5:04:30 PM</span>
+<span class='badge badge-danger'>12.29.2025 5:04:43 PM</span>
+<span class='badge badge-default'>00:00:12:724</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -105,65 +105,50 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:24:23 PM</td>
+        <td>5:04:31 PM</td>
         <td>
-          Scroll to movie selector table and verify it's visible
+          Step 0: Login first
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:24:24 PM</td>
+        <td>5:04:32 PM</td>
         <td>
-          Wait for movie selector table to load
+          Step 1: Navigate to Account Page
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:24:25 PM</td>
+        <td>5:04:33 PM</td>
         <td>
-          Select brand: cgv
+          Step 2: Update profile information with invalid email
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:24:25 PM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:04:43 PM</td>
         <td>
-          Select location: CGV - Golden Plaza
+          Screenshot captured
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character_20251229_170443.png' src="screenshots/TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character_20251229_170443.png">
+  
+    
+
+    </div></div>
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:24:25 PM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:04:43 PM</td>
         <td>
-          Choose movie by title: Fast And Furious 9
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:24:25 PM</td>
-        <td>
-          Verify movie is visible: Fast And Furious 9
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:24:25 PM</td>
-        <td>
-          Select showtimes and get ID
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:24:25 PM</td>
-        <td>
-          Validate redirect to booking page /purchase/{40390}
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:24:25 PM</td>
-        <td>
-          Validate movie title Fast And Furious 9 on purchase page matches selected movie
+          org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*/ancestor::div[contains(@class,'MuiFormControl-root')]//p[contains(@class,'MuiFormHelperText-root')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.2', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60453}, goog:processID: 74830, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60453/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce79043f87056b2c1d2ba030823f494a
         </td>
       </tr>
   </tbody>
@@ -185,25 +170,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Dec 27, 2025 04:24:21 PM</h3>
+<h3>Dec 29, 2025 05:04:29 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Dec 27, 2025 04:24:27 PM</h3>
+<h3>Dec 29, 2025 05:04:43 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -219,12 +204,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>1</b> tests passed
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
+<small data-tooltip='100%'><b>1</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -244,8 +229,8 @@
 <div class="card-footer">
 <div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>9</b> others
+<small data-tooltip='40%'><b>2</b> events failed,
+<b data-tooltip='%'>3</b> others
 </small>
 </div>
 </div>
@@ -261,7 +246,7 @@
 </div></div>
 <script>
 var timeline = {
-"TC01_Verify_MovieSelectorTable_Functionality":3.2
+"TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character":12.724
 };
 </script>
 <div class="row">
@@ -288,8 +273,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
-failParent: 0,
+passParent: 0,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -306,10 +291,10 @@ skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 passEvents: 0,
-failEvents: 0,
+failEvents: 2,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 9
+infoEvents: 3
 };
 </script>        </div>
       </div>

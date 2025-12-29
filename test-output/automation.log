@@ -1,283 +1,460 @@
-[2025-12-27 00:13:07] [INFO ] MovieSelectorTableTest - beforeSuite - Init Extent Report
-[2025-12-27 00:13:07] [INFO ] TestListener - onStart
-[2025-12-27 00:13:10] [INFO ] TestListener - onTestStart
-[2025-12-27 00:13:10] [INFO ] MovieSelectorTableTest - Scroll to movie selector table and verify it's visible
-[2025-12-27 00:13:10] [INFO ] TopBarNavigation - clickCinemas
-[2025-12-27 00:13:10] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 00:13:10] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 00:13:10] [INFO ] MainHomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
-[2025-12-27 00:13:11] [INFO ] MovieSelectorTableTest - Select brand: CGV
-[2025-12-27 00:13:11] [INFO ] HomeMovieSelectorTable - Select brand: CGV
-[2025-12-27 00:13:11] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt=CGV] in 10s
-[2025-12-27 00:13:11] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt=CGV] in 10s
-[2025-12-27 00:13:22] [INFO ] TestListener - onTestFailure: TC01_Verify_MovieSelectorTable_Functionality - FAILED
-[2025-12-27 00:13:22] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC01_Verify_MovieSelectorTable_Functionality_20251227_12_13_22.png
-[2025-12-27 00:13:22] [INFO ] MovieSelectorTableTest - Test completed
-[2025-12-27 00:13:22] [INFO ] TestListener - onFinish
-[2025-12-27 00:16:47] [INFO ] MovieSelectorTableTest - beforeSuite - Init Extent Report
-[2025-12-27 00:16:47] [INFO ] TestListener - onStart
-[2025-12-27 00:16:49] [INFO ] TestListener - onTestStart
-[2025-12-27 00:16:49] [INFO ] MovieSelectorTableTest - Scroll to movie selector table and verify it's visible
-[2025-12-27 00:16:49] [INFO ] TopBarNavigation - clickCinemas
-[2025-12-27 00:16:49] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 00:16:49] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 00:16:49] [INFO ] MainHomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
-[2025-12-27 00:16:50] [INFO ] MovieSelectorTableTest - Select brand: CGV
-[2025-12-27 00:16:50] [INFO ] HomeMovieSelectorTable - Select brand: CGV
-[2025-12-27 00:16:50] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='CGV'] in 10s
-[2025-12-27 00:16:50] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='CGV'] in 10s
-[2025-12-27 00:17:01] [INFO ] TestListener - onTestFailure: TC01_Verify_MovieSelectorTable_Functionality - FAILED
-[2025-12-27 00:17:01] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC01_Verify_MovieSelectorTable_Functionality_20251227_12_17_01.png
-[2025-12-27 00:17:01] [INFO ] MovieSelectorTableTest - Test completed
-[2025-12-27 00:17:01] [INFO ] TestListener - onFinish
-[2025-12-27 00:20:45] [INFO ] MovieSelectorTableTest - beforeSuite - Init Extent Report
-[2025-12-27 00:20:45] [INFO ] TestListener - onStart
-[2025-12-27 00:20:47] [INFO ] TestListener - onTestStart
-[2025-12-27 00:20:47] [INFO ] MovieSelectorTableTest - Scroll to movie selector table and verify it's visible
-[2025-12-27 00:20:47] [INFO ] TopBarNavigation - clickCinemas
-[2025-12-27 00:20:47] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 00:20:47] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 00:20:47] [INFO ] MainHomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
-[2025-12-27 00:20:49] [INFO ] MovieSelectorTableTest - Wait for movie selector table to load
-[2025-12-27 00:20:49] [INFO ] HomeMovieSelectorTable - waitMovieSelectorTableLoaded
-[2025-12-27 00:20:49] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.cssSelector: .MuiContainer-maxWidthMd > .MuiTabs-vertical button in 10s
-[2025-12-27 00:20:49] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.cssSelector: .MuiTabs-vertical > .MuiTabs-flexContainer > button in 10s
-[2025-12-27 00:20:59] [INFO ] TestListener - onTestFailure: TC01_Verify_MovieSelectorTable_Functionality - FAILED
-[2025-12-27 00:20:59] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC01_Verify_MovieSelectorTable_Functionality_20251227_12_20_59.png
-[2025-12-27 00:20:59] [INFO ] MovieSelectorTableTest - Test completed
-[2025-12-27 00:20:59] [INFO ] TestListener - onFinish
-[2025-12-27 15:40:12] [INFO ] MovieSelectorTableTest - beforeSuite - Init Extent Report
-[2025-12-27 15:40:12] [INFO ] TestListener - onStart
-[2025-12-27 15:40:16] [INFO ] TestListener - onTestStart
-[2025-12-27 15:40:16] [INFO ] MovieSelectorTableTest - Scroll to movie selector table and verify it's visible
-[2025-12-27 15:40:16] [INFO ] TopBarNavigation - clickCinemas
-[2025-12-27 15:40:16] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 15:40:16] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 15:40:16] [INFO ] MainHomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
-[2025-12-27 15:40:16] [INFO ] MovieSelectorTableTest - Wait for movie selector table to load
-[2025-12-27 15:40:16] [INFO ] HomeMovieSelectorTable - waitMovieSelectorTableLoaded
-[2025-12-27 15:40:16] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.cssSelector: .MuiContainer-maxWidthMd > .MuiTabs-vertical button in 10s
-[2025-12-27 15:40:17] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[contains(@id,'vertical-tabpanel')]//button in 10s
-[2025-12-27 15:40:17] [INFO ] MovieSelectorTableTest - Select brand: CGV
-[2025-12-27 15:40:17] [INFO ] HomeMovieSelectorTable - Select brand: CGV
-[2025-12-27 15:40:17] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='CGV'] in 10s
-[2025-12-27 15:40:17] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='CGV'] in 10s
-[2025-12-27 15:40:27] [INFO ] TestListener - onTestFailure: TC01_Verify_MovieSelectorTable_Functionality - FAILED
-[2025-12-27 15:40:27] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC01_Verify_MovieSelectorTable_Functionality_20251227_03_40_27.png
-[2025-12-27 15:40:27] [INFO ] MovieSelectorTableTest - Test completed
-[2025-12-27 15:40:27] [INFO ] TestListener - onFinish
-[2025-12-27 15:42:01] [INFO ] MovieSelectorTableTest - beforeSuite - Init Extent Report
-[2025-12-27 15:42:01] [INFO ] TestListener - onStart
-[2025-12-27 15:42:03] [INFO ] TestListener - onTestStart
-[2025-12-27 15:42:03] [INFO ] MovieSelectorTableTest - Scroll to movie selector table and verify it's visible
-[2025-12-27 15:42:03] [INFO ] TopBarNavigation - clickCinemas
-[2025-12-27 15:42:03] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 15:42:03] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 15:42:03] [INFO ] MainHomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
-[2025-12-27 15:42:05] [INFO ] MovieSelectorTableTest - Wait for movie selector table to load
-[2025-12-27 15:42:05] [INFO ] HomeMovieSelectorTable - waitMovieSelectorTableLoaded
-[2025-12-27 15:42:05] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.cssSelector: .MuiContainer-maxWidthMd > .MuiTabs-vertical button in 10s
-[2025-12-27 15:42:05] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[contains(@id,'vertical-tabpanel')]//button in 10s
-[2025-12-27 15:42:05] [INFO ] MovieSelectorTableTest - Select brand: cgv
-[2025-12-27 15:42:05] [INFO ] HomeMovieSelectorTable - Select brand: cgv
-[2025-12-27 15:42:05] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 15:42:05] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 15:42:05] [INFO ] MovieSelectorTableTest - Select location: CGV - Golden Plaza
-[2025-12-27 15:42:05] [INFO ] HomeMovieSelectorTable - Select location: CGV - Golden Plaza
-[2025-12-27 15:42:05] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 15:42:05] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 15:42:15] [INFO ] TestListener - onTestFailure: TC01_Verify_MovieSelectorTable_Functionality - FAILED
-[2025-12-27 15:42:16] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC01_Verify_MovieSelectorTable_Functionality_20251227_03_42_16.png
-[2025-12-27 15:42:16] [INFO ] MovieSelectorTableTest - Test completed
-[2025-12-27 15:42:16] [INFO ] TestListener - onFinish
-[2025-12-27 15:44:03] [INFO ] MovieSelectorTableTest - beforeSuite - Init Extent Report
-[2025-12-27 15:44:03] [INFO ] TestListener - onStart
-[2025-12-27 15:44:05] [INFO ] TestListener - onTestStart
-[2025-12-27 15:44:05] [INFO ] MovieSelectorTableTest - Scroll to movie selector table and verify it's visible
-[2025-12-27 15:44:05] [INFO ] TopBarNavigation - clickCinemas
-[2025-12-27 15:44:05] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 15:44:05] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 15:44:05] [INFO ] MainHomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
-[2025-12-27 15:44:06] [INFO ] MovieSelectorTableTest - Wait for movie selector table to load
-[2025-12-27 15:44:06] [INFO ] HomeMovieSelectorTable - waitMovieSelectorTableLoaded
-[2025-12-27 15:44:06] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.cssSelector: .MuiContainer-maxWidthMd > .MuiTabs-vertical button in 10s
-[2025-12-27 15:44:06] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[contains(@id,'vertical-tabpanel')]//button in 10s
-[2025-12-27 15:44:06] [INFO ] MovieSelectorTableTest - Select brand: cgv
-[2025-12-27 15:44:06] [INFO ] HomeMovieSelectorTable - Select brand: cgv
-[2025-12-27 15:44:06] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 15:44:06] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 15:44:06] [INFO ] MovieSelectorTableTest - Select location: CGV - Golden Plaza
-[2025-12-27 15:44:06] [INFO ] HomeMovieSelectorTable - Select location: CGV - Golden Plaza
-[2025-12-27 15:44:06] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button//h4[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 15:44:06] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button//h4[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 15:44:07] [INFO ] MovieSelectorTableTest - Choose movie by title: Fast And Furious 9
-[2025-12-27 15:44:07] [INFO ] HomeMovieSelectorTable - chooseMovie: Fast And Furious 9
-[2025-12-27 15:44:07] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //h2[contains(@class,'MuiTypography-h2') and contains(.,'Fast And Furious 9')] in 10s
-[2025-12-27 15:44:07] [INFO ] TestListener - onTestFailure: TC01_Verify_MovieSelectorTable_Functionality - FAILED
-[2025-12-27 15:44:07] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC01_Verify_MovieSelectorTable_Functionality_20251227_03_44_07.png
-[2025-12-27 15:44:07] [INFO ] MovieSelectorTableTest - Test completed
-[2025-12-27 15:44:07] [INFO ] TestListener - onFinish
-[2025-12-27 15:44:44] [INFO ] MovieSelectorTableTest - beforeSuite - Init Extent Report
-[2025-12-27 15:44:44] [INFO ] TestListener - onStart
-[2025-12-27 15:44:46] [INFO ] TestListener - onTestStart
-[2025-12-27 15:44:46] [INFO ] MovieSelectorTableTest - Scroll to movie selector table and verify it's visible
-[2025-12-27 15:44:46] [INFO ] TopBarNavigation - clickCinemas
-[2025-12-27 15:44:46] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 15:44:46] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 15:44:46] [INFO ] MainHomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
-[2025-12-27 15:44:47] [INFO ] MovieSelectorTableTest - Wait for movie selector table to load
-[2025-12-27 15:44:47] [INFO ] HomeMovieSelectorTable - waitMovieSelectorTableLoaded
-[2025-12-27 15:44:47] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.cssSelector: .MuiContainer-maxWidthMd > .MuiTabs-vertical button in 10s
-[2025-12-27 15:44:47] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[contains(@id,'vertical-tabpanel')]//button in 10s
-[2025-12-27 15:44:47] [INFO ] MovieSelectorTableTest - Select brand: cgv
-[2025-12-27 15:44:47] [INFO ] HomeMovieSelectorTable - Select brand: cgv
-[2025-12-27 15:44:47] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 15:44:47] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 15:44:47] [INFO ] MovieSelectorTableTest - Select location: CGV - Golden Plaza
-[2025-12-27 15:44:47] [INFO ] HomeMovieSelectorTable - Select location: CGV - Golden Plaza
-[2025-12-27 15:44:47] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button//h4[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 15:44:47] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button//h4[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 15:44:48] [INFO ] MovieSelectorTableTest - Choose movie by title: Fast And Furious 9
-[2025-12-27 15:44:48] [INFO ] HomeMovieSelectorTable - chooseMovie: Fast And Furious 9
-[2025-12-27 15:44:48] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //h2[contains(@class,'MuiTypography-h2') and contains(.,'Fast And Furious 9')] in 10s
-[2025-12-27 15:44:48] [INFO ] TestListener - onTestFailure: TC01_Verify_MovieSelectorTable_Functionality - FAILED
-[2025-12-27 15:44:48] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC01_Verify_MovieSelectorTable_Functionality_20251227_03_44_48.png
-[2025-12-27 15:44:48] [INFO ] MovieSelectorTableTest - Test completed
-[2025-12-27 15:44:48] [INFO ] TestListener - onFinish
-[2025-12-27 16:08:49] [INFO ] MovieSelectorTableTest - beforeSuite - Init Extent Report
-[2025-12-27 16:08:49] [INFO ] TestListener - onStart
-[2025-12-27 16:08:51] [INFO ] TestListener - onTestStart
-[2025-12-27 16:08:51] [INFO ] MovieSelectorTableTest - Scroll to movie selector table and verify it's visible
-[2025-12-27 16:08:51] [INFO ] TopBarNavigation - clickCinemas
-[2025-12-27 16:08:51] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 16:08:51] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 16:08:51] [INFO ] MainHomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
-[2025-12-27 16:08:52] [INFO ] MovieSelectorTableTest - Wait for movie selector table to load
-[2025-12-27 16:08:52] [INFO ] HomeMovieSelectorTable - waitMovieSelectorTableLoaded
-[2025-12-27 16:08:52] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.cssSelector: .MuiContainer-maxWidthMd > .MuiTabs-vertical button in 10s
-[2025-12-27 16:08:52] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[contains(@id,'vertical-tabpanel')]//button in 10s
-[2025-12-27 16:08:52] [INFO ] MovieSelectorTableTest - Select brand: cgv
-[2025-12-27 16:08:52] [INFO ] HomeMovieSelectorTable - Select brand: cgv
-[2025-12-27 16:08:52] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 16:08:52] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 16:08:52] [INFO ] MovieSelectorTableTest - Select location: CGV - Golden Plaza
-[2025-12-27 16:08:52] [INFO ] HomeMovieSelectorTable - Select location: CGV - Golden Plaza
-[2025-12-27 16:08:52] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button//h4[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 16:08:52] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button//h4[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 16:08:53] [INFO ] MovieSelectorTableTest - Choose movie by title: Fast And Furious 9
-[2025-12-27 16:08:53] [INFO ] HomeMovieSelectorTable - chooseMovie: Fast And Furious 9
-[2025-12-27 16:08:53] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //h2[contains(@class,'MuiTypography-h2') and contains(.,'Fast And Furious 9')] in 10s
-[2025-12-27 16:08:53] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[@class='App']//div[contains(@class,'MuiContainer-maxWidthMd')][2]//div[@role='tabpanel'][7]/div/div in 10s
-[2025-12-27 16:08:53] [INFO ] MovieSelectorTableTest - Verify movie is visible: Fast And Furious 9
-[2025-12-27 16:08:53] [INFO ] HomeMovieSelectorTable - isMovieVisible: Fast And Furious 9
-[2025-12-27 16:08:53] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //h2[contains(@class,'MuiTypography-h2') and contains(.,'Fast And Furious 9')] in 10s
-[2025-12-27 16:08:53] [INFO ] MovieSelectorTableTest - Select showtimes and get ID
-[2025-12-27 16:08:53] [INFO ] HomeMovieSelectorTable - clickFirstAvailableShowtime
-[2025-12-27 16:08:53] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath:  in 10s
-[2025-12-27 16:08:53] [INFO ] TestListener - onTestFailure: TC01_Verify_MovieSelectorTable_Functionality - FAILED
-[2025-12-27 16:08:53] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC01_Verify_MovieSelectorTable_Functionality_20251227_04_08_53.png
-[2025-12-27 16:08:53] [INFO ] MovieSelectorTableTest - Test completed
-[2025-12-27 16:08:53] [INFO ] TestListener - onFinish
-[2025-12-27 16:13:37] [INFO ] MovieSelectorTableTest - beforeSuite - Init Extent Report
-[2025-12-27 16:13:37] [INFO ] TestListener - onStart
-[2025-12-27 16:13:39] [INFO ] TestListener - onTestStart
-[2025-12-27 16:13:39] [INFO ] MovieSelectorTableTest - Scroll to movie selector table and verify it's visible
-[2025-12-27 16:13:39] [INFO ] TopBarNavigation - clickCinemas
-[2025-12-27 16:13:39] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 16:13:39] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 16:13:39] [INFO ] MainHomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
-[2025-12-27 16:13:41] [INFO ] MovieSelectorTableTest - Wait for movie selector table to load
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - waitMovieSelectorTableLoaded
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.cssSelector: .MuiContainer-maxWidthMd > .MuiTabs-vertical button in 10s
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[contains(@id,'vertical-tabpanel')]//button in 10s
-[2025-12-27 16:13:41] [INFO ] MovieSelectorTableTest - Select brand: cgv
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - Select brand: cgv
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 16:13:41] [INFO ] MovieSelectorTableTest - Select location: CGV - Golden Plaza
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - Select location: CGV - Golden Plaza
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button//h4[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button//h4[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 16:13:41] [INFO ] MovieSelectorTableTest - Choose movie by title: Fast And Furious 9
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - chooseMovie: Fast And Furious 9
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //h2[contains(@class,'MuiTypography-h2') and contains(.,'Fast And Furious 9')] in 10s
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[@class='App']//div[contains(@class,'MuiContainer-maxWidthMd')][2]//div[@role='tabpanel'][7]/div/div in 10s
-[2025-12-27 16:13:41] [INFO ] MovieSelectorTableTest - Verify movie is visible: Fast And Furious 9
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - isMovieVisible: Fast And Furious 9
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //h2[contains(@class,'MuiTypography-h2') and contains(.,'Fast And Furious 9')] in 10s
-[2025-12-27 16:13:41] [INFO ] MovieSelectorTableTest - Select showtimes and get ID
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - clickFirstAvailableShowtime
-[2025-12-27 16:13:41] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[@class='App']//div[contains(@class,'MuiContainer-maxWidthMd')][2]//div[@role='tabpanel'][7]/div/div in 10s
-[2025-12-27 16:13:41] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(11)>h3:nth-child(2) in 10s
-[2025-12-27 16:13:43] [INFO ] TestListener - onTestFailure: TC01_Verify_MovieSelectorTable_Functionality - FAILED
-[2025-12-27 16:13:43] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC01_Verify_MovieSelectorTable_Functionality_20251227_04_13_43.png
-[2025-12-27 16:13:43] [INFO ] MovieSelectorTableTest - Test completed
-[2025-12-27 16:13:43] [INFO ] TestListener - onFinish
-[2025-12-27 16:22:45] [INFO ] MovieSelectorTableTest - beforeSuite - Init Extent Report
-[2025-12-27 16:22:45] [INFO ] TestListener - onStart
-[2025-12-27 16:22:47] [INFO ] TestListener - onTestStart
-[2025-12-27 16:22:47] [INFO ] MovieSelectorTableTest - Scroll to movie selector table and verify it's visible
-[2025-12-27 16:22:47] [INFO ] TopBarNavigation - clickCinemas
-[2025-12-27 16:22:47] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 16:22:47] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 16:22:47] [INFO ] MainHomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
-[2025-12-27 16:22:49] [INFO ] MovieSelectorTableTest - Wait for movie selector table to load
-[2025-12-27 16:22:49] [INFO ] HomeMovieSelectorTable - waitMovieSelectorTableLoaded
-[2025-12-27 16:22:49] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.cssSelector: .MuiContainer-maxWidthMd > .MuiTabs-vertical button in 10s
-[2025-12-27 16:22:49] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[contains(@id,'vertical-tabpanel')]//button in 10s
-[2025-12-27 16:22:49] [INFO ] MovieSelectorTableTest - Select brand: cgv
-[2025-12-27 16:22:49] [INFO ] HomeMovieSelectorTable - Select brand: cgv
-[2025-12-27 16:22:49] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 16:22:49] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 16:22:49] [INFO ] MovieSelectorTableTest - Select location: CGV - Golden Plaza
-[2025-12-27 16:22:49] [INFO ] HomeMovieSelectorTable - Select location: CGV - Golden Plaza
-[2025-12-27 16:22:49] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button//h4[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 16:22:49] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button//h4[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 16:22:50] [INFO ] MovieSelectorTableTest - Choose movie by title: Fast And Furious 9
-[2025-12-27 16:22:50] [INFO ] HomeMovieSelectorTable - chooseMovie: Fast And Furious 9
-[2025-12-27 16:22:50] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //h2[contains(@class,'MuiTypography-h2') and contains(.,'Fast And Furious 9')] in 10s
-[2025-12-27 16:22:50] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[@class='App']//div[contains(@class,'MuiContainer-maxWidthMd')][2]//div[@role='tabpanel'][7]/div/div in 10s
-[2025-12-27 16:22:50] [INFO ] MovieSelectorTableTest - Verify movie is visible: Fast And Furious 9
-[2025-12-27 16:22:50] [INFO ] HomeMovieSelectorTable - isMovieVisible: Fast And Furious 9
-[2025-12-27 16:22:50] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //h2[contains(@class,'MuiTypography-h2') and contains(.,'Fast And Furious 9')] in 10s
-[2025-12-27 16:22:50] [INFO ] MovieSelectorTableTest - Select showtimes and get ID
-[2025-12-27 16:22:50] [INFO ] HomeMovieSelectorTable - clickFirstAvailableShowtime
-[2025-12-27 16:22:50] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[@class='App']//div[contains(@class,'MuiContainer-maxWidthMd')][2]//div[@role='tabpanel'][7]/div/div in 10s
-[2025-12-27 16:22:50] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(11)>h3:nth-child(2) in 10s
-[2025-12-27 16:22:51] [INFO ] TestListener - onTestSuccess: TC01_Verify_MovieSelectorTable_Functionality - PASSED
-[2025-12-27 16:22:51] [INFO ] MovieSelectorTableTest - Test completed
-[2025-12-27 16:22:51] [INFO ] TestListener - onFinish
-[2025-12-27 16:24:21] [INFO ] MovieSelectorTableTest - beforeSuite - Init Extent Report
-[2025-12-27 16:24:21] [INFO ] TestListener - onStart
-[2025-12-27 16:24:23] [INFO ] TestListener - onTestStart
-[2025-12-27 16:24:23] [INFO ] MovieSelectorTableTest - Scroll to movie selector table and verify it's visible
-[2025-12-27 16:24:23] [INFO ] TopBarNavigation - clickCinemas
-[2025-12-27 16:24:23] [INFO ] TopBarNavigation - click: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 16:24:23] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //header//h4[contains(text(),'Cụm Rạp')] in 10s
-[2025-12-27 16:24:23] [INFO ] MainHomeSection - waitForVisibilityOfElementLocated: By.id: cumRap in 10s
-[2025-12-27 16:24:24] [INFO ] MovieSelectorTableTest - Wait for movie selector table to load
-[2025-12-27 16:24:24] [INFO ] HomeMovieSelectorTable - waitMovieSelectorTableLoaded
-[2025-12-27 16:24:24] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.cssSelector: .MuiContainer-maxWidthMd > .MuiTabs-vertical button in 10s
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[contains(@id,'vertical-tabpanel')]//button in 10s
-[2025-12-27 16:24:25] [INFO ] MovieSelectorTableTest - Select brand: cgv
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - Select brand: cgv
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiContainer-maxWidthMd')]//img[@alt='cgv'] in 10s
-[2025-12-27 16:24:25] [INFO ] MovieSelectorTableTest - Select location: CGV - Golden Plaza
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - Select location: CGV - Golden Plaza
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - click: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button//h4[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - waitForElementToBeClickable: By.xpath: //div[contains(@class,'MuiTabs-vertical')]//button//h4[normalize-space()='CGV - Golden Plaza'] in 10s
-[2025-12-27 16:24:25] [INFO ] MovieSelectorTableTest - Choose movie by title: Fast And Furious 9
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - chooseMovie: Fast And Furious 9
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //h2[contains(@class,'MuiTypography-h2') and contains(.,'Fast And Furious 9')] in 10s
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[@class='App']//div[contains(@class,'MuiContainer-maxWidthMd')][2]//div[@role='tabpanel'][7]/div/div in 10s
-[2025-12-27 16:24:25] [INFO ] MovieSelectorTableTest - Verify movie is visible: Fast And Furious 9
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - isMovieVisible: Fast And Furious 9
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //h2[contains(@class,'MuiTypography-h2') and contains(.,'Fast And Furious 9')] in 10s
-[2025-12-27 16:24:25] [INFO ] MovieSelectorTableTest - Select showtimes and get ID
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - clickFirstAvailableShowtime
-[2025-12-27 16:24:25] [INFO ] HomeMovieSelectorTable - waitForVisibilityOfElementLocated: By.xpath: //div[@class='App']//div[contains(@class,'MuiContainer-maxWidthMd')][2]//div[@role='tabpanel'][7]/div/div in 10s
-[2025-12-27 16:24:25] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(11)>h3:nth-child(2) in 10s
-[2025-12-27 16:24:27] [INFO ] TestListener - onTestSuccess: TC01_Verify_MovieSelectorTable_Functionality - PASSED
-[2025-12-27 16:24:27] [INFO ] MovieSelectorTableTest - Test completed
-[2025-12-27 16:24:27] [INFO ] TestListener - onFinish
+[2025-12-29 14:04:30] [INFO ] TC01_RegisterTest - beforeSuite - Init Extent Report
+[2025-12-29 14:04:30] [INFO ] TestListener - onStart
+[2025-12-29 14:04:32] [INFO ] TestListener - onTestStart
+[2025-12-29 14:04:33] [INFO ] TC01_RegisterTest - Step 1: Click link 'Đăng Ký'
+[2025-12-29 14:04:33] [INFO ] TopBarNavigation - navigateRegisterPage
+[2025-12-29 14:04:33] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-29 14:04:33] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-29 14:04:33] [INFO ] TC01_RegisterTest - Step 2: Enter account
+[2025-12-29 14:04:33] [INFO ] RegisterPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 14:04:33] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 14:04:33] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 14:04:33] [INFO ] TC01_RegisterTest - Step 3: Enter password
+[2025-12-29 14:04:33] [INFO ] RegisterPage - enterPassword: Test123456@
+[2025-12-29 14:04:33] [INFO ] RegisterPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 14:04:33] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 14:04:33] [INFO ] TC01_RegisterTest - Step 4: Enter confirm password
+[2025-12-29 14:04:33] [INFO ] RegisterPage - enterConfirmPassword: Test123456@
+[2025-12-29 14:04:33] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with Test123456@ in 10s
+[2025-12-29 14:04:33] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2025-12-29 14:04:33] [INFO ] TC01_RegisterTest - Step 5: Enter name
+[2025-12-29 14:04:33] [INFO ] RegisterPage - enterName: John A
+[2025-12-29 14:04:33] [INFO ] RegisterPage - sendKeys: By.id: hoTen with John A in 10s
+[2025-12-29 14:04:33] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2025-12-29 14:04:33] [INFO ] TC01_RegisterTest - Step 6: Enter email
+[2025-12-29 14:04:33] [INFO ] RegisterPage - enterEmail: 7b87c831-f41a-49df-bd97-04f505511854@example.com
+[2025-12-29 14:04:33] [INFO ] RegisterPage - sendKeys: By.id: email with 7b87c831-f41a-49df-bd97-04f505511854@example.com in 10s
+[2025-12-29 14:04:33] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2025-12-29 14:04:33] [INFO ] TC01_RegisterTest - Step 7: Click register button
+[2025-12-29 14:04:33] [INFO ] RegisterPage - clickRegister
+[2025-12-29 14:04:33] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2025-12-29 14:04:33] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2025-12-29 14:04:33] [INFO ] TC01_RegisterTest - Step 8: Verify user register successfully
+[2025-12-29 14:04:33] [INFO ] TC01_RegisterTest - VP1: 'Đăng ký thành công' message display
+[2025-12-29 14:04:33] [INFO ] RegisterPage - getRegisterMessage
+[2025-12-29 14:04:33] [INFO ] RegisterPage - getText: By.id: swal2-title in 10s
+[2025-12-29 14:04:33] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 14:04:33] [INFO ] RegisterPage - waitRegisterMessageDisappear
+[2025-12-29 14:04:33] [INFO ] RegisterPage - waitForInvisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 14:04:35] [INFO ] TC01_RegisterTest - VP2: Check register page still displays
+[2025-12-29 14:04:35] [INFO ] TC01_RegisterTest - VP3: Check new account logins successfully
+[2025-12-29 14:04:35] [INFO ] TC01_RegisterTest - Click on Login button
+[2025-12-29 14:04:35] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 14:04:35] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 14:04:35] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 14:04:36] [INFO ] TC01_RegisterTest - Enter account to login
+[2025-12-29 14:04:36] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 14:04:36] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 14:04:36] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 14:04:36] [INFO ] TC01_RegisterTest - Enter password to login
+[2025-12-29 14:04:36] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 14:04:36] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 14:04:36] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 14:04:36] [INFO ] TC01_RegisterTest - Click Login
+[2025-12-29 14:04:36] [INFO ] LoginPage - clickLogin
+[2025-12-29 14:04:36] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 14:04:36] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 14:04:36] [INFO ] TC01_RegisterTest - VP3.1: 'Đăng nhập thành công' message displays
+[2025-12-29 14:04:36] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 14:04:36] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 14:04:36] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 14:04:37] [INFO ] TestListener - onTestSuccess: testRegister - PASSED
+[2025-12-29 14:04:37] [INFO ] TC01_RegisterTest - Test completed
+[2025-12-29 14:04:37] [INFO ] TestListener - onFinish
+[2025-12-29 15:00:44] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 15:00:46] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 15:00:46] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 15:00:46] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:00:46] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:00:46] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 15:00:46] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 15:00:46] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 15:00:47] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-29 15:00:47] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-29 15:00:47] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 15:00:47] [INFO ] LoginPage - clickLogin
+[2025-12-29 15:00:47] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:00:47] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:00:47] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 15:00:47] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 15:00:47] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 15:01:52] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 15:01:54] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 15:01:54] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 15:01:54] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:01:54] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:01:55] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 15:01:55] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 15:01:55] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 15:01:55] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 15:01:55] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 15:01:55] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 15:01:55] [INFO ] LoginPage - clickLogin
+[2025-12-29 15:01:55] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:01:55] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:01:55] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 15:01:55] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 15:01:55] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 15:01:55] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 15:01:55] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 15:01:56] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-29 15:01:56] [INFO ] AccountPage - enterFullName: User A
+[2025-12-29 15:01:56] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-29 15:01:56] [INFO ] AccountPage - enterEmail: testne@example.com
+[2025-12-29 15:01:56] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 15:01:56] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-29 15:01:56] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-29 15:01:56] [INFO ] AccountPage - enterPassword: Test123@@@
+[2025-12-29 15:01:56] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:01:56] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-29 15:01:56] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:01:56] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-29 15:01:56] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:01:56] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:01:56] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:01:56] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-29 15:01:56] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-29 15:01:56] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-29 15:01:56] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-29 15:01:56] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 15:01:56] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:01:56] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:01:56] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-29 15:04:16] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 15:04:19] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 15:04:19] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 15:04:19] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:04:19] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:04:19] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 15:04:19] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 15:04:19] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 15:04:19] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 15:04:19] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 15:04:19] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 15:04:19] [INFO ] LoginPage - clickLogin
+[2025-12-29 15:04:19] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:04:19] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:04:19] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 15:04:19] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 15:04:19] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 15:04:19] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 15:04:19] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 15:04:20] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-29 15:04:20] [INFO ] AccountPage - enterFullName: User A
+[2025-12-29 15:04:20] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-29 15:04:20] [INFO ] AccountPage - enterEmail: testne@example.com
+[2025-12-29 15:04:20] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 15:04:20] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-29 15:04:20] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-29 15:04:20] [INFO ] AccountPage - enterPassword: Test123@@@
+[2025-12-29 15:04:20] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:04:20] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-29 15:04:20] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:04:20] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-29 15:04:20] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:04:20] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:04:20] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:04:20] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-29 15:04:20] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-29 15:04:20] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-29 15:04:20] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-29 15:04:20] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 15:04:20] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:04:20] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:04:20] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-29 15:04:21] [INFO ] AccountPage - getText: By.cssSelector: h2#swal2-title in 10s
+[2025-12-29 15:04:21] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: h2#swal2-title in 10s
+[2025-12-29 15:04:21] [INFO ] AccountPageTest - Test completed
+[2025-12-29 15:05:31] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 15:05:34] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 15:05:34] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 15:05:34] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:05:34] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:05:34] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 15:05:34] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 15:05:34] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 15:05:34] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 15:05:34] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 15:05:34] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 15:05:34] [INFO ] LoginPage - clickLogin
+[2025-12-29 15:05:34] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:05:34] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:05:34] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 15:05:34] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 15:05:34] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 15:05:35] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 15:05:35] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 15:05:35] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-29 15:05:35] [INFO ] AccountPage - enterFullName: User A
+[2025-12-29 15:05:35] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-29 15:05:35] [INFO ] AccountPage - enterEmail: User A@example.com
+[2025-12-29 15:05:35] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 15:05:35] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-29 15:05:35] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-29 15:05:35] [INFO ] AccountPage - enterPassword: Test123@@@
+[2025-12-29 15:05:35] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:05:36] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-29 15:05:36] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:05:36] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-29 15:05:36] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:05:36] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:05:36] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:05:36] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-29 15:05:36] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-29 15:05:36] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-29 15:05:36] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-29 15:05:36] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 15:05:36] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:05:36] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:05:36] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-29 15:05:36] [INFO ] AccountPage - getText: By.cssSelector: h2#swal2-title in 10s
+[2025-12-29 15:05:36] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: h2#swal2-title in 10s
+[2025-12-29 15:05:36] [INFO ] AccountPageTest - Step 7: Refresh page and verify updated info is saved
+[2025-12-29 15:05:36] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-29 15:05:37] [INFO ] AccountPageTest - Test completed
+[2025-12-29 15:16:12] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 15:16:14] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 15:16:14] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 15:16:14] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:16:14] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:16:14] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 15:16:14] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 15:16:14] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 15:16:14] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 15:16:14] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 15:16:14] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 15:16:14] [INFO ] LoginPage - clickLogin
+[2025-12-29 15:16:14] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:16:14] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:16:14] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 15:16:14] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 15:16:14] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 15:16:15] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 15:16:15] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 15:16:15] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-29 15:16:15] [INFO ] AccountPage - enterFullName: User A
+[2025-12-29 15:16:15] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPage - enterEmail: User A@example.com
+[2025-12-29 15:16:16] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-29 15:16:16] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPage - enterPassword: Test123@@@
+[2025-12-29 15:16:16] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-29 15:16:16] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-29 15:16:16] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-29 15:16:16] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-29 15:16:16] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 15:16:16] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-29 15:16:16] [INFO ] AccountPage - getText: By.cssSelector: h2#swal2-title in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: h2#swal2-title in 10s
+[2025-12-29 15:16:16] [INFO ] AccountPageTest - Step 7: Refresh page and verify updated info is saved
+[2025-12-29 15:16:16] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-29 15:16:17] [INFO ] AccountPageTest - Test completed
+[2025-12-29 15:17:25] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 15:17:27] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 15:17:27] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 15:17:27] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:17:27] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:17:27] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 15:17:27] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 15:17:27] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 15:17:27] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 15:17:27] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 15:17:27] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 15:17:27] [INFO ] LoginPage - clickLogin
+[2025-12-29 15:17:27] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:17:27] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:17:27] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 15:17:27] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 15:17:27] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 15:17:28] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 15:17:28] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 15:17:28] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-29 15:17:28] [INFO ] AccountPage - enterFullName: User A
+[2025-12-29 15:17:28] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPage - enterEmail: User A@example.com
+[2025-12-29 15:17:29] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-29 15:17:29] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPage - enterPassword: Test123@@@
+[2025-12-29 15:17:29] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-29 15:17:29] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-29 15:17:29] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-29 15:17:29] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-29 15:17:29] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 15:17:29] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-29 15:17:29] [INFO ] AccountPage - getText: By.cssSelector: h2#swal2-title in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: h2#swal2-title in 10s
+[2025-12-29 15:17:29] [INFO ] AccountPageTest - Step 7: Refresh page and verify updated info is saved
+[2025-12-29 15:17:29] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-29 15:17:30] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 15:17:30] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-29 15:17:30] [INFO ] AccountPageTest - Test completed
+[2025-12-29 15:19:48] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 15:19:50] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 15:19:50] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 15:19:50] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:19:50] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:19:50] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 15:19:50] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 15:19:50] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 15:19:50] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 15:19:50] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 15:19:50] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 15:19:50] [INFO ] LoginPage - clickLogin
+[2025-12-29 15:19:50] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:19:50] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:19:50] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 15:19:50] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 15:19:50] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 15:19:51] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 15:19:51] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-29 15:19:52] [INFO ] AccountPage - enterFullName: User A
+[2025-12-29 15:19:52] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPage - enterEmail: User A@example.com
+[2025-12-29 15:19:52] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-29 15:19:52] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPage - enterPassword: Test123@@@
+[2025-12-29 15:19:52] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-29 15:19:52] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-29 15:19:52] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-29 15:19:52] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-29 15:19:52] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 15:19:52] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-29 15:19:52] [INFO ] AccountPage - getText: By.cssSelector: h2#swal2-title in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: h2#swal2-title in 10s
+[2025-12-29 15:19:52] [INFO ] AccountPageTest - Step 7: Refresh page and verify updated info is saved
+[2025-12-29 15:19:52] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-29 15:19:53] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 15:19:53] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-29 15:19:53] [INFO ] AccountPageTest - Test completed
+[2025-12-29 15:36:48] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 15:36:50] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 15:36:50] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 15:36:50] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:36:50] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 15:36:50] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 15:36:50] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 15:36:50] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 15:36:50] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 15:36:50] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 15:36:50] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 15:36:50] [INFO ] LoginPage - clickLogin
+[2025-12-29 15:36:50] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:36:50] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 15:36:50] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 15:36:50] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 15:36:50] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 15:36:50] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 15:36:50] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 15:36:51] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-29 15:36:51] [INFO ] AccountPage - enterFullName: UserA
+[2025-12-29 15:36:51] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-29 15:36:51] [INFO ] AccountPage - enterEmail: UserA@example.com
+[2025-12-29 15:36:51] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 15:36:51] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-29 15:36:51] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-29 15:36:51] [INFO ] AccountPage - enterPassword: Test123@@@
+[2025-12-29 15:36:51] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:36:51] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-29 15:36:51] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:36:51] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-29 15:36:51] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:36:51] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-29 15:36:51] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 15:36:51] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-29 15:36:51] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-29 15:36:51] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-29 15:36:51] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-29 15:36:51] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 15:36:51] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:36:51] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 15:36:51] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-29 15:37:07] [INFO ] AccountPageTest - Test completed
+[2025-12-29 17:01:20] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 17:01:24] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 17:03:11] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 17:03:13] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 17:03:13] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 17:03:13] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 17:03:13] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 17:03:13] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 17:03:13] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 17:03:13] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 17:03:13] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 17:03:13] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 17:03:13] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 17:03:13] [INFO ] LoginPage - clickLogin
+[2025-12-29 17:03:13] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 17:03:13] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 17:03:13] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 17:03:13] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 17:03:13] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 17:03:13] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 17:03:14] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 17:03:14] [INFO ] AccountPageTest - Step 2: Update profile information with invalid full name
+[2025-12-29 17:03:14] [INFO ] AccountPage - enterFullName: UserA123
+[2025-12-29 17:03:14] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-29 17:03:14] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 17:03:14] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 17:03:14] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 17:03:14] [INFO ] AccountPage - getText: By.xpath: //*/ancestor::div[contains(@class,'MuiFormControl-root')]//p[contains(@class,'MuiFormHelperText-root')] in 10s
+[2025-12-29 17:03:14] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //*/ancestor::div[contains(@class,'MuiFormControl-root')]//p[contains(@class,'MuiFormHelperText-root')] in 10s
+[2025-12-29 17:03:14] [INFO ] AccountPageTest - Test completed
+[2025-12-29 17:04:29] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 17:04:31] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 17:04:31] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 17:04:31] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 17:04:31] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 17:04:31] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 17:04:31] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 17:04:31] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 17:04:31] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 17:04:31] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 17:04:31] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 17:04:31] [INFO ] LoginPage - clickLogin
+[2025-12-29 17:04:31] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 17:04:31] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 17:04:31] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 17:04:31] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 17:04:31] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 17:04:32] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 17:04:32] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 17:04:33] [INFO ] AccountPageTest - Step 2: Update profile information with invalid email
+[2025-12-29 17:04:33] [INFO ] AccountPage - enterEmail: testuser.gmail.com
+[2025-12-29 17:04:33] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 17:04:33] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 17:04:33] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 17:04:33] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 17:04:33] [INFO ] AccountPage - getText: By.xpath: //*/ancestor::div[contains(@class,'MuiFormControl-root')]//p[contains(@class,'MuiFormHelperText-root')] in 10s
+[2025-12-29 17:04:33] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //*/ancestor::div[contains(@class,'MuiFormControl-root')]//p[contains(@class,'MuiFormHelperText-root')] in 10s
+[2025-12-29 17:04:43] [INFO ] AccountPageTest - Test completed

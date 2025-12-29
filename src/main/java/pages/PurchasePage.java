@@ -144,14 +144,33 @@ public class PurchasePage extends BasePage {
     }
 
 
+//    public double getSeatPrice(String seatNumber) {
+//        // fixed price for VIP seat is 90000
+//        //if seat number from 35 to 126 is VIP
+//        int seatNum = Integer.parseInt(seatNumber);
+//        if (seatNum >= 35 && seatNum <= 126) {
+//            return 90000;
+//        } else {
+//            return 75000;
+//        }
+//    }
+
     public double getSeatPrice(String seatNumber) {
-        // fixed price for VIP seat is 90000
-        //if seat number from 35 to 126 is VIP
-        int seatNum = Integer.parseInt(seatNumber);
-        if (seatNum >= 35 && seatNum <= 126) {
-            return 90000;
+        int seatNum;
+        try {
+            seatNum = Integer.parseInt(seatNumber);
+        } catch (NumberFormatException e) {
+            throw new IllegalArgumentException("Invalid seat number: " + seatNumber, e);
+        }
+        if ((seatNum >= 35 && seatNum <= 46) ||
+                (seatNum >= 51 && seatNum <= 62) ||
+                (seatNum >= 67 && seatNum <= 78) ||
+                (seatNum >= 83 && seatNum <= 94) ||
+                (seatNum >= 99 && seatNum <= 110) ||
+                (seatNum >= 115 && seatNum <= 126)) {
+            return 90000.0;
         } else {
-            return 75000;
+            return 75000.0;
         }
     }
 

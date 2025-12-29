@@ -1,0 +1,627 @@
+[2025-12-28 00:31:43] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 00:31:43] [INFO ] TestListener - onStart
+[2025-12-28 00:31:46] [INFO ] TestListener - onTestStart
+[2025-12-28 00:31:46] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 00:31:46] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 00:31:46] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:31:46] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:31:46] [INFO ] LoginPage - enterAccount: a68cf217-d33b-4132-b180-864697ac8427
+[2025-12-28 00:31:46] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with a68cf217-d33b-4132-b180-864697ac8427 in 10s
+[2025-12-28 00:31:46] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 00:31:46] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-28 00:31:46] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-28 00:31:46] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 00:31:46] [INFO ] LoginPage - clickLogin
+[2025-12-28 00:31:46] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:31:46] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:31:46] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 00:31:46] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 00:31:46] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 00:31:46] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-28 00:31:47] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: //main/form/div/div/h1 in 10s
+[2025-12-28 00:31:47] [INFO ] TestListener - onTestFailure: TC_Verify_Update_Profile_Success_With_Valid_Data - FAILED
+[2025-12-28 00:31:47] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC_Verify_Update_Profile_Success_With_Valid_Data_20251228_12_31_47.png
+[2025-12-28 00:31:47] [INFO ] AccountPageTest - Test completed
+[2025-12-28 00:31:47] [INFO ] TestListener - onFinish
+[2025-12-28 00:34:40] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 00:34:40] [INFO ] TestListener - onStart
+[2025-12-28 00:34:42] [INFO ] TestListener - onTestStart
+[2025-12-28 00:34:42] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 00:34:42] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 00:34:42] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:34:42] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:34:42] [INFO ] LoginPage - enterAccount: 17b3e29a-dc93-4ac8-93e2-105cb6023c02
+[2025-12-28 00:34:42] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 17b3e29a-dc93-4ac8-93e2-105cb6023c02 in 10s
+[2025-12-28 00:34:42] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 00:34:42] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-28 00:34:42] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-28 00:34:42] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 00:34:42] [INFO ] LoginPage - clickLogin
+[2025-12-28 00:34:42] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:34:42] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:34:42] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 00:34:42] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 00:34:42] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 00:34:52] [INFO ] TestListener - onTestFailure: TC_Verify_Update_Profile_Success_With_Valid_Data - FAILED
+[2025-12-28 00:34:53] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC_Verify_Update_Profile_Success_With_Valid_Data_20251228_12_34_53.png
+[2025-12-28 00:34:53] [INFO ] AccountPageTest - Test completed
+[2025-12-28 00:34:53] [INFO ] TestListener - onFinish
+[2025-12-28 00:38:13] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 00:38:14] [INFO ] TestListener - onStart
+[2025-12-28 00:38:15] [INFO ] TestListener - onTestStart
+[2025-12-28 00:38:15] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 00:38:15] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 00:38:15] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:38:15] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:38:16] [INFO ] LoginPage - enterAccount: 17b3e29a-dc93-4ac8-93e2-105cb6023c02
+[2025-12-28 00:38:16] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 17b3e29a-dc93-4ac8-93e2-105cb6023c02 in 10s
+[2025-12-28 00:38:16] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 00:38:16] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 00:38:16] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 00:38:16] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 00:38:16] [INFO ] LoginPage - clickLogin
+[2025-12-28 00:38:16] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:38:16] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:38:16] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 00:38:16] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 00:38:16] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 00:38:26] [INFO ] TestListener - onTestFailure: TC_Verify_Update_Profile_Success_With_Valid_Data - FAILED
+[2025-12-28 00:38:26] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC_Verify_Update_Profile_Success_With_Valid_Data_20251228_12_38_26.png
+[2025-12-28 00:38:26] [INFO ] AccountPageTest - Test completed
+[2025-12-28 00:38:27] [INFO ] TestListener - onFinish
+[2025-12-28 00:40:11] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 00:40:11] [INFO ] TestListener - onStart
+[2025-12-28 00:40:13] [INFO ] TestListener - onTestStart
+[2025-12-28 00:40:13] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 00:40:13] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 00:40:13] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:40:13] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:40:13] [INFO ] LoginPage - enterAccount: 17b3e29a-dc93-4ac8-93e2-105cb6023c02
+[2025-12-28 00:40:13] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 17b3e29a-dc93-4ac8-93e2-105cb6023c02 in 10s
+[2025-12-28 00:40:13] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 00:40:13] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 00:40:13] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 00:40:13] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 00:40:13] [INFO ] LoginPage - clickLogin
+[2025-12-28 00:40:13] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:40:13] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:40:13] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 00:40:13] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 00:40:13] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 00:40:24] [INFO ] TestListener - onTestFailure: TC_Verify_Update_Profile_Success_With_Valid_Data - FAILED
+[2025-12-28 00:40:24] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC_Verify_Update_Profile_Success_With_Valid_Data_20251228_12_40_24.png
+[2025-12-28 00:40:24] [INFO ] AccountPageTest - Test completed
+[2025-12-28 00:40:24] [INFO ] TestListener - onFinish
+[2025-12-28 00:44:42] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 00:44:44] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 00:44:44] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 00:44:44] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:44:44] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:44:44] [INFO ] LoginPage - enterAccount: 17b3e29a-dc93-4ac8-93e2-105cb6023c02
+[2025-12-28 00:44:44] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 17b3e29a-dc93-4ac8-93e2-105cb6023c02 in 10s
+[2025-12-28 00:44:44] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 00:44:44] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 00:44:44] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 00:44:44] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 00:44:45] [INFO ] LoginPage - clickLogin
+[2025-12-28 00:44:45] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:44:45] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:44:46] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 00:44:46] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 00:44:46] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 00:44:56] [INFO ] AccountPageTest - Test completed
+[2025-12-28 00:45:08] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 00:45:10] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 00:45:10] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 00:45:10] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:45:10] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:45:10] [INFO ] LoginPage - enterAccount: 17b3e29a-dc93-4ac8-93e2-105cb6023c02
+[2025-12-28 00:45:10] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 17b3e29a-dc93-4ac8-93e2-105cb6023c02 in 10s
+[2025-12-28 00:45:10] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 00:45:10] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 00:45:10] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 00:45:10] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 00:45:11] [INFO ] LoginPage - clickLogin
+[2025-12-28 00:45:11] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:45:11] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:45:11] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 00:45:11] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 00:45:11] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 00:45:22] [INFO ] AccountPageTest - Test completed
+[2025-12-28 00:46:27] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 00:46:29] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 00:46:29] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 00:46:29] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:46:29] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:46:29] [INFO ] LoginPage - enterAccount: 049fb9cd-ef3c-462b-b8ee-5b300d0eee49
+[2025-12-28 00:46:29] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 049fb9cd-ef3c-462b-b8ee-5b300d0eee49 in 10s
+[2025-12-28 00:46:29] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 00:46:29] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 00:46:29] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 00:46:29] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 00:46:29] [INFO ] LoginPage - clickLogin
+[2025-12-28 00:46:29] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:46:29] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:46:30] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 00:46:30] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 00:46:30] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 00:46:30] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-28 00:46:30] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: //main/form/div/div/h1 in 10s
+[2025-12-28 00:46:30] [INFO ] AccountPageTest - Test completed
+[2025-12-28 00:48:07] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 00:48:09] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 00:48:09] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 00:48:09] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:48:09] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:48:09] [INFO ] LoginPage - enterAccount: 049fb9cd-ef3c-462b-b8ee-5b300d0eee49
+[2025-12-28 00:48:09] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 049fb9cd-ef3c-462b-b8ee-5b300d0eee49 in 10s
+[2025-12-28 00:48:09] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 00:48:09] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 00:48:09] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 00:48:09] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 00:48:09] [INFO ] LoginPage - clickLogin
+[2025-12-28 00:48:09] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:48:09] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:48:09] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 00:48:09] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 00:48:09] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 00:48:09] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-28 00:48:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-28 00:48:10] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-28 00:48:10] [INFO ] AccountPage - enterFullName: Test user
+[2025-12-28 00:48:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-28 00:48:10] [INFO ] AccountPage - enterEmail: testne@example.com
+[2025-12-28 00:48:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-28 00:48:10] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-28 00:48:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-28 00:48:10] [INFO ] AccountPage - enterPassword: Test123456@
+[2025-12-28 00:48:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 00:48:10] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-28 00:48:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 00:48:10] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-28 00:48:10] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 00:48:10] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 00:48:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 00:48:10] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-28 00:48:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-28 00:48:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-28 00:48:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-28 00:48:10] [INFO ] AccountPageTest - Test completed
+[2025-12-28 00:53:07] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 00:53:09] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 00:53:09] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 00:53:09] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:53:09] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 00:53:09] [INFO ] LoginPage - enterAccount: 049fb9cd-ef3c-462b-b8ee-5b300d0eee49
+[2025-12-28 00:53:09] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 049fb9cd-ef3c-462b-b8ee-5b300d0eee49 in 10s
+[2025-12-28 00:53:09] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 00:53:09] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 00:53:09] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 00:53:09] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 00:53:09] [INFO ] LoginPage - clickLogin
+[2025-12-28 00:53:09] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:53:09] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 00:53:09] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 00:53:09] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 00:53:09] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 00:53:09] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-28 00:53:09] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-28 00:53:10] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-28 00:53:10] [INFO ] AccountPage - enterFullName: Test user
+[2025-12-28 00:53:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-28 00:53:10] [INFO ] AccountPage - enterEmail: testne@example.com
+[2025-12-28 00:53:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-28 00:53:10] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-28 00:53:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-28 00:53:10] [INFO ] AccountPage - enterPassword: Test123456@
+[2025-12-28 00:53:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 00:53:10] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-28 00:53:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 00:53:10] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-28 00:53:10] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 00:53:10] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 00:53:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 00:53:10] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-28 00:53:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-28 00:53:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-28 00:53:10] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-28 00:53:10] [INFO ] AccountPage - clickUpdateButton
+[2025-12-28 00:53:10] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 00:53:10] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 00:53:10] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-28 00:53:10] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: .swal2-popup.swal2-modal in 10s
+[2025-12-28 00:53:21] [INFO ] AccountPageTest - Test completed
+[2025-12-28 12:10:34] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 12:10:34] [INFO ] TestListener - onStart
+[2025-12-28 12:10:36] [INFO ] TestListener - onTestStart
+[2025-12-28 12:10:36] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 12:10:36] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 12:10:36] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 12:10:36] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 12:10:36] [INFO ] LoginPage - enterAccount: 049fb9cd-ef3c-462b-b8ee-5b300d0eee49
+[2025-12-28 12:10:36] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 049fb9cd-ef3c-462b-b8ee-5b300d0eee49 in 10s
+[2025-12-28 12:10:36] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 12:10:37] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 12:10:37] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 12:10:37] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 12:10:37] [INFO ] LoginPage - clickLogin
+[2025-12-28 12:10:37] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 12:10:37] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 12:10:37] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 12:10:37] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 12:10:37] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 12:10:37] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-28 12:10:37] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-28 12:10:38] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-28 12:10:38] [INFO ] AccountPage - enterFullName: Test user
+[2025-12-28 12:10:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-28 12:10:38] [INFO ] AccountPage - enterEmail: testne@example.com
+[2025-12-28 12:10:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-28 12:10:38] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-28 12:10:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-28 12:10:38] [INFO ] AccountPage - enterPassword: Test123456@
+[2025-12-28 12:10:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:10:38] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-28 12:10:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:10:38] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-28 12:10:38] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 12:10:38] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 12:10:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:10:38] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-28 12:10:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-28 12:10:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-28 12:10:38] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-28 12:10:38] [INFO ] AccountPage - clickUpdateButton
+[2025-12-28 12:10:38] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 12:10:38] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 12:10:38] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-28 12:10:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: .swal2-popup.swal2-modal in 10s
+[2025-12-28 12:10:48] [INFO ] TestListener - onTestFailure: TC_Verify_Update_Profile_Success_With_Valid_Data - FAILED
+[2025-12-28 12:10:49] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC_Verify_Update_Profile_Success_With_Valid_Data_20251228_12_10_49.png
+[2025-12-28 12:10:49] [INFO ] AccountPageTest - Test completed
+[2025-12-28 12:10:49] [INFO ] TestListener - onFinish
+[2025-12-28 12:15:03] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 12:15:03] [INFO ] TestListener - onStart
+[2025-12-28 12:15:05] [INFO ] TestListener - onTestStart
+[2025-12-28 12:15:05] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 12:15:05] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 12:15:05] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 12:15:05] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 12:15:05] [INFO ] LoginPage - enterAccount: 049fb9cd-ef3c-462b-b8ee-5b300d0eee49
+[2025-12-28 12:15:05] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 049fb9cd-ef3c-462b-b8ee-5b300d0eee49 in 10s
+[2025-12-28 12:15:05] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 12:15:05] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 12:15:05] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 12:15:05] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 12:15:05] [INFO ] LoginPage - clickLogin
+[2025-12-28 12:15:05] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 12:15:05] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 12:15:05] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 12:15:05] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 12:15:05] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 12:15:06] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-28 12:15:06] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-28 12:15:07] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-28 12:15:07] [INFO ] AccountPage - enterFullName: Test user
+[2025-12-28 12:15:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-28 12:15:07] [INFO ] AccountPage - enterEmail: testne@example.com
+[2025-12-28 12:15:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-28 12:15:07] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-28 12:15:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-28 12:15:07] [INFO ] AccountPage - enterPassword: Test123456@
+[2025-12-28 12:15:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:15:07] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-28 12:15:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:15:07] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-28 12:15:07] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 12:15:07] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 12:15:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:15:07] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-28 12:15:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-28 12:15:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-28 12:15:07] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-28 12:15:07] [INFO ] AccountPage - clickUpdateButton
+[2025-12-28 12:15:07] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 12:15:07] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 12:15:07] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-28 12:15:22] [INFO ] TestListener - onTestFailure: TC_Verify_Update_Profile_Success_With_Valid_Data - FAILED
+[2025-12-28 12:15:22] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC_Verify_Update_Profile_Success_With_Valid_Data_20251228_12_15_22.png
+[2025-12-28 12:15:22] [INFO ] AccountPageTest - Test completed
+[2025-12-28 12:15:23] [INFO ] TestListener - onFinish
+[2025-12-28 12:17:42] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 12:17:42] [INFO ] TestListener - onStart
+[2025-12-28 12:17:44] [INFO ] TestListener - onTestStart
+[2025-12-28 12:17:44] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 12:17:44] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 12:17:44] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 12:17:44] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 12:17:44] [INFO ] LoginPage - enterAccount: 049fb9cd-ef3c-462b-b8ee-5b300d0eee49
+[2025-12-28 12:17:44] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 049fb9cd-ef3c-462b-b8ee-5b300d0eee49 in 10s
+[2025-12-28 12:17:44] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 12:17:44] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 12:17:44] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 12:17:44] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 12:17:44] [INFO ] LoginPage - clickLogin
+[2025-12-28 12:17:44] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 12:17:44] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 12:17:44] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 12:17:44] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 12:17:44] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 12:17:45] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-28 12:17:45] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-28 12:17:45] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-28 12:17:45] [INFO ] AccountPage - enterFullName: Test user
+[2025-12-28 12:17:45] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-28 12:17:45] [INFO ] AccountPage - enterEmail: testne@example.com
+[2025-12-28 12:17:45] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-28 12:17:45] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-28 12:17:45] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-28 12:17:45] [INFO ] AccountPage - enterPassword: Test123456@
+[2025-12-28 12:17:45] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:17:46] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-28 12:17:46] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:17:46] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-28 12:17:46] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 12:17:46] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 12:17:46] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:17:46] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-28 12:17:46] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-28 12:17:46] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-28 12:17:46] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-28 12:17:46] [INFO ] AccountPage - clickUpdateButton
+[2025-12-28 12:17:46] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 12:17:46] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 12:17:46] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-28 12:17:46] [INFO ] AccountPage - getText: By.cssSelector: h2#swal2-title in 10s
+[2025-12-28 12:17:46] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: h2#swal2-title in 10s
+[2025-12-28 12:17:56] [INFO ] TestListener - onTestFailure: TC_Verify_Update_Profile_Success_With_Valid_Data - FAILED
+[2025-12-28 12:17:56] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC_Verify_Update_Profile_Success_With_Valid_Data_20251228_12_17_56.png
+[2025-12-28 12:17:56] [INFO ] AccountPageTest - Test completed
+[2025-12-28 12:17:56] [INFO ] TestListener - onFinish
+[2025-12-28 12:21:59] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 12:22:01] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 12:22:01] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 12:22:01] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 12:22:01] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 12:22:01] [INFO ] LoginPage - enterAccount: 049fb9cd-ef3c-462b-b8ee-5b300d0eee49
+[2025-12-28 12:22:01] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 049fb9cd-ef3c-462b-b8ee-5b300d0eee49 in 10s
+[2025-12-28 12:22:01] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 12:22:01] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 12:22:01] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 12:22:01] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 12:22:01] [INFO ] LoginPage - clickLogin
+[2025-12-28 12:22:01] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 12:22:01] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 12:22:01] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 12:22:01] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 12:22:01] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 12:22:01] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-28 12:22:01] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-28 12:22:02] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-28 12:22:02] [INFO ] AccountPage - enterFullName: Test user
+[2025-12-28 12:22:02] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-28 12:22:02] [INFO ] AccountPage - enterEmail: testne@example.com
+[2025-12-28 12:22:02] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-28 12:22:02] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-28 12:22:02] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-28 12:22:02] [INFO ] AccountPage - enterPassword: Test123456@
+[2025-12-28 12:22:02] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:22:02] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-28 12:22:02] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:22:02] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-28 12:22:02] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 12:22:02] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 12:22:02] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:22:02] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-28 12:22:02] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-28 12:22:02] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-28 12:22:02] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-28 12:22:02] [INFO ] AccountPage - clickUpdateButton
+[2025-12-28 12:22:02] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 12:22:02] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 12:22:02] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-28 12:22:03] [INFO ] AccountPage - getText: By.cssSelector: h2#swal2-title in 10s
+[2025-12-28 12:22:03] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: h2#swal2-title in 10s
+[2025-12-28 12:22:03] [INFO ] AccountPageTest - Test completed
+[2025-12-28 12:22:34] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 12:22:34] [INFO ] TestListener - onStart
+[2025-12-28 12:22:36] [INFO ] TestListener - onTestStart
+[2025-12-28 12:22:36] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 12:22:36] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 12:22:36] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 12:22:36] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 12:22:37] [INFO ] LoginPage - enterAccount: 049fb9cd-ef3c-462b-b8ee-5b300d0eee49
+[2025-12-28 12:22:37] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 049fb9cd-ef3c-462b-b8ee-5b300d0eee49 in 10s
+[2025-12-28 12:22:37] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 12:22:37] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 12:22:37] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 12:22:37] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 12:22:37] [INFO ] LoginPage - clickLogin
+[2025-12-28 12:22:37] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 12:22:37] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 12:22:37] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 12:22:37] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 12:22:37] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 12:22:37] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-28 12:22:37] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-28 12:22:38] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-28 12:22:38] [INFO ] AccountPage - enterFullName: Test user
+[2025-12-28 12:22:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-28 12:22:38] [INFO ] AccountPage - enterEmail: testne@example.com
+[2025-12-28 12:22:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-28 12:22:38] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-28 12:22:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-28 12:22:38] [INFO ] AccountPage - enterPassword: Test123456@
+[2025-12-28 12:22:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:22:38] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-28 12:22:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:22:38] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-28 12:22:38] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 12:22:38] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 12:22:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:22:38] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-28 12:22:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-28 12:22:38] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-28 12:22:38] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-28 12:22:38] [INFO ] AccountPage - clickUpdateButton
+[2025-12-28 12:22:38] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 12:22:38] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 12:22:38] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-28 12:22:39] [INFO ] AccountPage - getText: By.cssSelector: h2#swal2-title in 10s
+[2025-12-28 12:22:39] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: h2#swal2-title in 10s
+[2025-12-28 12:22:39] [INFO ] TestListener - onTestFailure: TC_Verify_Update_Profile_Success_With_Valid_Data - FAILED
+[2025-12-28 12:22:39] [INFO ] TestListener - Saved screenshot: /Users/haunty.antran/Automation Testing/QA Capstone/test-output/screenshots/TC_Verify_Update_Profile_Success_With_Valid_Data_20251228_12_22_39.png
+[2025-12-28 12:22:39] [INFO ] AccountPageTest - Test completed
+[2025-12-28 12:22:39] [INFO ] TestListener - onFinish
+[2025-12-28 12:25:24] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 12:26:06] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 12:26:06] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 12:26:06] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 12:26:06] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 12:26:06] [INFO ] LoginPage - enterAccount: 049fb9cd-ef3c-462b-b8ee-5b300d0eee49
+[2025-12-28 12:26:06] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 049fb9cd-ef3c-462b-b8ee-5b300d0eee49 in 10s
+[2025-12-28 12:26:06] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 12:26:06] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 12:26:06] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 12:26:06] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 12:26:06] [INFO ] LoginPage - clickLogin
+[2025-12-28 12:26:06] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 12:26:06] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 12:26:06] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 12:26:06] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 12:26:06] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 12:26:06] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-28 12:26:06] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-28 12:26:07] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-28 12:26:07] [INFO ] AccountPage - enterFullName: Test user
+[2025-12-28 12:26:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-28 12:26:07] [INFO ] AccountPage - enterEmail: testne@example.com
+[2025-12-28 12:26:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-28 12:26:07] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-28 12:26:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-28 12:26:07] [INFO ] AccountPage - enterPassword: Test123456@
+[2025-12-28 12:26:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:26:07] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-28 12:26:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:26:08] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-28 12:26:08] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 12:26:08] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 12:26:08] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 12:26:08] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-28 12:26:08] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-28 12:26:08] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-28 12:26:08] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-28 12:26:08] [INFO ] AccountPage - clickUpdateButton
+[2025-12-28 12:26:08] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 12:26:08] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 12:26:08] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-28 12:26:23] [INFO ] AccountPageTest - Test completed
+[2025-12-28 13:14:31] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 13:14:34] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 13:14:34] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 13:14:34] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 13:14:34] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 13:14:34] [INFO ] LoginPage - enterAccount: 049fb9cd-ef3c-462b-b8ee-5b300d0eee49
+[2025-12-28 13:14:34] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 049fb9cd-ef3c-462b-b8ee-5b300d0eee49 in 10s
+[2025-12-28 13:14:34] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 13:14:34] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 13:14:34] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 13:14:34] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 13:14:34] [INFO ] LoginPage - clickLogin
+[2025-12-28 13:14:34] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 13:14:34] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 13:14:34] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 13:14:34] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 13:14:34] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 13:14:35] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-28 13:14:35] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-28 13:14:35] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-28 13:14:35] [INFO ] AccountPage - enterFullName: Test user
+[2025-12-28 13:14:35] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-28 13:14:35] [INFO ] AccountPage - enterEmail: testne@example.com
+[2025-12-28 13:14:35] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-28 13:14:35] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-28 13:14:35] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-28 13:14:36] [INFO ] AccountPage - enterPassword: Test123456@
+[2025-12-28 13:14:36] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 13:14:36] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-28 13:14:36] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 13:14:36] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-28 13:14:36] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 13:14:36] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 13:14:36] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 13:14:36] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-28 13:14:36] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-28 13:14:36] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-28 13:14:36] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-28 13:14:36] [INFO ] AccountPage - clickUpdateButton
+[2025-12-28 13:14:36] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 13:14:36] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 13:14:36] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-28 13:14:36] [INFO ] AccountPage - getText: By.cssSelector: h2#swal2-title in 10s
+[2025-12-28 13:14:36] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: h2#swal2-title in 10s
+[2025-12-28 13:14:36] [INFO ] AccountPageTest - Test completed
+[2025-12-28 13:17:40] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 13:17:42] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 13:17:42] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 13:17:42] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 13:17:42] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 13:17:42] [INFO ] LoginPage - enterAccount: 049fb9cd-ef3c-462b-b8ee-5b300d0eee49
+[2025-12-28 13:17:42] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 049fb9cd-ef3c-462b-b8ee-5b300d0eee49 in 10s
+[2025-12-28 13:17:42] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 13:17:42] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 13:17:42] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 13:17:42] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 13:17:42] [INFO ] LoginPage - clickLogin
+[2025-12-28 13:17:42] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 13:17:42] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 13:17:42] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 13:17:42] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 13:17:42] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-28 13:17:43] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-28 13:17:43] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-28 13:17:43] [INFO ] AccountPageTest - Step 2: Update profile information
+[2025-12-28 13:17:43] [INFO ] AccountPage - enterFullName: Test user
+[2025-12-28 13:17:43] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPage - enterEmail: testne@example.com
+[2025-12-28 13:17:44] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPage - enterPhone: 0123456789
+[2025-12-28 13:17:44] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPage - enterPassword: Test123456@
+[2025-12-28 13:17:44] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPageTest - Step 3: Verify password visibility toggle
+[2025-12-28 13:17:44] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPage - togglePasswordVisibility
+[2025-12-28 13:17:44] [INFO ] AccountPage - click: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPage - waitForElementToBeClickable: By.cssSelector: button.MuiIconButton-edgeEnd in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPageTest - Step 4: read only fields check
+[2025-12-28 13:17:44] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#taiKhoan in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: select[name='maLoaiNguoiDung'] in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPageTest - Step 5: Click Update button
+[2025-12-28 13:17:44] [INFO ] AccountPage - clickUpdateButton
+[2025-12-28 13:17:44] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPageTest - Step 6: Verify update success message
+[2025-12-28 13:17:44] [INFO ] AccountPage - getText: By.cssSelector: h2#swal2-title in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: h2#swal2-title in 10s
+[2025-12-28 13:17:44] [INFO ] AccountPageTest - Step 7: Refresh page and verify updated info is saved
+[2025-12-28 13:17:44] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#hoTen in 10s
+[2025-12-28 13:17:45] [INFO ] AccountPageTest - Test completed
+[2025-12-28 13:18:37] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-28 13:18:39] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-28 13:18:39] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-28 13:18:39] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 13:18:39] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-28 13:18:39] [INFO ] LoginPage - enterAccount: 049fb9cd-ef3c-462b-b8ee-5b300d0eee49
+[2025-12-28 13:18:39] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 049fb9cd-ef3c-462b-b8ee-5b300d0eee49 in 10s
+[2025-12-28 13:18:39] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-28 13:18:39] [INFO ] LoginPage - enterPassword: Test123@@@
+[2025-12-28 13:18:39] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123@@@ in 10s
+[2025-12-28 13:18:39] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-28 13:18:39] [INFO ] LoginPage - clickLogin
+[2025-12-28 13:18:39] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 13:18:39] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-28 13:18:39] [INFO ] LoginPage - getLoginMsg
+[2025-12-28 13:18:39] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-28 13:18:39] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
