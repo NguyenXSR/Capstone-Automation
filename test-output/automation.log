@@ -458,3 +458,297 @@
 [2025-12-29 17:04:33] [INFO ] AccountPage - getText: By.xpath: //*/ancestor::div[contains(@class,'MuiFormControl-root')]//p[contains(@class,'MuiFormHelperText-root')] in 10s
 [2025-12-29 17:04:33] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //*/ancestor::div[contains(@class,'MuiFormControl-root')]//p[contains(@class,'MuiFormHelperText-root')] in 10s
 [2025-12-29 17:04:43] [INFO ] AccountPageTest - Test completed
+[2025-12-29 18:11:11] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 18:11:14] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 18:11:14] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 18:11:14] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 18:11:14] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 18:11:14] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 18:11:14] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 18:11:14] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 18:11:14] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 18:11:14] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 18:11:14] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 18:11:14] [INFO ] LoginPage - clickLogin
+[2025-12-29 18:11:14] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 18:11:14] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 18:11:14] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 18:11:14] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 18:11:14] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 18:11:15] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 18:11:15] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 18:11:16] [INFO ] AccountPageTest - Step 2: Verify error message is displayed for invalid email without '@'
+[2025-12-29 18:11:16] [INFO ] AccountPage - enterEmail: testuser.gmail.com
+[2025-12-29 18:11:16] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 18:11:16] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 18:11:16] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 18:11:16] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 18:11:16] [INFO ] AccountPageTest - Test completed
+[2025-12-29 18:12:24] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 18:12:26] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 18:12:26] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 18:12:26] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 18:12:26] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 18:12:26] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 18:12:26] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 18:12:26] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 18:12:26] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 18:12:26] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 18:12:26] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 18:12:26] [INFO ] LoginPage - clickLogin
+[2025-12-29 18:12:26] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 18:12:26] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 18:12:26] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 18:12:26] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 18:12:26] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 18:12:27] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 18:12:27] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 18:12:27] [INFO ] AccountPageTest - Step 2: Update profile information with invalid email
+[2025-12-29 18:12:27] [INFO ] AccountPage - enterEmail: test A@gmail.com
+[2025-12-29 18:12:27] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 18:12:27] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 18:12:27] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 18:12:27] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 18:12:27] [INFO ] AccountPageTest - Test completed
+[2025-12-29 18:13:04] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 18:13:06] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 18:13:06] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 18:13:06] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 18:13:06] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 18:13:06] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 18:13:06] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 18:13:06] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 18:13:06] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 18:13:06] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 18:13:06] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 18:13:06] [INFO ] LoginPage - clickLogin
+[2025-12-29 18:13:06] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 18:13:06] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 18:13:06] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 18:13:06] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 18:13:06] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 18:13:06] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 18:13:06] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 18:13:07] [INFO ] AccountPageTest - Step 2: Update profile information with invalid phone number
+[2025-12-29 18:13:07] [INFO ] AccountPage - enterPhone: 01234567
+[2025-12-29 18:13:07] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-29 18:13:07] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 18:13:07] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 18:13:07] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 18:13:07] [INFO ] AccountPageTest - Test completed
+[2025-12-29 18:13:29] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 18:13:30] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 18:13:30] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 18:13:30] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 18:13:30] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 18:13:30] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 18:13:30] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 18:13:30] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 18:13:30] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 18:13:30] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 18:13:30] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 18:13:31] [INFO ] LoginPage - clickLogin
+[2025-12-29 18:13:31] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 18:13:31] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 18:13:31] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 18:13:31] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 18:13:31] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 18:13:31] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 18:13:31] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 18:13:32] [INFO ] AccountPageTest - Step 2: Update profile information with invalid phone number
+[2025-12-29 18:13:32] [INFO ] AccountPage - enterPhone: 0123456789123
+[2025-12-29 18:13:32] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#soDt in 10s
+[2025-12-29 18:13:32] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 18:13:32] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 18:13:32] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 18:13:32] [INFO ] AccountPageTest - Test completed
+[2025-12-29 18:13:56] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 18:13:58] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 18:13:58] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 18:13:58] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 18:13:58] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 18:13:59] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 18:13:59] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 18:13:59] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 18:13:59] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 18:13:59] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 18:13:59] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 18:13:59] [INFO ] LoginPage - clickLogin
+[2025-12-29 18:13:59] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 18:13:59] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 18:13:59] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 18:13:59] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 18:13:59] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 18:13:59] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 18:13:59] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 18:14:00] [INFO ] AccountPageTest - Step 2: Update profile information with invalid password having leading spaces
+[2025-12-29 18:14:00] [INFO ] AccountPage - enterPassword:   Abc123@
+[2025-12-29 18:14:00] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#matKhau in 10s
+[2025-12-29 18:14:00] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 18:14:00] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 18:14:00] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 18:14:00] [INFO ] AccountPageTest - Test completed
+[2025-12-29 19:39:56] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 19:39:59] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 19:39:59] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 19:39:59] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 19:39:59] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 19:39:59] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 19:39:59] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 19:39:59] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 19:39:59] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 19:39:59] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 19:39:59] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 19:39:59] [INFO ] LoginPage - clickLogin
+[2025-12-29 19:39:59] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 19:39:59] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 19:39:59] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 19:39:59] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 19:39:59] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 19:39:59] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 19:39:59] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 19:40:00] [INFO ] AccountPageTest - Step 2: Update profile information with invalid email
+[2025-12-29 19:40:00] [INFO ] AccountPage - enterEmail: test A@gmail.com
+[2025-12-29 19:40:00] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 19:40:00] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 19:40:00] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 19:40:00] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 19:40:00] [INFO ] AccountPageTest - Test completed
+[2025-12-29 19:40:00] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 19:40:00] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 19:40:00] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 19:40:00] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 19:41:09] [INFO ] MovieDetailBookingFlowTest - beforeSuite - Init Extent Report
+[2025-12-29 19:41:11] [INFO ] MovieDetailBookingFlowTest - Navigate to detail page
+[2025-12-29 19:41:11] [INFO ] MovieDetailPage - waitForVisibilityOfElementLocated: By.cssSelector: h1.MuiTypography-root.MuiTypography-h1 in 10s
+[2025-12-29 19:41:11] [INFO ] MovieDetailBookingFlowTest - Step 2: Click 'Mua Vé' button
+[2025-12-29 19:41:11] [INFO ] MovieDetailPage - click: By.xpath: //a[text()='Mua vé'] in 10s
+[2025-12-29 19:41:11] [INFO ] MovieDetailPage - waitForElementToBeClickable: By.xpath: //a[text()='Mua vé'] in 10s
+[2025-12-29 19:41:11] [INFO ] MovieDetailBookingFlowTest - Step 3: Verify showtime section is visible
+[2025-12-29 19:41:11] [INFO ] MovieDetailPage - waitForVisibilityOfElementLocated: By.id: cinemaList in 10s
+[2025-12-29 19:41:11] [INFO ] MovieDetailBookingFlowTest - Step 4: Select cinema brand 
+[2025-12-29 19:41:11] [INFO ] MovieDetailPage - click: By.xpath: //img[@class='MuiAvatar-img'][@alt='cgv'] in 10s
+[2025-12-29 19:41:11] [INFO ] MovieDetailPage - waitForElementToBeClickable: By.xpath: //img[@class='MuiAvatar-img'][@alt='cgv'] in 10s
+[2025-12-29 19:41:11] [INFO ] MovieDetailBookingFlowTest - Step 5: Click first available showtime
+[2025-12-29 19:41:11] [INFO ] MovieDetailBookingFlowTest - Test completed
+[2025-12-29 19:41:26] [INFO ] AccountPageTest - beforeSuite - Init Extent Report
+[2025-12-29 19:41:27] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 19:41:27] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 19:41:27] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 19:41:27] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 19:41:28] [INFO ] LoginPage - enterAccount: 7b87c831-f41a-49df-bd97-04f505511854
+[2025-12-29 19:41:28] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 7b87c831-f41a-49df-bd97-04f505511854 in 10s
+[2025-12-29 19:41:28] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 19:41:28] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 19:41:28] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 19:41:28] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 19:41:28] [INFO ] LoginPage - clickLogin
+[2025-12-29 19:41:28] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 19:41:28] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 19:41:28] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 19:41:28] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 19:41:28] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 19:41:28] [INFO ] AccountPageTest - Step 1: Navigate to Account Page
+[2025-12-29 19:41:28] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.xpath: //main/form/div/div/h1 in 10s
+[2025-12-29 19:41:29] [INFO ] AccountPageTest - Step 2: Update profile information with invalid email
+[2025-12-29 19:41:29] [INFO ] AccountPage - enterEmail: test A@gmail.com
+[2025-12-29 19:41:29] [INFO ] AccountPage - waitForVisibilityOfElementLocated: By.cssSelector: input#email in 10s
+[2025-12-29 19:41:29] [INFO ] AccountPage - clickUpdateButton
+[2025-12-29 19:41:29] [INFO ] AccountPage - click: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 19:41:29] [INFO ] AccountPage - waitForElementToBeClickable: By.xpath: //button[normalize-space()='Cập Nhật'] in 10s
+[2025-12-29 19:41:29] [INFO ] AccountPageTest - Test completed
+[2025-12-29 19:41:29] [INFO ] AccountPageTest - Step 0: Login first
+[2025-12-29 19:41:29] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 19:41:29] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 19:41:29] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 19:42:31] [INFO ] SeatSelectionTest - beforeSuite - Init Extent Report
+[2025-12-29 19:42:32] [INFO ] SeatSelectionTest - Step1: Navigate to purchase page
+[2025-12-29 19:42:32] [INFO ] SeatSelectionTest - step2: Verify seat map is visible
+[2025-12-29 19:42:32] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8 in 10s
+[2025-12-29 19:42:35] [INFO ] SeatSelectionTest - Step3: Select seats for booking
+[2025-12-29 19:42:35] [INFO ] PurchasePage - click: By.xpath: //button[.='20'] in 10s
+[2025-12-29 19:42:35] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='20'] in 10s
+[2025-12-29 19:42:35] [INFO ] PurchasePage - click: By.xpath: //button[.='124'] in 10s
+[2025-12-29 19:42:35] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='124'] in 10s
+[2025-12-29 19:42:35] [INFO ] SeatSelectionTest - Step4: Click Buy Ticket button
+[2025-12-29 19:42:35] [INFO ] PurchasePage - click: By.xpath: //span[contains(text(),'ĐẶT VÉ')] in 10s
+[2025-12-29 19:42:35] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //span[contains(text(),'ĐẶT VÉ')] in 10s
+[2025-12-29 19:42:35] [INFO ] SeatSelectionTest - Step5: Verify login required modal
+[2025-12-29 19:42:35] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: div[role='dialog'] in 10s
+[2025-12-29 19:42:35] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: h2#swal2-title in 10s
+[2025-12-29 19:42:35] [INFO ] PurchasePage - click: By.xpath: //button[contains(text(),'Không')] in 10s
+[2025-12-29 19:42:35] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[contains(text(),'Không')] in 10s
+[2025-12-29 19:42:35] [INFO ] SeatSelectionTest - Test completed
+[2025-12-29 19:42:35] [INFO ] SeatSelectionTest - Navigate to purchase page
+[2025-12-29 19:42:35] [INFO ] SeatSelectionTest - Select multiple seats
+[2025-12-29 19:42:35] [INFO ] PurchasePage - click: By.xpath: //button[.='20'] in 10s
+[2025-12-29 19:42:35] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='20'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - click: By.xpath: //button[.='34'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='34'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - click: By.xpath: //button[.='124'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='124'] in 10s
+[2025-12-29 19:42:38] [INFO ] SeatSelectionTest - Confirm selected seats turn green
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='20'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='34'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='124'] in 10s
+[2025-12-29 19:42:38] [INFO ] SeatSelectionTest - Confirm selected seats are not marked as booked
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='20'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='34'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='124'] in 10s
+[2025-12-29 19:42:38] [INFO ] SeatSelectionTest - Validate summary seats updated
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(13)>h3:nth-child(2) in 10s
+[2025-12-29 19:42:38] [INFO ] SeatSelectionTest - Verify total price calculation
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 p.MuiTypography-body1 in 10s
+[2025-12-29 19:42:38] [INFO ] SeatSelectionTest - Click again on a selected seat to unselect and validate update
+[2025-12-29 19:42:38] [INFO ] PurchasePage - click: By.xpath: //button[.='34'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='34'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='34'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(13)>h3:nth-child(2) in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 p.MuiTypography-body1 in 10s
+[2025-12-29 19:42:38] [INFO ] SeatSelectionTest - Try to select more than 8 available seats, validate modal error
+[2025-12-29 19:42:38] [INFO ] PurchasePage - click: By.xpath: //button[.='34'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='34'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - click: By.xpath: //button[.='21'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='21'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - click: By.xpath: //button[.='35'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='35'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - click: By.xpath: //button[.='36'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='36'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - click: By.xpath: //button[.='37'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='37'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - click: By.xpath: //button[.='33'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='33'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - click: By.xpath: //button[.='31'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='31'] in 10s
+[2025-12-29 19:42:38] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: div[role='dialog'] in 10s
+[2025-12-29 19:42:48] [INFO ] SeatSelectionTest - Test completed
+[2025-12-29 19:42:49] [INFO ] SeatSelectionTest - Step0: Login first before booking
+[2025-12-29 19:42:49] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-29 19:42:49] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 19:42:49] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-29 19:42:49] [INFO ] LoginPage - enterAccount: a68cf217-d33b-4132-b180-864697ac8427
+[2025-12-29 19:42:49] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with a68cf217-d33b-4132-b180-864697ac8427 in 10s
+[2025-12-29 19:42:49] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-29 19:42:49] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-29 19:42:49] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-29 19:42:49] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-29 19:42:49] [INFO ] LoginPage - clickLogin
+[2025-12-29 19:42:49] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 19:42:49] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-29 19:42:49] [INFO ] LoginPage - getLoginMsg
+[2025-12-29 19:42:49] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-29 19:42:49] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-29 19:42:49] [INFO ] SeatSelectionTest - Step1: Navigate to purchase page
+[2025-12-29 19:42:49] [INFO ] SeatSelectionTest - step2: Verify seat map is visible
+[2025-12-29 19:42:49] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8 in 10s
+[2025-12-29 19:42:51] [INFO ] SeatSelectionTest - Step3: Verify ticket summary fields are displayed (movie/cinema/datetime)
+[2025-12-29 19:42:51] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 in 10s
+[2025-12-29 19:42:51] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(3)>h3:nth-child(2) in 10s
+[2025-12-29 19:42:51] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(5)>h3:nth-child(2) in 10s
+[2025-12-29 19:42:51] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(7)>h3:nth-child(2) in 10s
+[2025-12-29 19:42:51] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(9)>h3:nth-child(2) in 10s
+[2025-12-29 19:42:51] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(11)>h3:nth-child(2) in 10s
+[2025-12-29 19:42:51] [INFO ] SeatSelectionTest - Step4: Select seats for booking
+[2025-12-29 19:42:51] [INFO ] PurchasePage - click: By.xpath: //button[.='160'] in 10s
+[2025-12-29 19:42:51] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='160'] in 10s
+[2025-12-29 19:43:02] [INFO ] SeatSelectionTest - Test completed

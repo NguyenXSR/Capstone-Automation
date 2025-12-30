@@ -1,13 +1,16 @@
 package testcases.homepage;
 
 import base.BaseTest;
+import listeners.TestListener;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.components.HomeMovieListingsSection;
 import reports.ExtentReportManager;
 
+@Listeners(TestListener.class)
 public class HomeMovieListingsTest extends BaseTest {
     private HomeMovieListingsSection movieListing;
     private HomePage homePage;

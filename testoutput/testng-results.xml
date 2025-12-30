@@ -1,63 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-29T17:04:29 ICT" name="Gradle suite" finished-at="2025-12-29T17:04:43 ICT" duration-ms="14105">
+  <suite started-at="2025-12-29T19:42:31 ICT" name="Gradle suite" finished-at="2025-12-29T19:43:02 ICT" duration-ms="31238">
     <groups>
     </groups>
-    <test started-at="2025-12-29T17:04:29 ICT" name="Gradle test" finished-at="2025-12-29T17:04:43 ICT" duration-ms="14105">
-      <class name="testcases.accountpage.AccountPageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.accountpage.AccountPageTest@50fe837a]" started-at="2025-12-29T17:04:29 ICT" name="beforeSuite" finished-at="2025-12-29T17:04:29 ICT" duration-ms="86" status="PASS">
+    <test started-at="2025-12-29T19:42:31 ICT" name="Gradle test" finished-at="2025-12-29T19:43:02 ICT" duration-ms="31238">
+      <class name="testcases.purchasepage.SeatSelectionTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:42:31 ICT" name="beforeSuite" finished-at="2025-12-29T19:42:31 ICT" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.accountpage.AccountPageTest@50fe837a]" started-at="2025-12-29T17:04:29 ICT" name="beforeClass" finished-at="2025-12-29T17:04:30 ICT" duration-ms="1272" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:42:31 ICT" name="beforeClass" finished-at="2025-12-29T19:42:32 ICT" duration-ms="1110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="setUpPages()[pri:0, instance:testcases.accountpage.AccountPageTest@50fe837a]" started-at="2025-12-29T17:04:30 ICT" name="setUpPages" finished-at="2025-12-29T17:04:30 ICT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpPages -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@50fe837a]" started-at="2025-12-29T17:04:30 ICT" name="beforeMethod" finished-at="2025-12-29T17:04:31 ICT" duration-ms="724" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:42:32 ICT" name="beforeMethod" finished-at="2025-12-29T19:42:32 ICT" duration-ms="615" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=AccountPageTest.TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character()[pri:0, instance:testcases.accountpage.AccountPageTest@50fe837a] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=SeatSelectionTest.TC01_Verify_Booking_Requires_Login()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setLoginPage()[pri:0, instance:testcases.accountpage.AccountPageTest@50fe837a]" started-at="2025-12-29T17:04:31 ICT" name="setLoginPage" finished-at="2025-12-29T17:04:32 ICT" duration-ms="772" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:42:32 ICT" name="setupPages" finished-at="2025-12-29T19:42:32 ICT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setLoginPage -->
-        <test-method signature="TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character()[pri:0, instance:testcases.accountpage.AccountPageTest@50fe837a]" started-at="2025-12-29T17:04:32 ICT" name="TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character" description="TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_@" finished-at="2025-12-29T17:04:43 ICT" duration-ms="10986" status="FAIL">
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC01_Verify_Booking_Requires_Login()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:42:32 ICT" name="TC01_Verify_Booking_Requires_Login" finished-at="2025-12-29T19:42:35 ICT" duration-ms="2868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Verify_Booking_Requires_Login -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:42:35 ICT" name="afterMethod" finished-at="2025-12-29T19:42:35 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_Verify_Booking_Requires_Login status=SUCCESS method=SeatSelectionTest.TC01_Verify_Booking_Requires_Login()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:42:35 ICT" name="beforeMethod" finished-at="2025-12-29T19:42:35 ICT" duration-ms="34" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SeatSelectionTest.TC01_Verify_Seat_Selection_Functionality()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:42:35 ICT" name="setupPages" finished-at="2025-12-29T19:42:35 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC01_Verify_Seat_Selection_Functionality()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:42:35 ICT" name="TC01_Verify_Seat_Selection_Functionality" finished-at="2025-12-29T19:42:48 ICT" duration-ms="13021" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*/ancestor::div[contains(@class,'MuiFormControl-root')]//p[contains(@class,'MuiFormHelperText-root')] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: div[role='dialog'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.35.0', revision: '1c58e5028b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.2', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60453}, goog:processID: 74830, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60453/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce79043f87056b2c1d2ba030823f494a]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53480}, goog:processID: 78638, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53480/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c7c6e13c5acb4b6167be74a93c8541f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*/ancestor::div[contains(@class,'MuiFormControl-root')]//p[contains(@class,'MuiFormHelperText-root')] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div[role='dialog'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.35.0', revision: '1c58e5028b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.2', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60453}, goog:processID: 74830, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60453/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce79043f87056b2c1d2ba030823f494a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53480}, goog:processID: 78638, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53480/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c7c6e13c5acb4b6167be74a93c8541f
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at base.BasePage.waitForVisibilityOfElementLocated(BasePage.java:24)
-at base.BasePage.getText(BasePage.java:71)
-at base.BasePage.getText(BasePage.java:76)
-at pages.AccountPage.getEmailError(AccountPage.java:212)
-at testcases.accountpage.AccountPageTest.TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character(AccountPageTest.java:141)
+at base.BasePage.waitForVisibilityOfElementLocated(BasePage.java:28)
+at pages.PurchasePage.isModalVisible(PurchasePage.java:106)
+at testcases.purchasepage.SeatSelectionTest.TC01_Verify_Seat_Selection_Functionality(SeatSelectionTest.java:113)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -105,27 +130,125 @@ at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerM
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@50fe837a]" started-at="2025-12-29T17:04:43 ICT" name="afterMethod" finished-at="2025-12-29T17:04:43 ICT" duration-ms="239" status="PASS">
+        </test-method> <!-- TC01_Verify_Seat_Selection_Functionality -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:42:48 ICT" name="afterMethod" finished-at="2025-12-29T19:42:48 ICT" duration-ms="212" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character status=FAILURE method=AccountPageTest.TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character()[pri:0, instance:testcases.accountpage.AccountPageTest@50fe837a] output={null}]]]>
+                <![CDATA[[TestResult name=TC01_Verify_Seat_Selection_Functionality status=FAILURE method=SeatSelectionTest.TC01_Verify_Seat_Selection_Functionality()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcases.accountpage.AccountPageTest@50fe837a]" started-at="2025-12-29T17:04:43 ICT" name="afterClass" finished-at="2025-12-29T17:04:43 ICT" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:42:48 ICT" name="beforeMethod" finished-at="2025-12-29T19:42:49 ICT" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SeatSelectionTest.TC02_Verify_Summary_And_Booking_Success()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC02_Verify_Summary_And_Booking_Success()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:42:49 ICT" name="TC02_Verify_Summary_And_Booking_Success" finished-at="2025-12-29T19:43:02 ICT" duration-ms="13166" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //button[.='160'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.2', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53480}, goog:processID: 78638, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53480/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c7c6e13c5acb4b6167be74a93c8541f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[.='160'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.2', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53480}, goog:processID: 78638, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53480/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c7c6e13c5acb4b6167be74a93c8541f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at base.BasePage.waitForElementToBeClickable(BasePage.java:33)
+at base.BasePage.click(BasePage.java:61)
+at base.BasePage.click(BasePage.java:66)
+at pages.PurchasePage.selectSeat(PurchasePage.java:61)
+at testcases.purchasepage.SeatSelectionTest.TC02_Verify_Summary_And_Booking_Success(SeatSelectionTest.java:196)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:153)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:95)
+at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_Verify_Summary_And_Booking_Success -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:42:49 ICT" name="setupPages" finished-at="2025-12-29T19:42:49 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:43:02 ICT" name="afterMethod" finished-at="2025-12-29T19:43:02 ICT" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_Verify_Summary_And_Booking_Success status=FAILURE method=SeatSelectionTest.TC02_Verify_Summary_And_Booking_Success()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:43:02 ICT" name="afterClass" finished-at="2025-12-29T19:43:02 ICT" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.accountpage.AccountPageTest@50fe837a]" started-at="2025-12-29T17:04:43 ICT" name="afterSuite" finished-at="2025-12-29T17:04:43 ICT" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8]" started-at="2025-12-29T19:43:02 ICT" name="afterSuite" finished-at="2025-12-29T19:43:02 ICT" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.accountpage.AccountPageTest -->
+      </class> <!-- testcases.purchasepage.SeatSelectionTest -->
     </test> <!-- Gradle test -->
   </suite> <!-- Gradle suite -->
 </testng-results>

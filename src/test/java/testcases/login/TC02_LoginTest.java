@@ -1,4 +1,4 @@
-package testcases;
+package testcases.login;
 
 import base.BaseTest;
 import listeners.TestListener;
@@ -20,9 +20,6 @@ public class TC02_LoginTest extends BaseTest {
         LoginPage loginPage = new LoginPage();
         HomePage homePage = new HomePage();
 
-
-        driver.get("https://demo1.cybersoft.edu.vn/"); //navigate 1 site
-        WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(30));
 
         //Step 1: click dang nhap link on the top right
         ExtentReportManager.info("Step 1: Click 'Dang Nhap' link on the top right");
@@ -50,8 +47,19 @@ public class TC02_LoginTest extends BaseTest {
         LOG.info("VP1: 'Đăng nhập thành công' message displays");
         String actualLoginMsg = loginPage.getLoginMsg();
         Assert.assertEquals(actualLoginMsg, "Đăng nhập thành công", "Login message failed!");
+
         //VP2: Check 'Dang Xuat' button link displays on the top right
+        ExtentReportManager.info("VP2: Check 'Dang Xuat' button link displays on the top right");
+        LOG.info("VP2: Check 'Dang Xuat' button link displays on the top right");
+        boolean isLogoutLinkDisplayed = homePage.getTopBarNavigation().isLogoutLinkDisplayed();
+        Assert.assertTrue(isLogoutLinkDisplayed, "'Dang Xuat' link is not displayed!");
+
         //VP3: Check user profile name displays
+        ExtentReportManager.info("VP3: Check user profile name displays");
+        LOG.info("VP3: Check user profile name displays");
+        String expectedProfileName = "Nguyen Van A";
+        String actualProfileName = homePage.getTopBarNavigation().getUserProfileName();
+        Assert.assertEquals(actualProfileName, expectedProfileName, "User profile name is incorrect!");
 
         ExtentReportManager.pass("PASSED");
     }

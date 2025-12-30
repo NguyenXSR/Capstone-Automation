@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Gradle test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Dec 29 17:04:29 ICT 2025</td>
+<td>Started on:</td><td>Mon Dec 29 19:42:31 ICT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>14 seconds (14105 ms)</td>
+<tr><td>Total time:</td><td>31 seconds (31238 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,36 +76,36 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.accountpage.AccountPageTest.TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character()'><b>TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character</b><br>Test class: testcases.accountpage.AccountPageTest<br>Test method: TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_@</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*/ancestor::div[contains(@class,&apos;MuiFormControl-root&apos;)]//p[contains(@class,&apos;MuiFormHelperText-root&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+<td title='testcases.purchasepage.SeatSelectionTest.TC02_Verify_Summary_And_Booking_Success()'><b>TC02_Verify_Summary_And_Booking_Success</b><br>Test class: testcases.purchasepage.SeatSelectionTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[.=&apos;160&apos;] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.7.2&apos;, java.version: &apos;21.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60453}, goog:processID: 74830, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60453/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce79043f87056b2c1d2ba030823f494a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53480}, goog:processID: 78638, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53480/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c7c6e13c5acb4b6167be74a93c8541f
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at base.BasePage.waitForVisibilityOfElementLocated(BasePage.java:24)
-	at base.BasePage.getText(BasePage.java:71)
-	at base.BasePage.getText(BasePage.java:76)
-	at pages.AccountPage.getEmailError(AccountPage.java:212)
-	at testcases.accountpage.AccountPageTest.TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character(AccountPageTest.java:141)
+	at base.BasePage.waitForElementToBeClickable(BasePage.java:33)
+	at base.BasePage.click(BasePage.java:61)
+	at base.BasePage.click(BasePage.java:66)
+	at pages.PurchasePage.selectSeat(PurchasePage.java:61)
+	at testcases.purchasepage.SeatSelectionTest.TC02_Verify_Summary_And_Booking_Success(SeatSelectionTest.java:196)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
-... Removed 40 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace27818833", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace27818833'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*/ancestor::div[contains(@class,&apos;MuiFormControl-root&apos;)]//p[contains(@class,&apos;MuiFormHelperText-root&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+... Removed 40 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace976042249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace976042249'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[.=&apos;160&apos;] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.7.2&apos;, java.version: &apos;21.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60453}, goog:processID: 74830, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60453/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce79043f87056b2c1d2ba030823f494a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53480}, goog:processID: 78638, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53480/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c7c6e13c5acb4b6167be74a93c8541f
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at base.BasePage.waitForVisibilityOfElementLocated(BasePage.java:24)
-	at base.BasePage.getText(BasePage.java:71)
-	at base.BasePage.getText(BasePage.java:76)
-	at pages.AccountPage.getEmailError(AccountPage.java:212)
-	at testcases.accountpage.AccountPageTest.TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character(AccountPageTest.java:141)
+	at base.BasePage.waitForElementToBeClickable(BasePage.java:33)
+	at base.BasePage.click(BasePage.java:61)
+	at base.BasePage.click(BasePage.java:66)
+	at pages.PurchasePage.selectSeat(PurchasePage.java:61)
+	at testcases.purchasepage.SeatSelectionTest.TC02_Verify_Summary_And_Booking_Success(SeatSelectionTest.java:196)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -149,8 +149,96 @@ Session ID: ce79043f87056b2c1d2ba030823f494a
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </pre></div></td>
-<td>10</td>
-<td>testcases.accountpage.AccountPageTest@50fe837a</td></tr>
+<td>13</td>
+<td>testcases.purchasepage.SeatSelectionTest@56c9bbd8</td></tr>
+<tr>
+<td title='testcases.purchasepage.SeatSelectionTest.TC01_Verify_Seat_Selection_Functionality()'><b>TC01_Verify_Seat_Selection_Functionality</b><br>Test class: testcases.purchasepage.SeatSelectionTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div[role=&apos;dialog&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.7.2&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53480}, goog:processID: 78638, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53480/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c7c6e13c5acb4b6167be74a93c8541f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at base.BasePage.waitForVisibilityOfElementLocated(BasePage.java:24)
+	at base.BasePage.waitForVisibilityOfElementLocated(BasePage.java:28)
+	at pages.PurchasePage.isModalVisible(PurchasePage.java:106)
+	at testcases.purchasepage.SeatSelectionTest.TC01_Verify_Seat_Selection_Functionality(SeatSelectionTest.java:113)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+... Removed 40 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace883735648", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace883735648'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div[role=&apos;dialog&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.7.2&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: /var/folders/2x/c_66mg6d27s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53480}, goog:processID: 78638, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53480/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c7c6e13c5acb4b6167be74a93c8541f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at base.BasePage.waitForVisibilityOfElementLocated(BasePage.java:24)
+	at base.BasePage.waitForVisibilityOfElementLocated(BasePage.java:28)
+	at pages.PurchasePage.isModalVisible(PurchasePage.java:106)
+	at testcases.purchasepage.SeatSelectionTest.TC01_Verify_Seat_Selection_Functionality(SeatSelectionTest.java:113)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:153)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:95)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre></div></td>
+<td>13</td>
+<td>testcases.purchasepage.SeatSelectionTest@56c9bbd8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.purchasepage.SeatSelectionTest.TC01_Verify_Booking_Requires_Login()'><b>TC01_Verify_Booking_Requires_Login</b><br>Test class: testcases.purchasepage.SeatSelectionTest</td>
+<td></td>
+<td>2</td>
+<td>testcases.purchasepage.SeatSelectionTest@56c9bbd8</td></tr>
 </table><p>
 </body>
 </html>

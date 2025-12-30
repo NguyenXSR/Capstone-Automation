@@ -3,6 +3,7 @@ package components;
 import base.BasePage;
 import drivers.DriverFactory;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
 
 public class TopBarNavigation extends BasePage {
@@ -15,52 +16,64 @@ public class TopBarNavigation extends BasePage {
     private By byCinemasLink = By.xpath("//header//h4[contains(text(),'Cụm Rạp')]");
     private By byNewsLink = By.xpath("//header//h4[contains(text(),'Tin Tức')]");
     private By byMobileAppLink = By.xpath("//header//h4[contains(text(),'Ứng Dụng')]");
-    private By byLoggedInUser = By.cssSelector("a[href='/account']");
+    private By byLoggedInUser = By.xpath("//a[@href='/account']/h3");
+    private By byLoggedOutBtn = By.xpath("//a[@href='/']/h3[text()='Đăng xuất']");
+
+
+    private WebDriver driver() {
+        return DriverFactory.getDriver();
+    }
 
 
     public boolean isLogoVisible (){
         LOG.info("CheckLogoDisplayed");
-        return waitForVisibilityOfElementLocated(DriverFactory.getDriver(),byLogo).isDisplayed();
+        return waitForVisibilityOfElementLocated(driver(),byLogo).isDisplayed();
     };
 
 
     public void clickLogo() {
         LOG.info("clickLogo");
-        click(DriverFactory.getDriver(), byLogo);
+        click(driver(), byLogo);
     }
 
     public void clickShowtimes() {
         LOG.info("clickShowtimes");
-        click(DriverFactory.getDriver(), byShowtimesLink);
+        click(driver(), byShowtimesLink);
     }
 
     public void clickCinemas() {
         LOG.info("clickCinemas");
-        click(DriverFactory.getDriver(), byCinemasLink);
+        click(driver(), byCinemasLink);
     }
 
     public void clickNews() {
         LOG.info("clickNews");
-        click(DriverFactory.getDriver(), byNewsLink);
+        click(driver(), byNewsLink);
     }
 
     public void clickMobileApp() {
         LOG.info("clickMobileApp");
-        click(DriverFactory.getDriver(), byMobileAppLink);
+        click(driver(), byMobileAppLink);
     }
 
     public void navigateRegisterPage() {
         LOG.info("navigateRegisterPage");
-        click(DriverFactory.getDriver(), byBtnRegisterLink);
+        click(driver(), byBtnRegisterLink);
     }
 
     public void navigateLoginPage() {
         LOG.info("navigateLoginPage");
-        click(DriverFactory.getDriver(), byBtnLoginLink);
+        click(driver(), byBtnLoginLink);
     }
 
 
+    public boolean isLogoutLinkDisplayed() {
+        LOG.info("isLogoutLinkDisplayed");
+        return waitForVisibilityOfElementLocated(driver(),byLoggedOutBtn ).isDisplayed();
+    }
 
-
-
+    public String getUserProfileName() {
+        LOG.info("getUserProfileName");
+        return waitForVisibilityOfElementLocated(driver(),byLoggedInUser ).getText().trim();
+    }
 }

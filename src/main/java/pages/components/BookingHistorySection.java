@@ -34,13 +34,13 @@ public class BookingHistorySection extends BasePage {
 
     // check pagination visible when booking more than 6
     public boolean isPaginationVisible() {
-        try {
-            By pagination = null;
-            return waitForVisibilityOfElementLocated(DriverFactory.getDriver(), pagination, 3).isDisplayed();
-        } catch (Exception e) {
-            return false;
-        }
+        By pagination = By.id("#pagination");
+
+        List<WebElement> paginations = driver().findElements(pagination);
+
+        return !paginations.isEmpty() && paginations.get(0).isDisplayed();
     }
+
 
 
 

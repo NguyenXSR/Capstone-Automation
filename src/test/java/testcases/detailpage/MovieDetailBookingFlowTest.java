@@ -1,12 +1,16 @@
 package testcases.detailpage;
 
 import base.BaseTest;
+import listeners.TestListener;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.MovieDetailPage;
 import reports.ExtentReportManager;
 
+
+@Listeners(TestListener.class)
 public class MovieDetailBookingFlowTest extends BaseTest {
 
     private MovieDetailPage movieDetailPage;

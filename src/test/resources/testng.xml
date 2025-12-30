@@ -7,8 +7,8 @@
     <test verbose="2" preserve-order="true"
           name="Regression Test">
         <classes>
-<!--            <class name="testcases.TC01_RegisterTest"/>-->
-<!--            <class name="testcases.TC02_LoginTest"/>-->
+<!--            <class name="testcases.register.TC01_RegisterTest"/>-->
+<!--            <class name="testcases.login.TC02_LoginTest"/>-->
 <!--            <class name="testcases.homepage.HeaderNavigationTest"/>-->
 <!--            <class name="testcases.homepage.HomeMovieSearchTest"/>-->
 <!--            <class name="testcases.homepage.HomeMovieListingsTest"/>-->

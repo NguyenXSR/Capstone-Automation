@@ -2,15 +2,18 @@ package testcases.accountpage;
 
 import base.BaseTest;
 import drivers.DriverFactory;
+import listeners.TestListener;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.AccountPage;
 import pages.HomePage;
 import pages.LoginPage;
 import reports.ExtentReportManager;
 
+@Listeners(TestListener.class)
 public class AccountPageTest extends BaseTest {
 
 
@@ -134,6 +137,8 @@ public class AccountPageTest extends BaseTest {
         ExtentReportManager.info("Step 1: Navigate to Account Page");
         LOG.info("Step 1: Navigate to Account Page");
         accountPage.openAccountPage();
+
+
         //Step 2: Update profile information with invalid email
         ExtentReportManager.info("Step 2: Verify error message is displayed for invalid email without '@'");
         LOG.info("Step 2: Verify error message is displayed for invalid email without '@'");
@@ -162,6 +167,8 @@ public class AccountPageTest extends BaseTest {
         ExtentReportManager.info("Step 1: Navigate to Account Page");
         LOG.info("Step 1: Navigate to Account Page");
         accountPage.openAccountPage();
+
+
         //Step 2: Update profile information with invalid email
         ExtentReportManager.info("Step 2: Update profile information with invalid email");
         LOG.info("Step 2: Update profile information with invalid email");
@@ -190,6 +197,7 @@ public class AccountPageTest extends BaseTest {
         ExtentReportManager.info("Step 1: Navigate to Account Page");
         LOG.info("Step 1: Navigate to Account Page");
         accountPage.openAccountPage();
+
         //Step 2: Update profile information with invalid phone number
         ExtentReportManager.info("Step 2: Update profile information with invalid phone number");
         LOG.info("Step 2: Update profile information with invalid phone number");
@@ -209,6 +217,7 @@ public class AccountPageTest extends BaseTest {
         ExtentReportManager.info("Step 1: Navigate to Account Page");
         LOG.info("Step 1: Navigate to Account Page");
         accountPage.openAccountPage();
+
         //Step 2: Update profile information with invalid phone number
         ExtentReportManager.info("Step 2: Update profile information with invalid phone number");
         LOG.info("Step 2: Update profile information with invalid phone number");
@@ -240,6 +249,8 @@ public class AccountPageTest extends BaseTest {
         ExtentReportManager.info("Step 1: Navigate to Account Page");
         LOG.info("Step 1: Navigate to Account Page");
         accountPage.openAccountPage();
+
+
         //Step 2: Update profile information with invalid phone number
         ExtentReportManager.info("Step 2: Update profile information with invalid phone number");
         LOG.info("Step 2: Update profile information with invalid phone number");

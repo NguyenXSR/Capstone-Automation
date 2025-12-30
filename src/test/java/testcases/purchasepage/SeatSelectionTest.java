@@ -30,8 +30,6 @@ public class SeatSelectionTest extends BaseTest {
 
     @Test
     public void TC01_Verify_Seat_Selection_Functionality() {
-
-        setupPages();
         // Navigate to the seat selection page for the specified showtime
 
         ExtentReportManager.info("Navigate to purchase page");

@@ -1,8 +1,10 @@
 package testcases.homepage;
 
 import base.BaseTest;
+import listeners.TestListener;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.PurchasePage;
@@ -10,6 +12,7 @@ import pages.components.HomeMovieSelectorTable;
 import pages.components.MainHomeSection;
 import reports.ExtentReportManager;
 
+@Listeners(TestListener.class)
 public class MovieSelectorTableTest extends BaseTest {
 
 
