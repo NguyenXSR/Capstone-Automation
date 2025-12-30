@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [2025-12-29 14:04:30] [INFO ] TC01_RegisterTest - beforeSuite - Init Extent Report
 [2025-12-29 14:04:30] [INFO ] TestListener - onStart
 [2025-12-29 14:04:32] [INFO ] TestListener - onTestStart
@@ -753,64 +752,3 @@
 [2025-12-29 19:42:51] [INFO ] PurchasePage - click: By.xpath: //button[.='160'] in 10s
 [2025-12-29 19:42:51] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='160'] in 10s
 [2025-12-29 19:43:02] [INFO ] SeatSelectionTest - Test completed
-=======
-[2025-12-30 19:28:05] [INFO ] TC01_RegisterTest - beforeSuite - Init Extent Report
-[2025-12-30 19:28:05] [INFO ] TestListener - onStart
-[2025-12-30 19:28:08] [INFO ] TopBarNavigation - navigateRegisterPage
-[2025-12-30 19:28:08] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
-[2025-12-30 19:28:08] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
-[2025-12-30 19:28:08] [INFO ] TestListener - onTestStart
-[2025-12-30 19:28:08] [INFO ] TC01_RegisterTest - Step 1: Click link 'Đăng Ký'
-[2025-12-30 19:28:08] [INFO ] TC01_RegisterTest - Step 2: fill registration form with valid data
-[2025-12-30 19:28:08] [INFO ] RegisterPage - enterAccount: tester_1767097688485
-[2025-12-30 19:28:08] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with tester_1767097688485 in 10s
-[2025-12-30 19:28:08] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
-[2025-12-30 19:28:08] [INFO ] RegisterPage - enterEmail: tester_1767097688485@example.com
-[2025-12-30 19:28:08] [INFO ] RegisterPage - sendKeys: By.id: email with tester_1767097688485@example.com in 10s
-[2025-12-30 19:28:08] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
-[2025-12-30 19:28:08] [INFO ] RegisterPage - enterPassword: Test123456@
-[2025-12-30 19:28:08] [INFO ] RegisterPage - sendKeys: By.id: matKhau with Test123456@ in 10s
-[2025-12-30 19:28:08] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
-[2025-12-30 19:28:08] [INFO ] RegisterPage - enterConfirmPassword: Test123456@
-[2025-12-30 19:28:08] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with Test123456@ in 10s
-[2025-12-30 19:28:08] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
-[2025-12-30 19:28:08] [INFO ] RegisterPage - enterName: Tester A
-[2025-12-30 19:28:08] [INFO ] RegisterPage - sendKeys: By.id: hoTen with Tester A in 10s
-[2025-12-30 19:28:08] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
-[2025-12-30 19:28:08] [INFO ] TC01_RegisterTest - Step 7: Click register button
-[2025-12-30 19:28:08] [INFO ] RegisterPage - clickRegister
-[2025-12-30 19:28:08] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
-[2025-12-30 19:28:08] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
-[2025-12-30 19:28:08] [INFO ] TC01_RegisterTest - Step 8: Verify user register successfully
-[2025-12-30 19:28:08] [INFO ] TC01_RegisterTest - VP1: 'Đăng ký thành công' message display
-[2025-12-30 19:28:08] [INFO ] RegisterPage - getRegisterMessage
-[2025-12-30 19:28:08] [INFO ] RegisterPage - getText: By.id: swal2-title in 10s
-[2025-12-30 19:28:08] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
-[2025-12-30 19:28:09] [INFO ] RegisterPage - waitRegisterMessageDisappear
-[2025-12-30 19:28:09] [INFO ] RegisterPage - waitForInvisibilityOfElementLocated: By.id: swal2-title in 10s
-[2025-12-30 19:28:11] [INFO ] TC01_RegisterTest - VP2: Check register page still displays
-[2025-12-30 19:28:11] [INFO ] TC01_RegisterTest - VP3: Check new account logins successfully
-[2025-12-30 19:28:11] [INFO ] TC01_RegisterTest - Click on Login button
-[2025-12-30 19:28:11] [INFO ] TopBarNavigation - navigateLoginPage
-[2025-12-30 19:28:11] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
-[2025-12-30 19:28:11] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
-[2025-12-30 19:28:11] [INFO ] TC01_RegisterTest - Enter account to login
-[2025-12-30 19:28:11] [INFO ] LoginPage - enterAccount: tester_1767097688485
-[2025-12-30 19:28:11] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with tester_1767097688485 in 10s
-[2025-12-30 19:28:11] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
-[2025-12-30 19:28:11] [INFO ] TC01_RegisterTest - Enter password to login
-[2025-12-30 19:28:11] [INFO ] LoginPage - enterPassword: Test123456@
-[2025-12-30 19:28:11] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
-[2025-12-30 19:28:11] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
-[2025-12-30 19:28:11] [INFO ] TC01_RegisterTest - Click Login
-[2025-12-30 19:28:11] [INFO ] LoginPage - clickLogin
-[2025-12-30 19:28:11] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
-[2025-12-30 19:28:11] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
-[2025-12-30 19:28:11] [INFO ] TC01_RegisterTest - VP3.1: 'Đăng nhập thành công' message displays
-[2025-12-30 19:28:11] [INFO ] LoginPage - getLoginMsg
-[2025-12-30 19:28:11] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
-[2025-12-30 19:28:11] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
-[2025-12-30 19:28:12] [INFO ] TestListener - onTestSuccess: TC_Register_Success_When_Account_Not_Exist - PASSED
-[2025-12-30 19:28:12] [INFO ] TC01_RegisterTest - Test completed
-[2025-12-30 19:28:12] [INFO ] TestListener - onFinish
->>>>>>> f42ce23 (Handle extra cases for  register page and login page)

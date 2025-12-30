@@ -64,6 +64,19 @@ public class TopBarNavigation extends BasePage {
     public void navigateLoginPage() {
         LOG.info("navigateLoginPage");
         click(driver(), byBtnLoginLink);
+<<<<<<< HEAD
+=======
+    }
+
+    public void clickLogoutButton() {
+        LOG.info("clickLogoutButton");
+        click(driver(), byLoggedOutBtn);
+    }
+
+    public boolean isLoggedInIndicatorVisible() {
+        LOG.info("isLoggedInIndicatorVisible");
+        return waitForVisibilityOfElementLocated(driver(),byLoggedInUser ).isDisplayed();
+>>>>>>> f42ce23 (Handle extra cases for  register page and login page)
     }
 
 
@@ -76,4 +89,8 @@ public class TopBarNavigation extends BasePage {
         LOG.info("getUserProfileName");
         return waitForVisibilityOfElementLocated(driver(),byLoggedInUser ).getText().trim();
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f42ce23 (Handle extra cases for  register page and login page)
 }

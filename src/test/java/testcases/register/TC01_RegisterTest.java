@@ -38,6 +38,7 @@ public class TC01_RegisterTest extends BaseTest {
         //Step 2: Enter account
         ExtentReportManager.info("Step 2: fill registration form with valid data");
         LOG.info("Step 2: fill registration form with valid data");
+<<<<<<< HEAD
 //        String account = UUID.randomUUID().toString();
 //        System.out.println("account = " + account);
 //        registerPage.enterAccount(account);
@@ -68,6 +69,13 @@ public class TC01_RegisterTest extends BaseTest {
                 "tester_" + account + "@example.com",
                 "StrongPass123",
                 "StrongPass123",
+=======
+        String account = String.valueOf(System.currentTimeMillis());
+        registerPage.fillForm("tester_" + account,
+                "tester_" + account + "@example.com",
+                "Test123456@",
+                "Test123456@",
+>>>>>>> f42ce23 (Handle extra cases for  register page and login page)
                 "Tester A");
 
 
@@ -180,6 +188,11 @@ public class TC01_RegisterTest extends BaseTest {
             // full name with special characters
             {"Full name with special characters", "newuser123", "newuser123@example.com", "StrongPass123", "StrongPass123","John@#", "FIELD", "name", "invalid"},
 
+<<<<<<< HEAD
+=======
+             // invalid password (leading/trailing  spaces)
+            {"Invalid password with leading/trailing spaces", "newuser123", "newuser123@example.com", "  StrongPass123  ", "  StrongPass123  ","John S", "FIELD", "password", "no leading or trailing spaces"}
+>>>>>>> f42ce23 (Handle extra cases for  register page and login page)
 
     };
 
