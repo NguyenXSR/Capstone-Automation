@@ -13,7 +13,7 @@ import reports.ExtentReportManager;
 
 
 @Listeners(TestListener.class)
-public class TC02_LoginTest extends BaseTest {
+public class LoginTest extends BaseTest {
 
     private HomePage homePage;
     private LoginPage loginPage;

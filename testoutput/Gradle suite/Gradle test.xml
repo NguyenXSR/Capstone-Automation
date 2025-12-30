@@ -54,6 +54,6 @@ at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
   </testcase> <!-- TC02_Verify_Summary_And_Booking_Success -->
 =======
 <testsuite ignored="0" hostname="Mi-Bebecito.local" failures="0" tests="1" name="Gradle test" time="6.624" errors="0" timestamp="2025-12-30T19:28:12 ICT">
-  <testcase classname="testcases.register.TC01_RegisterTest" name="TC_Register_Success_When_Account_Not_Exist" time="3.613"/>
+  <testcase classname="testcases.register.RegisterTest" name="TC_Register_Success_When_Account_Not_Exist" time="3.613"/>
 >>>>>>> f42ce23 (Handle extra cases for  register page and login page)
 </testsuite> <!-- Gradle test -->

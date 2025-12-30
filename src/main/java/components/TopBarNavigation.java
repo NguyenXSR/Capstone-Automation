@@ -10,7 +10,7 @@ public class TopBarNavigation extends BasePage {
     private By byBtnRegisterLink = By.xpath("//h3[text()='Đăng Ký']");
     private By byBtnLoginLink = By.xpath("//h3[text()='Đăng Nhập']/parent::a");
 
-// header navigation components
+    // header navigation components
     private By byLogo = By.xpath("//img[@alt='Logo']");
     private By byShowtimesLink = By.xpath("//header//h4[contains(text(),'Lịch Chiếu')]");
     private By byCinemasLink = By.xpath("//header//h4[contains(text(),'Cụm Rạp')]");
@@ -25,10 +25,12 @@ public class TopBarNavigation extends BasePage {
     }
 
 
-    public boolean isLogoVisible (){
+    public boolean isLogoVisible() {
         LOG.info("CheckLogoDisplayed");
-        return waitForVisibilityOfElementLocated(driver(),byLogo).isDisplayed();
-    };
+        return waitForVisibilityOfElementLocated(driver(), byLogo).isDisplayed();
+    }
+
+    ;
 
 
     public void clickLogo() {
@@ -64,8 +66,6 @@ public class TopBarNavigation extends BasePage {
     public void navigateLoginPage() {
         LOG.info("navigateLoginPage");
         click(driver(), byBtnLoginLink);
-<<<<<<< HEAD
-=======
     }
 
     public void clickLogoutButton() {
@@ -75,22 +75,19 @@ public class TopBarNavigation extends BasePage {
 
     public boolean isLoggedInIndicatorVisible() {
         LOG.info("isLoggedInIndicatorVisible");
-        return waitForVisibilityOfElementLocated(driver(),byLoggedInUser ).isDisplayed();
->>>>>>> f42ce23 (Handle extra cases for  register page and login page)
+        return waitForVisibilityOfElementLocated(driver(), byLoggedInUser).isDisplayed();
     }
 
 
     public boolean isLogoutLinkDisplayed() {
         LOG.info("isLogoutLinkDisplayed");
-        return waitForVisibilityOfElementLocated(driver(),byLoggedOutBtn ).isDisplayed();
+        return waitForVisibilityOfElementLocated(driver(), byLoggedOutBtn).isDisplayed();
     }
 
     public String getUserProfileName() {
         LOG.info("getUserProfileName");
-        return waitForVisibilityOfElementLocated(driver(),byLoggedInUser ).getText().trim();
+        return waitForVisibilityOfElementLocated(driver(), byLoggedInUser).getText().trim();
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> f42ce23 (Handle extra cases for  register page and login page)
 }
+

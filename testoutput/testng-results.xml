@@ -29,20 +29,20 @@
     <groups>
     </groups>
     <test started-at="2025-12-30T19:28:05 ICT" name="Gradle test" finished-at="2025-12-30T19:28:12 ICT" duration-ms="6624">
-      <class name="testcases.register.TC01_RegisterTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.register.TC01_RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:05 ICT" name="beforeSuite" finished-at="2025-12-30T19:28:05 ICT" duration-ms="55" status="PASS">
+      <class name="testcases.register.RegisterTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.register.RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:05 ICT" name="beforeSuite" finished-at="2025-12-30T19:28:05 ICT" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.register.TC01_RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:05 ICT" name="beforeClass" finished-at="2025-12-30T19:28:07 ICT" duration-ms="2058" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.register.RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:05 ICT" name="beforeClass" finished-at="2025-12-30T19:28:07 ICT" duration-ms="2058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.TC01_RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:07 ICT" name="beforeMethod" finished-at="2025-12-30T19:28:08 ICT" duration-ms="747" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:07 ICT" name="beforeMethod" finished-at="2025-12-30T19:28:08 ICT" duration-ms="747" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC01_RegisterTest.TC_Register_Success_When_Account_Not_Exist()[pri:0, instance:testcases.register.TC01_RegisterTest@7a8fa663] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC01_RegisterTest.TC_Register_Success_When_Account_Not_Exist()[pri:0, instance:testcases.register.RegisterTest@7a8fa663] output={null}]]]>
 >>>>>>> f42ce23 (Handle extra cases for  register page and login page)
               </value>
             </param>
@@ -162,19 +162,19 @@ at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerM
               <value>
                 <![CDATA[[TestResult name=TC01_Verify_Seat_Selection_Functionality status=FAILURE method=SeatSelectionTest.TC01_Verify_Seat_Selection_Functionality()[pri:0, instance:testcases.purchasepage.SeatSelectionTest@56c9bbd8] output={null}]]]>
 =======
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.TC01_RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:08 ICT" name="setupPages" finished-at="2025-12-30T19:28:08 ICT" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:08 ICT" name="setupPages" finished-at="2025-12-30T19:28:08 ICT" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="TC_Register_Success_When_Account_Not_Exist()[pri:0, instance:testcases.register.TC01_RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:08 ICT" name="TC_Register_Success_When_Account_Not_Exist" description="TC_Register_Success_When_Account_Not_Exist" finished-at="2025-12-30T19:28:12 ICT" duration-ms="3613" status="PASS">
+        <test-method signature="TC_Register_Success_When_Account_Not_Exist()[pri:0, instance:testcases.register.RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:08 ICT" name="TC_Register_Success_When_Account_Not_Exist" description="TC_Register_Success_When_Account_Not_Exist" finished-at="2025-12-30T19:28:12 ICT" duration-ms="3613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_Register_Success_When_Account_Not_Exist -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.TC01_RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:12 ICT" name="afterMethod" finished-at="2025-12-30T19:28:12 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:12 ICT" name="afterMethod" finished-at="2025-12-30T19:28:12 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_Register_Success_When_Account_Not_Exist status=SUCCESS method=TC01_RegisterTest.TC_Register_Success_When_Account_Not_Exist()[pri:0, instance:testcases.register.TC01_RegisterTest@7a8fa663] output={null}]]]>
+                <![CDATA[[TestResult name=TC_Register_Success_When_Account_Not_Exist status=SUCCESS method=TC01_RegisterTest.TC_Register_Success_When_Account_Not_Exist()[pri:0, instance:testcases.register.RegisterTest@7a8fa663] output={null}]]]>
 >>>>>>> f42ce23 (Handle extra cases for  register page and login page)
               </value>
             </param>
@@ -291,15 +291,15 @@ at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerM
         </test-method> <!-- afterSuite -->
       </class> <!-- testcases.purchasepage.SeatSelectionTest -->
 =======
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcases.register.TC01_RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:12 ICT" name="afterClass" finished-at="2025-12-30T19:28:12 ICT" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcases.register.RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:12 ICT" name="afterClass" finished-at="2025-12-30T19:28:12 ICT" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.register.TC01_RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:12 ICT" name="afterSuite" finished-at="2025-12-30T19:28:12 ICT" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.register.RegisterTest@7a8fa663]" started-at="2025-12-30T19:28:12 ICT" name="afterSuite" finished-at="2025-12-30T19:28:12 ICT" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.register.TC01_RegisterTest -->
+      </class> <!-- testcases.register.RegisterTest -->
 >>>>>>> f42ce23 (Handle extra cases for  register page and login page)
     </test> <!-- Gradle test -->
   </suite> <!-- Gradle suite -->

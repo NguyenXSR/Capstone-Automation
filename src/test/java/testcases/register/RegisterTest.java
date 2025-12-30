@@ -14,7 +14,7 @@ import pages.RegisterPage;
 import reports.ExtentReportManager;
 
 @Listeners(TestListener.class)
-public class TC01_RegisterTest extends BaseTest {
+public class RegisterTest extends BaseTest {
 
     private RegisterPage registerPage;
     private HomePage homePage;
@@ -38,32 +38,6 @@ public class TC01_RegisterTest extends BaseTest {
         //Step 2: Enter account
         ExtentReportManager.info("Step 2: fill registration form with valid data");
         LOG.info("Step 2: fill registration form with valid data");
-
-//        String account = UUID.randomUUID().toString();
-//        System.out.println("account = " + account);
-//        registerPage.enterAccount(account);
-//
-//        //Step 3: Enter password
-//        ExtentReportManager.info("Step 3: Enter password");
-//        LOG.info("Step 3: Enter password");
-//        registerPage.enterPassword("Test123456@");
-//
-//        //Step 4: Enter confirm password
-//        ExtentReportManager.info("Step 4: Enter confirm password");
-//        LOG.info("Step 4: Enter confirm password");
-//        registerPage.enterConfirmPassword("Test123456@");
-//
-//        //Step 5: Enter name
-//        ExtentReportManager.info("Step 5: Enter name");
-//        LOG.info("Step 5: Enter name");
-//        registerPage.enterName("John A");
-//
-//        //Step 6: Enter email
-//        ExtentReportManager.info("Step 6: Enter email");
-//        LOG.info("Step 6: Enter email");
-//        String email = account + "@example.com";
-//        registerPage.enterEmail(email);
-
 
         String account = String.valueOf(System.currentTimeMillis());
         registerPage.fillForm("tester_" + account,
@@ -156,36 +130,36 @@ public class TC01_RegisterTest extends BaseTest {
     @DataProvider(name = "negativeRegisterData")
     public Object[][] negativeRegisterData() {
         return new Object[][]{
-            // testcaseName, username, email, pass, confirm, full name, expectedType, expectedField, expectedContains
+                // testcaseName, username, email, pass, confirm, full name, expectedType, expectedField, expectedContains
 
-            // Leave required fields empty
-            {"Required fields empty", "", "", "", "","", "FIELD", "username", "required"},
+                // Leave required fields empty
+                {"Required fields empty", "", "", "", "", "", "FIELD", "username", "required"},
 
-            // Username already exists (requires pre-created user)
-            {"Username already exists", "tester01", "", "", "","John S", "GLOBAL", "", "username already exists"},
+                // Username already exists (requires pre-created user)
+                {"Username already exists", "tester01", "", "", "", "John S", "GLOBAL", "", "username already exists"},
 
-            // Email already exists
-            {"Email already exists", "newuser123", "tester01@example.com", "StrongPass123", "StrongPass123", "John S","GLOBAL", "", "email"},
+                // Email already exists
+                {"Email already exists", "newuser123", "tester01@example.com", "StrongPass123", "StrongPass123", "John S", "GLOBAL", "", "email"},
 
-            // Passwords do not match
-            {"Passwords do not match", "newuser123", "newuser123@example.com", "StrongPass123", "StrongPass124","John S","FIELD", "confirm", "match"},
+                // Passwords do not match
+                {"Passwords do not match", "newuser123", "newuser123@example.com", "StrongPass123", "StrongPass124", "John S", "FIELD", "confirm", "match"},
 
-            // Invalid email format
-            {"Invalid email missing @", "newuser123", "test.user.example.com", "StrongPass123", "StrongPass123","John S", "FIELD", "email", "valid"},
+                // Invalid email format
+                {"Invalid email missing @", "newuser123", "test.user.example.com", "StrongPass123", "StrongPass123", "John S", "FIELD", "email", "valid"},
 
-            // Password too short
-            {"Password too short", "newuser123", "newuser123@example.com", "123", "123","John S", "FIELD", "password", "length"},
+                // Password too short
+                {"Password too short", "newuser123", "newuser123@example.com", "123", "123", "John S", "FIELD", "password", "length"},
 
-            //Full name with numbers
-            {"Full name with numbers", "newuser123", "newuser123@example.com", "StrongPass123", "StrongPass123","John123", "FIELD", "name", "invalid"},
+                //Full name with numbers
+                {"Full name with numbers", "newuser123", "newuser123@example.com", "StrongPass123", "StrongPass123", "John123", "FIELD", "name", "invalid"},
 
-            // full name with special characters
-            {"Full name with special characters", "newuser123", "newuser123@example.com", "StrongPass123", "StrongPass123","John@#", "FIELD", "name", "invalid"},
+                // full name with special characters
+                {"Full name with special characters", "newuser123", "newuser123@example.com", "StrongPass123", "StrongPass123", "John@#", "FIELD", "name", "invalid"},
 
-             // invalid password (leading/trailing  spaces)
-            {"Invalid password with leading/trailing spaces", "newuser123", "newuser123@example.com", "  StrongPass123  ", "  StrongPass123  ","John S", "FIELD", "password", "no leading or trailing spaces"}
+                // invalid password (leading/trailing  spaces)
+                {"Invalid password with leading/trailing spaces", "newuser123", "newuser123@example.com", "  StrongPass123  ", "  StrongPass123  ", "John S", "FIELD", "password", "no leading or trailing spaces"}
 
-    };
+        };
 
 
     }
