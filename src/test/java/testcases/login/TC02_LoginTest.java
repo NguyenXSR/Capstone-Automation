@@ -2,36 +2,19 @@ package testcases.login;
 
 import base.BaseTest;
 import listeners.TestListener;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-<<<<<<< HEAD
-=======
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
->>>>>>> f42ce23 (Handle extra cases for  register page and login page)
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LoginPage;
-<<<<<<< HEAD
-=======
-import pages.components.LogOutConfirmModal;
->>>>>>> f42ce23 (Handle extra cases for  register page and login page)
 import reports.ExtentReportManager;
-import java.time.Duration;
 
 
 @Listeners(TestListener.class)
 public class TC02_LoginTest extends BaseTest {
 
-<<<<<<< HEAD
-    @Test(description = "Login test")
-    public void testLogin() {
-        LoginPage loginPage = new LoginPage();
-        HomePage homePage = new HomePage();
-
-
-=======
     private HomePage homePage;
     private LoginPage loginPage;
 
@@ -49,22 +32,16 @@ public class TC02_LoginTest extends BaseTest {
 
     }
 
-
     @BeforeMethod
     public void navigateToLoginPage() {
->>>>>>> f42ce23 (Handle extra cases for  register page and login page)
         //Step 1: click dang nhap link on the top right
         ExtentReportManager.info("Step 1: Click 'Dang Nhap' link on the top right");
         LOG.info("Step 1: Click 'Dang Nhap' link on the top right");
         homePage.getTopBarNavigation().navigateLoginPage();
-<<<<<<< HEAD
-=======
     }
 
     @Test(description = "Login test")
     public void testLogin() {
->>>>>>> f42ce23 (Handle extra cases for  register page and login page)
-
         //Step2: enter account to login
         ExtentReportManager.info("Step 2: Enter account to login");
         LOG.info("Step 2: Enter account to login");
@@ -99,11 +76,7 @@ public class TC02_LoginTest extends BaseTest {
         String expectedProfileName = "Nguyen Van A";
         String actualProfileName = homePage.getTopBarNavigation().getUserProfileName();
         Assert.assertEquals(actualProfileName, expectedProfileName, "User profile name is incorrect!");
-
-<<<<<<< HEAD
         ExtentReportManager.pass("PASSED");
-    }
-=======
     }
 
 
@@ -122,7 +95,7 @@ public class TC02_LoginTest extends BaseTest {
                 "Password required error not shown");
     }
 
-    @Test (description = "Login with only username filled")
+    @Test(description = "Login with only username filled")
     public void TC_UsernameOnly_ShowsPasswordRequired() {
         loginPage.enterAccount(VALID_USER);
         loginPage.clickLogin();
@@ -142,7 +115,7 @@ public class TC02_LoginTest extends BaseTest {
                 "Invalid credentials error not shown. Actual: " + err);
     }
 
-    @Test (description = "Toggle password visibility")
+    @Test(description = "Toggle password visibility")
     public void TC06_TogglePasswordVisibility() {
         loginPage.enterPassword("StrongPass123");
 
@@ -151,7 +124,7 @@ public class TC02_LoginTest extends BaseTest {
         Assert.assertEquals(loginPage.getPasswordType(), "text", "Password should be visible after toggle");
     }
 
-    @Test (description = "Remember account persists username after reload")
+    @Test(description = "Remember account persists username after reload")
     public void TC07_RememberAccount_PersistsUsername_AfterReload() {
         loginPage.checkRememberAccount();
         loginPage.enterAccount(VALID_USER);
@@ -165,7 +138,7 @@ public class TC02_LoginTest extends BaseTest {
         Assert.assertEquals(loginPage.getUsernameValue(), VALID_USER, "Username was not remembered");
     }
 
-    @Test (description = "Press Enter key to submit login form")
+    @Test(description = "Press Enter key to submit login form")
     public void TC08_PressEnterKey_LoginProceeds() {
         loginPage.enterAccount(VALID_USER);
         loginPage.enterPassword(VALID_PASS);
@@ -175,8 +148,7 @@ public class TC02_LoginTest extends BaseTest {
                 "Enter key did not submit login");
     }
 
-
-
-
->>>>>>> f42ce23 (Handle extra cases for  register page and login page)
 }
+
+
+
