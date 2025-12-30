@@ -814,3 +814,267 @@
 [2025-12-30 19:28:12] [INFO ] TC01_RegisterTest - Test completed
 [2025-12-30 19:28:12] [INFO ] TestListener - onFinish
 >>>>>>> f42ce23 (Handle extra cases for  register page and login page)
+[2025-12-30 20:59:46] [INFO ] LoginTest - beforeSuite - Init Extent Report
+[2025-12-30 20:59:47] [INFO ] TestListener - onStart
+[2025-12-30 21:00:00] [INFO ] LoginTest - Step 1: Click 'Dang Nhap' link on the top right
+[2025-12-30 21:00:00] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-30 21:00:00] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:00:00] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:00:02] [INFO ] TestListener - onTestStart
+[2025-12-30 21:00:02] [INFO ] LoginPage - enterAccount: wrong
+[2025-12-30 21:00:02] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with wrong in 10s
+[2025-12-30 21:00:02] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-30 21:00:03] [INFO ] LoginPage - enterPassword: wrong
+[2025-12-30 21:00:03] [INFO ] LoginPage - sendKeys: By.id: matKhau with wrong in 10s
+[2025-12-30 21:00:03] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-30 21:00:03] [INFO ] LoginPage - clickLogin
+[2025-12-30 21:00:03] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-30 21:00:03] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-30 21:00:03] [INFO ] LoginPage - getText: By.cssSelector: .MuiAlert-standardError in 10s
+[2025-12-30 21:00:03] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiAlert-standardError in 10s
+[2025-12-30 21:00:14] [INFO ] TestListener - onTestFailure: TC04_InvalidCredentials_ShowsError - FAILED
+[2025-12-30 21:00:15] [INFO ] TestListener - Saved screenshot: D:\Java learning\AutomationCapstone\test-output\screenshots\TC04_InvalidCredentials_ShowsError_20251230_09_00_15.png
+[2025-12-30 21:00:15] [INFO ] LoginTest - Test completed
+[2025-12-30 21:00:17] [INFO ] LoginTest - Step 1: Click 'Dang Nhap' link on the top right
+[2025-12-30 21:00:17] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-30 21:00:17] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:00:17] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:00:18] [INFO ] TestListener - onTestStart
+[2025-12-30 21:00:18] [INFO ] LoginPage - enterPassword: StrongPass123
+[2025-12-30 21:00:18] [INFO ] LoginPage - sendKeys: By.id: matKhau with StrongPass123 in 10s
+[2025-12-30 21:00:18] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-30 21:00:18] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-30 21:00:18] [INFO ] LoginPage - click: By.cssSelector: .MuiIconButton-edgeEnd in 10s
+[2025-12-30 21:00:18] [INFO ] LoginPage - waitForElementToBeClickable: By.cssSelector: .MuiIconButton-edgeEnd in 10s
+[2025-12-30 21:00:18] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-30 21:00:18] [INFO ] TestListener - onTestSuccess: TC06_TogglePasswordVisibility - PASSED
+[2025-12-30 21:00:18] [INFO ] LoginTest - Test completed
+[2025-12-30 21:00:19] [INFO ] LoginTest - Step 1: Click 'Dang Nhap' link on the top right
+[2025-12-30 21:00:19] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-30 21:00:19] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:00:19] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:00:19] [INFO ] TestListener - onTestStart
+[2025-12-30 21:00:19] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.cssSelector: input[name='remember'][type='checkbox'] in 10s
+[2025-12-30 21:00:29] [INFO ] TestListener - onTestFailure: TC07_RememberAccount_PersistsUsername_AfterReload - FAILED
+[2025-12-30 21:00:31] [INFO ] TestListener - Saved screenshot: D:\Java learning\AutomationCapstone\test-output\screenshots\TC07_RememberAccount_PersistsUsername_AfterReload_20251230_09_00_31.png
+[2025-12-30 21:00:32] [INFO ] LoginTest - Test completed
+[2025-12-30 21:00:38] [INFO ] LoginTest - Step 1: Click 'Dang Nhap' link on the top right
+[2025-12-30 21:00:38] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-30 21:00:38] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:00:38] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:00:41] [INFO ] TestListener - onTestStart
+[2025-12-30 21:00:41] [INFO ] LoginPage - enterAccount: tester01
+[2025-12-30 21:00:41] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with tester01 in 10s
+[2025-12-30 21:00:41] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-30 21:00:42] [INFO ] LoginPage - enterPassword: 123456
+[2025-12-30 21:00:42] [INFO ] LoginPage - sendKeys: By.id: matKhau with 123456 in 10s
+[2025-12-30 21:00:42] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-30 21:00:43] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-30 21:00:43] [INFO ] TestListener - onTestFailure: TC08_PressEnterKey_LoginProceeds - FAILED
+[2025-12-30 21:00:45] [INFO ] TestListener - Saved screenshot: D:\Java learning\AutomationCapstone\test-output\screenshots\TC08_PressEnterKey_LoginProceeds_20251230_09_00_45.png
+[2025-12-30 21:00:45] [INFO ] LoginTest - Test completed
+[2025-12-30 21:00:48] [INFO ] LoginTest - Step 1: Click 'Dang Nhap' link on the top right
+[2025-12-30 21:00:48] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-30 21:00:48] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:00:48] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:00:49] [INFO ] TestListener - onTestStart
+[2025-12-30 21:00:49] [INFO ] LoginPage - enterAccount: tester01
+[2025-12-30 21:00:49] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with tester01 in 10s
+[2025-12-30 21:00:49] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-30 21:00:49] [INFO ] LoginPage - clickLogin
+[2025-12-30 21:00:49] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-30 21:00:49] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-30 21:00:49] [INFO ] LoginPage - getText: By.id: matKhau-helper-text in 10s
+[2025-12-30 21:00:49] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau-helper-text in 10s
+[2025-12-30 21:00:50] [INFO ] TestListener - onTestSuccess: TC_UsernameOnly_ShowsPasswordRequired - PASSED
+[2025-12-30 21:00:50] [INFO ] LoginTest - Test completed
+[2025-12-30 21:00:50] [INFO ] LoginTest - Step 1: Click 'Dang Nhap' link on the top right
+[2025-12-30 21:00:50] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-30 21:00:50] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:00:50] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:00:50] [INFO ] TestListener - onTestStart
+[2025-12-30 21:00:50] [INFO ] LoginTest - Step 2: Enter account to login
+[2025-12-30 21:00:50] [INFO ] LoginPage - enterAccount: a68cf217-d33b-4132-b180-864697ac8427
+[2025-12-30 21:00:50] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with a68cf217-d33b-4132-b180-864697ac8427 in 10s
+[2025-12-30 21:00:50] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-30 21:00:51] [INFO ] LoginTest - Step 3: Enter password to login
+[2025-12-30 21:00:51] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-30 21:00:51] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-30 21:00:51] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-30 21:00:51] [INFO ] LoginTest - Step 4: Click Login
+[2025-12-30 21:00:51] [INFO ] LoginPage - clickLogin
+[2025-12-30 21:00:51] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-30 21:00:51] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-30 21:00:51] [INFO ] LoginTest - VP1: 'Đăng nhập thành công' message displays
+[2025-12-30 21:00:51] [INFO ] LoginPage - getLoginMsg
+[2025-12-30 21:00:51] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-30 21:00:51] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-30 21:00:52] [INFO ] LoginTest - VP2: Check 'Dang Xuat' button link displays on the top right
+[2025-12-30 21:00:52] [INFO ] TopBarNavigation - isLogoutLinkDisplayed
+[2025-12-30 21:00:52] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //a[@href='/']/h3[text()='Đăng xuất'] in 10s
+[2025-12-30 21:00:52] [INFO ] LoginTest - VP3: Check user profile name displays
+[2025-12-30 21:00:52] [INFO ] TopBarNavigation - getUserProfileName
+[2025-12-30 21:00:52] [INFO ] TopBarNavigation - waitForVisibilityOfElementLocated: By.xpath: //a[@href='/account']/h3 in 10s
+[2025-12-30 21:00:52] [INFO ] TestListener - onTestFailure: testLogin - FAILED
+[2025-12-30 21:00:52] [INFO ] TestListener - Saved screenshot: D:\Java learning\AutomationCapstone\test-output\screenshots\testLogin_20251230_09_00_52.png
+[2025-12-30 21:00:52] [INFO ] LoginTest - Test completed
+[2025-12-30 21:00:53] [INFO ] LoginTest - Step 1: Click 'Dang Nhap' link on the top right
+[2025-12-30 21:00:53] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-30 21:00:53] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:00:53] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:01:04] [INFO ] TestListener - onTestStart
+[2025-12-30 21:01:04] [INFO ] TestListener - onTestSkipped
+[2025-12-30 21:01:05] [INFO ] TestListener - onFinish
+[2025-12-30 21:02:17] [INFO ] LoginTest - beforeSuite - Init Extent Report
+[2025-12-30 21:02:17] [INFO ] TestListener - onStart
+[2025-12-30 21:03:14] [INFO ] LoginTest - Step 1: Click 'Dang Nhap' link on the top right
+[2025-12-30 21:03:15] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-30 21:03:15] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:03:15] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:03:28] [INFO ] TestListener - onTestStart
+[2025-12-30 21:03:28] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.cssSelector: input[name='remember'][type='checkbox'] in 10s
+[2025-12-30 21:03:49] [INFO ] TestListener - onTestFailure: TC07_RememberAccount_PersistsUsername_AfterReload - FAILED
+[2025-12-30 21:04:30] [INFO ] TestListener - onTestFailure: TC07_RememberAccount_PersistsUsername_AfterReload - FAILED
+[2025-12-30 21:04:36] [INFO ] TestListener - onFinish
+[2025-12-30 21:18:59] [INFO ] SeatSelectionTest - beforeSuite - Init Extent Report
+[2025-12-30 21:19:10] [INFO ] SeatSelectionTest - Step1: Navigate to purchase page
+[2025-12-30 21:19:10] [INFO ] SeatSelectionTest - step2: Verify seat map is visible
+[2025-12-30 21:19:10] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8 in 10s
+[2025-12-30 21:19:13] [INFO ] SeatSelectionTest - Step3: Select seats for booking
+[2025-12-30 21:19:13] [INFO ] PurchasePage - click: By.xpath: //button[.='20'] in 10s
+[2025-12-30 21:19:13] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='20'] in 10s
+[2025-12-30 21:19:13] [INFO ] PurchasePage - click: By.xpath: //button[.='124'] in 10s
+[2025-12-30 21:19:13] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='124'] in 10s
+[2025-12-30 21:19:14] [INFO ] SeatSelectionTest - Step4: Click Buy Ticket button
+[2025-12-30 21:19:14] [INFO ] PurchasePage - click: By.xpath: //span[contains(text(),'ĐẶT VÉ')] in 10s
+[2025-12-30 21:19:14] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //span[contains(text(),'ĐẶT VÉ')] in 10s
+[2025-12-30 21:19:15] [INFO ] SeatSelectionTest - Step5: Verify login required modal
+[2025-12-30 21:19:15] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: div[role='dialog'] in 10s
+[2025-12-30 21:19:15] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: h2#swal2-title in 10s
+[2025-12-30 21:19:16] [INFO ] PurchasePage - click: By.xpath: //button[contains(text(),'Không')] in 10s
+[2025-12-30 21:19:16] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[contains(text(),'Không')] in 10s
+[2025-12-30 21:19:16] [INFO ] SeatSelectionTest - Test completed
+[2025-12-30 21:19:17] [INFO ] SeatSelectionTest - Navigate to purchase page
+[2025-12-30 21:19:18] [INFO ] SeatSelectionTest - Select multiple seats
+[2025-12-30 21:19:18] [INFO ] PurchasePage - click: By.xpath: //button[.='20'] in 10s
+[2025-12-30 21:19:18] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='20'] in 10s
+[2025-12-30 21:19:20] [INFO ] PurchasePage - click: By.xpath: //button[.='34'] in 10s
+[2025-12-30 21:19:20] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='34'] in 10s
+[2025-12-30 21:19:20] [INFO ] PurchasePage - click: By.xpath: //button[.='124'] in 10s
+[2025-12-30 21:19:20] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='124'] in 10s
+[2025-12-30 21:19:21] [INFO ] SeatSelectionTest - Confirm selected seats turn green
+[2025-12-30 21:19:21] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='20'] in 10s
+[2025-12-30 21:19:22] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='34'] in 10s
+[2025-12-30 21:19:22] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='124'] in 10s
+[2025-12-30 21:19:22] [INFO ] SeatSelectionTest - Confirm selected seats are not marked as booked
+[2025-12-30 21:19:22] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='20'] in 10s
+[2025-12-30 21:19:22] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='34'] in 10s
+[2025-12-30 21:19:22] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='124'] in 10s
+[2025-12-30 21:19:23] [INFO ] SeatSelectionTest - Validate summary seats updated
+[2025-12-30 21:19:23] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(13)>h3:nth-child(2) in 10s
+[2025-12-30 21:19:23] [INFO ] SeatSelectionTest - Verify total price calculation
+[2025-12-30 21:19:23] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 p.MuiTypography-body1 in 10s
+[2025-12-30 21:19:23] [INFO ] SeatSelectionTest - Click again on a selected seat to unselect and validate update
+[2025-12-30 21:19:23] [INFO ] PurchasePage - click: By.xpath: //button[.='34'] in 10s
+[2025-12-30 21:19:23] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='34'] in 10s
+[2025-12-30 21:19:23] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.xpath: //button[.='34'] in 10s
+[2025-12-30 21:19:23] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(13)>h3:nth-child(2) in 10s
+[2025-12-30 21:19:23] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 p.MuiTypography-body1 in 10s
+[2025-12-30 21:19:23] [INFO ] SeatSelectionTest - Try to select more than 8 available seats, validate modal error
+[2025-12-30 21:19:23] [INFO ] PurchasePage - click: By.xpath: //button[.='34'] in 10s
+[2025-12-30 21:19:23] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='34'] in 10s
+[2025-12-30 21:19:24] [INFO ] PurchasePage - click: By.xpath: //button[.='21'] in 10s
+[2025-12-30 21:19:24] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='21'] in 10s
+[2025-12-30 21:19:24] [INFO ] PurchasePage - click: By.xpath: //button[.='35'] in 10s
+[2025-12-30 21:19:24] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='35'] in 10s
+[2025-12-30 21:19:24] [INFO ] PurchasePage - click: By.xpath: //button[.='36'] in 10s
+[2025-12-30 21:19:24] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='36'] in 10s
+[2025-12-30 21:19:25] [INFO ] PurchasePage - click: By.xpath: //button[.='37'] in 10s
+[2025-12-30 21:19:25] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='37'] in 10s
+[2025-12-30 21:19:25] [INFO ] PurchasePage - click: By.xpath: //button[.='33'] in 10s
+[2025-12-30 21:19:25] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='33'] in 10s
+[2025-12-30 21:19:26] [INFO ] PurchasePage - click: By.xpath: //button[.='31'] in 10s
+[2025-12-30 21:19:26] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='31'] in 10s
+[2025-12-30 21:19:26] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: div[role='dialog'] in 10s
+[2025-12-30 21:19:36] [INFO ] SeatSelectionTest - Test completed
+[2025-12-30 21:19:37] [INFO ] SeatSelectionTest - Step0: Login first before booking
+[2025-12-30 21:19:37] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-12-30 21:19:37] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:19:37] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2025-12-30 21:19:37] [INFO ] LoginPage - enterAccount: a68cf217-d33b-4132-b180-864697ac8427
+[2025-12-30 21:19:37] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with a68cf217-d33b-4132-b180-864697ac8427 in 10s
+[2025-12-30 21:19:37] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-30 21:19:37] [INFO ] LoginPage - enterPassword: Test123456@
+[2025-12-30 21:19:37] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2025-12-30 21:19:37] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-30 21:19:38] [INFO ] LoginPage - clickLogin
+[2025-12-30 21:19:38] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-30 21:19:38] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2025-12-30 21:19:38] [INFO ] LoginPage - getLoginMsg
+[2025-12-30 21:19:38] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2025-12-30 21:19:38] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2025-12-30 21:19:38] [INFO ] SeatSelectionTest - Step1: Navigate to purchase page
+[2025-12-30 21:19:38] [INFO ] SeatSelectionTest - step2: Verify seat map is visible
+[2025-12-30 21:19:38] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8 in 10s
+[2025-12-30 21:19:40] [INFO ] SeatSelectionTest - Step3: Verify ticket summary fields are displayed (movie/cinema/datetime)
+[2025-12-30 21:19:40] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 in 10s
+[2025-12-30 21:19:40] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(3)>h3:nth-child(2) in 10s
+[2025-12-30 21:19:40] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(5)>h3:nth-child(2) in 10s
+[2025-12-30 21:19:41] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(7)>h3:nth-child(2) in 10s
+[2025-12-30 21:19:41] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(9)>h3:nth-child(2) in 10s
+[2025-12-30 21:19:41] [INFO ] PurchasePage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiGrid-grid-xs-4 div:nth-child(11)>h3:nth-child(2) in 10s
+[2025-12-30 21:19:41] [INFO ] SeatSelectionTest - Step4: Select seats for booking
+[2025-12-30 21:19:41] [INFO ] PurchasePage - click: By.xpath: //button[.='160'] in 10s
+[2025-12-30 21:19:41] [INFO ] PurchasePage - waitForElementToBeClickable: By.xpath: //button[.='160'] in 10s
+[2025-12-30 21:19:51] [INFO ] SeatSelectionTest - Test completed
+[2025-12-30 21:23:08] [INFO ] RegisterTest - beforeSuite - Init Extent Report
+[2025-12-30 21:23:08] [INFO ] TestListener - onStart
+[2025-12-30 21:23:26] [INFO ] TopBarNavigation - navigateRegisterPage
+[2025-12-30 21:23:26] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-30 21:23:26] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-30 21:23:29] [INFO ] TestListener - onTestStart
+[2025-12-30 21:23:30] [INFO ] RegisterTest - TC_Negative_Register_Test_Cases - Required fields empty
+[2025-12-30 21:23:30] [INFO ] RegisterPage - enterAccount: 
+[2025-12-30 21:23:30] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with  in 10s
+[2025-12-30 21:23:30] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2025-12-30 21:23:31] [INFO ] RegisterPage - enterEmail: 
+[2025-12-30 21:23:31] [INFO ] RegisterPage - sendKeys: By.id: email with  in 10s
+[2025-12-30 21:23:31] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2025-12-30 21:23:31] [INFO ] RegisterPage - enterPassword: 
+[2025-12-30 21:23:31] [INFO ] RegisterPage - sendKeys: By.id: matKhau with  in 10s
+[2025-12-30 21:23:31] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2025-12-30 21:23:31] [INFO ] RegisterPage - enterConfirmPassword: 
+[2025-12-30 21:23:31] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with  in 10s
+[2025-12-30 21:23:31] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2025-12-30 21:23:32] [INFO ] RegisterPage - enterName: 
+[2025-12-30 21:23:32] [INFO ] RegisterPage - sendKeys: By.id: hoTen with  in 10s
+[2025-12-30 21:23:32] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2025-12-30 21:23:32] [INFO ] RegisterPage - clickRegister
+[2025-12-30 21:23:32] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2025-12-30 21:23:32] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2025-12-30 21:23:33] [INFO ] RegisterPage - getFieldErrorMessage
+[2025-12-30 21:23:33] [INFO ] RegisterPage - getText: By.id: username-helper-text in 10s
+[2025-12-30 21:23:33] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: username-helper-text in 10s
+[2025-12-30 21:23:46] [INFO ] TestListener - onTestFailure: TC_Negative_Register_Test_Cases - FAILED
+[2025-12-30 21:23:48] [INFO ] TestListener - Saved screenshot: D:\Java learning\AutomationCapstone\test-output\screenshots\TC_Negative_Register_Test_Cases_20251230_09_23_47.png
+[2025-12-30 21:23:48] [INFO ] RegisterTest - Test completed
+[2025-12-30 21:23:53] [INFO ] TopBarNavigation - navigateRegisterPage
+[2025-12-30 21:23:53] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-30 21:23:53] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2025-12-30 21:24:04] [INFO ] TestListener - onTestStart
+[2025-12-30 21:24:04] [INFO ] TestListener - onTestSkipped
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestStart
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestSkipped
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestStart
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestSkipped
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestStart
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestSkipped
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestStart
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestSkipped
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestStart
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestSkipped
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestStart
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestSkipped
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestStart
+[2025-12-30 21:24:05] [INFO ] TestListener - onTestSkipped
+[2025-12-30 21:24:09] [INFO ] TestListener - onFinish

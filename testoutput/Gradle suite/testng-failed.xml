@@ -3,19 +3,18 @@
 <suite name="Failed suite [Gradle suite]" verbose="0">
   <test thread-count="5" name="Gradle test(failed)" verbose="0">
     <classes>
-      <class name="testcases.purchasepage.SeatSelectionTest">
+      <class name="testcases.register.RegisterTest">
         <methods>
           <include name="afterMethod"/>
           <include name="afterClass"/>
+          <include name="TC_Negative_Register_Test_Cases" invocation-numbers="0"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
           <include name="beforeMethod"/>
-          <include name="TC01_Verify_Seat_Selection_Functionality"/>
-          <include name="TC02_Verify_Summary_And_Booking_Success"/>
           <include name="setupPages"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- testcases.purchasepage.SeatSelectionTest -->
+      </class> <!-- testcases.register.RegisterTest -->
     </classes>
   </test> <!-- Gradle test(failed) -->
 </suite> <!-- Failed suite [Gradle suite] -->
