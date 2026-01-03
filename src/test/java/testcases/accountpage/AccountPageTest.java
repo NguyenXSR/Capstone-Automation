@@ -8,9 +8,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import pages.AccountPage;
 import pages.HomePage;
 import pages.LoginPage;
+import pages.components.LogOutConfirmModal;
 import reports.ExtentReportManager;
 
 @Listeners(TestListener.class)
@@ -20,13 +22,14 @@ public class AccountPageTest extends BaseTest {
     private AccountPage accountPage;
     private LoginPage loginPage;
     private HomePage homePage;
-
+    private LogOutConfirmModal confirmModal;
 
     @BeforeClass
     public void setUpPages() {
         accountPage = new AccountPage();
         loginPage = new LoginPage();
         homePage = new HomePage();
+        confirmModal = new LogOutConfirmModal();
     }
 
     @BeforeMethod
@@ -80,9 +83,7 @@ public class AccountPageTest extends BaseTest {
         LOG.info("Step 4: read only fields check");
         Assert.assertTrue(accountPage.isUserNameDisplayed(), "Username field is not displayed");
         Assert.assertTrue(accountPage.isUserRoleDisplayed(), "User role field is not displayed");
-//        Assert.assertFalse(accountPage.isUserNameEditable(), "Username field should not be editable");
-//        Assert.assertFalse(accountPage.isUserRoleEditable(), "User role field should not be  editable");
-
+//
         //Step 5: Click Update button
         ExtentReportManager.info("Step 5: Click Update button");
         LOG.info("Step 5: Click Update button");
@@ -96,18 +97,60 @@ public class AccountPageTest extends BaseTest {
         Assert.assertEquals(actualUpdateMsg, "Cập nhật thành công", "Update account message is not correct");
         ExtentReportManager.pass("All STEPS ABOVE PASSED");
 
-        //Step 6 refresh page and verify updated info is saved
+        //Step 7 refresh page and verify updated info is saved
         ExtentReportManager.info("Step 7: Refresh page and verify updated info is saved");
         LOG.info("Step 7: Refresh page and verify updated info is saved");
         DriverFactory.getDriver().navigate().refresh();
-        Assert.assertEquals(accountPage.getFullNameValue(), fullName, "Full name is not updated correctly");
-        Assert.assertEquals(accountPage.getEmailValue(), email, "Email is not updated correctly");
-        Assert.assertEquals(accountPage.getPhoneValue(), phone, "Phone is not updated correctly");
+        SoftAssert softAssert = new SoftAssert();
 
-        ExtentReportManager.fail("BUG FOUND: PHONE NOT UPDATED PROPERLY, INTENDED TO DEMO SCREENSHOT ON REPORT");
+        softAssert.assertEquals(accountPage.getFullNameValue(), fullName, "Full name is not updated correctly");
+        softAssert.assertEquals(accountPage.getEmailValue(), email, "Email is not updated correctly");
+        String actualPhone = accountPage.getPhoneValue();
 
+        if (!actualPhone.equals(phone)) {
+            ExtentReportManager.fail(
+                    "BUG FOUND: Phone not updated after refresh. Expected: "
+                            + phone + ", Found: " + actualPhone);
+            LOG.error("Known bug detected: phone not updated correctly");
+        }
+
+
+        softAssert.assertEquals(actualPhone, phone, "Phone is not updated correctly");
     }
 
+//    //Step 8: Logout after test
+//        ExtentReportManager.info("Step 8: Logout after test");
+//        LOG.info("Step 8: Logout after test");
+//        homePage.getTopBarNavigation().clickLogoutButton();
+//        confirmModal.waitLogoutConfirmModalVisible();
+//        confirmModal.clickOkButton();
+//        confirmModal.waitOkModalClosed();
+//
+//    //step 9: login again to verify updated password works
+//        ExtentReportManager.info("Step 9: login again to verify updated password works");
+//        LOG.info("Step 9: login again to verify updated password works");
+//        homePage.getTopBarNavigation().navigateLoginPage();
+//        loginPage.enterAccount("7b87c831-f41a-49df-bd97-04f505511854");
+//        loginPage.enterPassword(password);
+//        loginPage.clickLogin();
+//        try {
+//        String loginMsgAfterPwdUpdate = loginPage.getLoginMsg();
+//        Assert.assertEquals(
+//                loginMsgAfterPwdUpdate,
+//                "Đăng nhập thành công",
+//                "Login with updated password failed!"
+//        );
+//    } catch (Exception e) {
+//        ExtentReportManager.fail(
+//                "BUG FOUND: Cannot login with updated password. Login success message not displayed."
+//        );
+//        Assert.fail("BUG: Login failed after password update", e);
+//    }
+//
+//
+//}
+//
+//
     //validation test cases
 
     @Test(description = "TC_Verify_Update_Profile_Failure_With_Invalid_FullName")

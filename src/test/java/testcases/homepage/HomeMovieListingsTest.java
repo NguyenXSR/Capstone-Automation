@@ -18,7 +18,7 @@ public class HomeMovieListingsTest extends BaseTest {
 
     @BeforeMethod
     public void setUpPages() {
-         homePage = new HomePage();
+        homePage = new HomePage();
         movieListing = homePage.movieListings();
     }
 
@@ -29,7 +29,7 @@ public class HomeMovieListingsTest extends BaseTest {
         LOG.info("Verify movie listing displays");
 
         homePage.getTopBarNavigation().clickShowtimes();
-       // movieListing.scrollToMovieListing();
+        // movieListing.scrollToMovieListing();
         Assert.assertTrue(movieListing.isMovieListingVisible(), "Movie listing section is not visible");
     }
 
@@ -39,7 +39,7 @@ public class HomeMovieListingsTest extends BaseTest {
         LOG.info("Hover shows action buttons");
 
         //movieListing.scrollToMovieListing();
-       homePage.getTopBarNavigation().clickShowtimes();
+        homePage.getTopBarNavigation().clickShowtimes();
 
         movieListing.hoverMovieCard(movieTitle);
 
@@ -53,7 +53,7 @@ public class HomeMovieListingsTest extends BaseTest {
         LOG.info("Play button opens trailer modal");
 
         movieListing.scrollToMovieListing();
-       // homePage.getTopBarNavigation().clickShowtimes();
+        // homePage.getTopBarNavigation().clickShowtimes();
 
         movieListing.hoverMovieCard(movieTitle);
         movieListing.clickPlay(movieTitle);
@@ -66,8 +66,8 @@ public class HomeMovieListingsTest extends BaseTest {
         ExtentReportManager.info("Buy button redirects to detail");
         LOG.info("Buy button redirects to detail");
 
-         movieListing.scrollToMovieListing();
-      //  homePage.getTopBarNavigation().clickShowtimes();
+        movieListing.scrollToMovieListing();
+        //  homePage.getTopBarNavigation().clickShowtimes();
 
         movieListing.hoverMovieCard(movieTitle);
         movieListing.clickBuyTicketNow(movieTitle);
@@ -75,6 +75,7 @@ public class HomeMovieListingsTest extends BaseTest {
         Assert.assertTrue(driver.getCurrentUrl().contains("/detail/"),
                 "Not redirected to /detail URL");
     }
+}
 
 
 
@@ -88,39 +89,3 @@ public class HomeMovieListingsTest extends BaseTest {
 
 
 
-//
-//    @Test
-//    public void Verify_hover_effect_on_movie_card_shows_overlay() {
-//        ExtentReportManager.info("Hover on movie card should show overlay");
-//        LOG.info("Hover on movie card should show overlay");
-//
-//        movieListings.hoverOnMovieCard("AVATAR 2");
-//
-//        Assert.assertTrue(movieListings.isOverlayVisibleOnCard("The Gentlemen"),
-//                "Overlay is not visible after hovering the movie card");
-//    }
-//
-//    @Test
-//    public void Verify_clicking_play_button_opens_trailer_modal() {
-//        ExtentReportManager.info("Hover then click Play should open trailer modal");
-//        LOG.info("Hover then click Play should open trailer modal");
-//
-//        movieListings.clickPlayTrailerOnCard("The Gentlemen");
-//
-//
-//        Assert.assertTrue(movieListings.isTrailerModalDisplayed(),
-//                "Trailer modal is not displayed after clicking Play button");
-//
-//    }
-//
-//    @Test
-//    public void Verify_clicking_buy_tickets_redirects_to_details_page() {
-//        ExtentReportManager.info("Hover then click Buy Tickets should redirect to /details");
-//        LOG.info("Hover then click Buy Tickets should redirect to /detail");
-//
-//        movieListings.clickBuyTicketsOnCard("The Gentlemen");
-//
-//        Assert.assertTrue(driver.getCurrentUrl().contains("/detail"),
-//                "Not redirected to Movie Details page. Current URL: " + driver.getCurrentUrl());
-//    }
-}
