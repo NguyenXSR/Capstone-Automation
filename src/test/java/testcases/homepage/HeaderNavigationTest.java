@@ -24,7 +24,7 @@ public class HeaderNavigationTest extends BaseTest {
     }
 
     @Test
-    public void TC01_Verify_Logo_Displayed() {
+    public void TC_Verify_Logo_Displayed() {
 
         ExtentReportManager.info("Check logo is visible");
         LOG.info("Check logo is visible");
@@ -34,7 +34,7 @@ public class HeaderNavigationTest extends BaseTest {
     }
 
     @Test
-    public void TC02_Verify_Logo_Redirects_Homepage() {
+    public void TC_Verify_Logo_Redirects_Homepage() {
         ExtentReportManager.info("Check logo redirect homepage when in different page");
         LOG.info("Check logo redirect homepage when in different page");
 
@@ -43,7 +43,7 @@ public class HeaderNavigationTest extends BaseTest {
         Assert.assertEquals(driver.getCurrentUrl(), "https://demo1.cybersoft.edu.vn/");
     }
     @Test
-    public void TC03_Verify_Showtimes_Scroll() {
+    public void TC_Verify_Showtimes_Scroll() {
         ExtentReportManager.info("Check page scroll to Showtimes section");
         LOG.info("Check page scroll to SHowtimes section");
 
@@ -52,7 +52,7 @@ public class HeaderNavigationTest extends BaseTest {
     }
 
     @Test
-    public void TC04_Verify_Cinemas_Scroll() {
+    public void TC_Verify_Cinemas_Scroll() {
         ExtentReportManager.info("Check page scroll to Cinemas section");
         LOG.info("Check page scroll to Cinemas section");
         homePage.getTopBarNavigation().clickCinemas();
@@ -60,7 +60,7 @@ public class HeaderNavigationTest extends BaseTest {
     }
 
     @Test
-    public void TC05_Verify_News_Scroll() {
+    public void TC_Verify_News_Scroll() {
         ExtentReportManager.info("Check page scroll to Cinemas section");
         LOG.info("Check page scroll to Cinemas section");
         homePage.getTopBarNavigation().clickNews();
@@ -68,7 +68,7 @@ public class HeaderNavigationTest extends BaseTest {
     }
 
     @Test
-    public void TC06_Verify_MobileApp_Scroll() {
+    public void TC_Verify_MobileApp_Scroll() {
         ExtentReportManager.info("Check page scroll to Cinemas section");
         LOG.info("Check page scroll to Cinemas section");
         homePage.getTopBarNavigation().clickMobileApp();
@@ -76,7 +76,7 @@ public class HeaderNavigationTest extends BaseTest {
     }
 
     @Test
-    public void TC07_Verify_Login_Redirect() {
+    public void TC_Verify_Login_Redirect() {
         ExtentReportManager.info("Check login page redirect");
         LOG.info("Check login page redirect");
         homePage.getTopBarNavigation().navigateLoginPage();
@@ -84,7 +84,7 @@ public class HeaderNavigationTest extends BaseTest {
     }
 
     @Test
-    public void TC08_Verify_Register_Redirect() {
+    public void TC_Verify_Register_Redirect() {
         ExtentReportManager.info("Check register page redirect");
         LOG.info("Check register page redirect");
         homePage.getTopBarNavigation().navigateRegisterPage();

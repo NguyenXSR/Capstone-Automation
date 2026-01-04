@@ -364,3 +364,28 @@
 [2026-01-04 01:32:32] [INFO ] TestListener - onTestStart
 [2026-01-04 01:32:32] [INFO ] TestListener - onTestSkipped
 [2026-01-04 01:32:34] [INFO ] TestListener - onFinish
+[2026-01-04 15:38:58] [INFO ] LoginTest - beforeSuite - Init Extent Report
+[2026-01-04 15:38:59] [INFO ] TestListener - onStart
+[2026-01-04 15:39:09] [INFO ] LoginTest - Step 1: Click 'Dang Nhap' link on the top right
+[2026-01-04 15:39:09] [INFO ] TopBarNavigation - navigateLoginPage
+[2026-01-04 15:39:09] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2026-01-04 15:39:09] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2026-01-04 15:39:11] [INFO ] TestListener - onTestStart
+[2026-01-04 15:39:11] [INFO ] LoginTest - Step 2: enter account with invalid data
+[2026-01-04 15:39:11] [INFO ] LoginPage - enterAccount: invalid123
+[2026-01-04 15:39:11] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with invalid123 in 10s
+[2026-01-04 15:39:11] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2026-01-04 15:39:11] [INFO ] LoginTest - Step 3: enter password with invalid data
+[2026-01-04 15:39:11] [INFO ] LoginPage - enterPassword: invalid123
+[2026-01-04 15:39:11] [INFO ] LoginPage - sendKeys: By.id: matKhau with invalid123 in 10s
+[2026-01-04 15:39:11] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-04 15:39:12] [INFO ] LoginTest - Step 4: Click Login
+[2026-01-04 15:39:12] [INFO ] LoginPage - clickLogin
+[2026-01-04 15:39:12] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2026-01-04 15:39:12] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2026-01-04 15:39:14] [INFO ] LoginTest - VP: Verify invalid credentials error message is shown
+[2026-01-04 15:39:14] [INFO ] LoginPage - getText: By.cssSelector: .MuiAlert-standardError in 10s
+[2026-01-04 15:39:14] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.cssSelector: .MuiAlert-standardError in 10s
+[2026-01-04 15:39:15] [INFO ] TestListener - onTestSuccess: TC_InvalidCredentials_ShowsError - PASSED
+[2026-01-04 15:39:15] [INFO ] LoginTest - Test completed
+[2026-01-04 15:39:32] [INFO ] TestListener - onFinish

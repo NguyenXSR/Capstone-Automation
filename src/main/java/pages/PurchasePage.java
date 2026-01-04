@@ -183,4 +183,12 @@ public class PurchasePage extends BasePage {
     }
 
 
+    public int getSelectedSeatCount() {
+        String seatsText = getSummarySeatsTxt(); // e.g., "35, 36, 37"
+        if (seatsText.isEmpty()) {
+            return 0;
+        }
+        String[] seatsArray = seatsText.split(",\\s*");
+        return seatsArray.length;
+    }
 }

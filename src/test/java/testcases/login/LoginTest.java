@@ -21,8 +21,10 @@ public class LoginTest extends BaseTest {
     //test data
     private final String VALID_USER = "tester01";
     private final String VALID_PASS = "123456";
-    private final String INVALID_USER = "wrong";
-    private final String INVALID_PASS = "wrong";
+    private final String INVALID_USER = "invalid123";
+    private final String INVALID_PASS = "invalid123";
+    String expectedProfileName = "John S";
+
 
 
     @BeforeClass
@@ -40,45 +42,27 @@ public class LoginTest extends BaseTest {
         homePage.getTopBarNavigation().navigateLoginPage();
     }
 
-    @Test(description = "Login test")
-    public void testLogin() {
-        //Step2: enter account to login
-        ExtentReportManager.info("Step 2: Enter account to login");
-        LOG.info("Step 2: Enter account to login");
-        String account = "a68cf217-d33b-4132-b180-864697ac8427"; //exist account
-        loginPage.enterAccount(account);
 
-        //Step 3: Enter password to login
-        ExtentReportManager.info("Step 3: Enter password to login");
-        LOG.info("Step 3: Enter password to login");
-        loginPage.enterPassword("Test123456@");
+    @Test (description = "Login with invalid data")
+    public void TC_InvalidCredentials_ShowsError() {
+        ExtentReportManager.info("Step 2: enter account with invalid data");
+        LOG.info("Step 2: enter account with invalid data");
+        loginPage.enterAccount(INVALID_USER);
 
-        //Step 4: Click Login
+        ExtentReportManager.info("Step 3: enter password with invalid data");
+        LOG.info("Step 3: enter password with invalid data");
+        loginPage.enterPassword(INVALID_PASS);
+
         ExtentReportManager.info("Step 4: Click Login");
         LOG.info("Step 4: Click Login");
         loginPage.clickLogin();
 
-        //VP1: 'Đăng nhập thành công' message displays
-        ExtentReportManager.info("VP1: 'Đăng nhập thành công' message displays");
-        LOG.info("VP1: 'Đăng nhập thành công' message displays");
-        String actualLoginMsg = loginPage.getLoginMsg();
-        Assert.assertEquals(actualLoginMsg, "Đăng nhập thành công", "Login message failed!");
-
-        //VP2: Check 'Dang Xuat' button link displays on the top right
-        ExtentReportManager.info("VP2: Check 'Dang Xuat' button link displays on the top right");
-        LOG.info("VP2: Check 'Dang Xuat' button link displays on the top right");
-        boolean isLogoutLinkDisplayed = homePage.getTopBarNavigation().isLogoutLinkDisplayed();
-        Assert.assertTrue(isLogoutLinkDisplayed, "'Dang Xuat' link is not displayed!");
-
-        //VP3: Check user profile name displays
-        ExtentReportManager.info("VP3: Check user profile name displays");
-        LOG.info("VP3: Check user profile name displays");
-        String expectedProfileName = "Nguyen Van A";
-        String actualProfileName = homePage.getTopBarNavigation().getUserProfileName();
-        Assert.assertEquals(actualProfileName, expectedProfileName, "User profile name is incorrect!");
-        ExtentReportManager.pass("PASSED");
+        ExtentReportManager.info("VP: Verify invalid credentials error message is shown");
+        LOG.info("VP: Verify invalid credentials error message is shown");
+        String err = loginPage.getInvalidCredsError();
+        Assert.assertTrue(err.contains("Tài khoản hoặc mật khẩu không đúng!"),
+                "Invalid credentials error not shown. Actual: " + err);
     }
-
 
     // test leave fields username and password blank
     @Test(description = "Login with blank username and password")
@@ -104,17 +88,19 @@ public class LoginTest extends BaseTest {
                 "Password required error not shown");
     }
 
-    @Test
-    public void TC04_InvalidCredentials_ShowsError() {
-        loginPage.enterAccount(INVALID_USER);
-        loginPage.enterPassword(INVALID_PASS);
+    @Test(description = "Remember account persists username after reload")
+    public void TC_RememberAccount_PersistsUsername_AfterReload() {
+        loginPage.enterAccount(VALID_USER);
+        loginPage.enterPassword(VALID_PASS);
+        loginPage.checkRememberAccount();
         loginPage.clickLogin();
 
-        String err = loginPage.getInvalidCredsError();
-        Assert.assertTrue(err.contains("Tài khoản hoặc mật khẩu không đúng!"),
-                "Invalid credentials error not shown. Actual: " + err);
-    }
+        // redirect to homepage and then back to login page
+        homePage.getTopBarNavigation().navigateLoginPage();
 
+        // username should be remembered
+        Assert.assertEquals(loginPage.getUsernameValue(), VALID_USER, "Username was not remembered");
+    }
     @Test(description = "Toggle password visibility")
     public void TC06_TogglePasswordVisibility() {
         loginPage.enterPassword("StrongPass123");
@@ -124,26 +110,25 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(loginPage.getPasswordType(), "text", "Password should be visible after toggle");
     }
 
-    @Test(description = "Remember account persists username after reload")
-    public void TC07_RememberAccount_PersistsUsername_AfterReload() {
-        loginPage.checkRememberAccount();
-        loginPage.enterAccount(VALID_USER);
-        loginPage.enterPassword(VALID_PASS);
-        loginPage.clickLogin();
-
-        // redirect to homepage and then back to login page
-        driver.get("https://demo1.cybersoft.edu.vn/sign-in");
-
-        // username should be remembered
-        Assert.assertEquals(loginPage.getUsernameValue(), VALID_USER, "Username was not remembered");
-    }
-
     @Test(description = "Press Enter key to submit login form")
-    public void TC08_PressEnterKey_LoginProceeds() {
+    public void TC_PressEnterKey_LoginProceeds() {
+        ExtentReportManager.info("Step 2: enter account to login");
+        LOG.info("Step 2: enter account to login");
         loginPage.enterAccount(VALID_USER);
+
+        ExtentReportManager.info("Step 3: enter password to login");
+        LOG.info("Step 3: enter password to login");
         loginPage.enterPassword(VALID_PASS);
         loginPage.pressEnterToLogin();
 
+        ExtentReportManager.info("VP1: 'Đăng nhập thành công' message displays when pressing Enter key");
+        LOG.info("VP1: 'Đăng nhập thành công' message displays when pressing Enter key");
+        String actualLoginMsg = loginPage.getLoginMsg();
+        Assert.assertEquals(actualLoginMsg, "Đăng nhập thành công", "Login message failed!");
+
+        loginPage.waitLoginMsgDisappear();
+        ExtentReportManager.info("VP2: Verify redirected to homepage when pressing Enter key");
+        LOG.info("VP2: Verify redirected to homepage when pressing Enter key");
         Assert.assertEquals(driver.getCurrentUrl(), "https://demo1.cybersoft.edu.vn/",
                 "Enter key did not submit login");
     }

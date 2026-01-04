@@ -76,16 +76,3 @@ public class HomeMovieListingsTest extends BaseTest {
                 "Not redirected to /detail URL");
     }
 }
-
-
-
-
-
-
-    //-----------------------------------------------
-
-
-
-
-
-

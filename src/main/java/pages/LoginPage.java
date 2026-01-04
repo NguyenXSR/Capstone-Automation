@@ -74,4 +74,8 @@ public class LoginPage extends CommonPage {
     public String getInvalidCredsError()     { return getText(driver(), byInvalidCredsError); }
 
 
+    public void waitLoginMsgDisappear() {
+        LOG.info("waitLoginMsgDisappear");
+        waitForInvisibilityOfElementLocated(driver(), byLblLoginMsg);
+    }
 }
