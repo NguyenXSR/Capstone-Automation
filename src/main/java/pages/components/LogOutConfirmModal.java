@@ -39,9 +39,10 @@ public class LogOutConfirmModal extends BasePage {
     }
 
 
-
-
-
-
-
+    public void waitOkModalClosed() {
+        waitForVisibilityOfElementLocated(driver(), By.xpath(
+                "//div[@id='swal2-content' and contains(normalize-space(.),'Cảm ơn bạn đã sử dụng TIX!')]"));
+        By button = By.xpath("//button[normalize-space()='OK']");
+        click(driver(), button);
+    }
 }

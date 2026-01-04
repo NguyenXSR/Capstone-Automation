@@ -2,7 +2,13 @@ package pages;
 
 import drivers.DriverFactory;
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+import java.util.List;
 
 
 public class RegisterPage extends CommonPage{
@@ -15,10 +21,11 @@ public class RegisterPage extends CommonPage{
     private By byTxtEmail = By.id("email");
     private By byBtnRegisterNewAcc = By.xpath("//button[.='Đăng ký']");
     private By byLblRegisterMsg = By.id("swal2-title");
-
     //pw eye icon
-    private By byPasswordEyeIcon = By.cssSelector("button#matKhau");
-    private By byConfirmPasswordEyeIcon = By.cssSelector("button#confirmPassWord");
+    private By byPasswordEyeIcon =
+            By.xpath("(//button[@type='button' and contains(@class, 'MuiIconButton-edgeEnd')])[1]");
+    private By byConfirmPasswordEyeIcon =
+            By.xpath("(//button[@type='button' and contains(@class, 'MuiIconButton-edgeEnd')])[2]");
 
     //already have account link
     private By alreadyHaveAccountLn = By.xpath("//h3[.='Bạn đã có tài khoản? Đăng nhập']");
@@ -110,5 +117,22 @@ public class RegisterPage extends CommonPage{
         LOG.info("getGlobalMessage");
         return getText(driver(), globalMsg);
     }
+
+    public String getGlobalErrorMessage() {
+        LOG.info("getGlobalErrorMessage");
+        By globalMsg = By.cssSelector("div[role='alert']");
+
+        WebDriverWait wait = new WebDriverWait(driver(), Duration.ofSeconds(10));
+        try {
+            return wait.until(d -> {
+                List<WebElement> els = d.findElements(globalMsg);
+                if (els.isEmpty()) return null;
+                String txt = els.get(0).getText().trim();
+                return txt.isEmpty() ? null : txt;
+            });
+        } catch (TimeoutException e) {
+            return "";
+        }
+    };
 }
 

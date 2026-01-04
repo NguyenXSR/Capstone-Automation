@@ -101,6 +101,8 @@ public class LoginTest extends BaseTest {
         // username should be remembered
         Assert.assertEquals(loginPage.getUsernameValue(), VALID_USER, "Username was not remembered");
     }
+
+
     @Test(description = "Toggle password visibility")
     public void TC06_TogglePasswordVisibility() {
         loginPage.enterPassword("StrongPass123");

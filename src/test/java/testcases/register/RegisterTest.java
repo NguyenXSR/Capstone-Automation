@@ -39,6 +39,7 @@ public class RegisterTest extends BaseTest {
         ExtentReportManager.info("Step 2: fill registration form with valid data");
         LOG.info("Step 2: fill registration form with valid data");
 
+        //this is to ensure unique account for each test run
         String account = String.valueOf(System.currentTimeMillis());
         registerPage.fillForm("tester_" + account,
                 "tester_" + account + "@example.com",
@@ -82,7 +83,7 @@ public class RegisterTest extends BaseTest {
         //Enter account to login
         ExtentReportManager.info("Enter account to login");
         LOG.info("Enter account to login");
-        loginPage.enterAccount("tester_"+ account);
+        loginPage.enterAccount("tester_" + account);
 
 
         //Enter password to login
@@ -105,7 +106,7 @@ public class RegisterTest extends BaseTest {
     }
 
     // Toggle pw eye icon
-    @Test
+    @Test(description = "TC_Toggle_Password_Eye_Icon", priority = -1)
     public void TC_Toggle_Password_Eye_Icon() {
         ExtentReportManager.info("TC_Toggle_Password_Eye_Icon");
         LOG.info("TC_Toggle_Password_Eye_Icon");
@@ -119,7 +120,7 @@ public class RegisterTest extends BaseTest {
         Assert.assertEquals(registerPage.getPasswordType(), "password");
     }
 
-    @Test
+    @Test(description = "TC_Already_Have_Account_Link_Redirects_Login")
     public void TC_Already_Have_Account_Link_Redirects_Login() {
         ExtentReportManager.info("TC_Already_Have_Account_Link_Redirects_Login");
         LOG.info("TC_Already_Have_Account_Link_Redirects_Login");
@@ -129,35 +130,36 @@ public class RegisterTest extends BaseTest {
 
     @DataProvider(name = "negativeRegisterData")
     public Object[][] negativeRegisterData() {
+        String account = String.valueOf(System.currentTimeMillis());
         return new Object[][]{
                 // testcaseName, username, email, pass, confirm, full name, expectedType, expectedField, expectedContains
 
                 // Leave required fields empty
-                {"Required fields empty", "", "", "", "", "", "FIELD", "username", "required"},
+                {"Required fields empty", "", "", "", "", "", "FIELD", "taiKhoan", "Đây là trường bắt buộc !"},
 
                 // Username already exists (requires pre-created user)
-                {"Username already exists", "tester01", "", "", "", "John S", "GLOBAL", "", "username already exists"},
+                {"Username already exists", "tester_1767361499026", "tester_" + account + "@example.com", "StrongPass123", "StrongPass123", "John S", "GLOBAL", "", "Tài khoản đã tồn tại!"},
 
                 // Email already exists
-                {"Email already exists", "newuser123", "tester01@example.com", "StrongPass123", "StrongPass123", "John S", "GLOBAL", "", "email"},
+                {"Email already exists", "tester_" + account, "testA@gmail.com", "StrongPass123", "StrongPass123", "John S", "GLOBAL", "", "Email đã tồn tại!"},
 
                 // Passwords do not match
-                {"Passwords do not match", "newuser123", "newuser123@example.com", "StrongPass123", "StrongPass124", "John S", "FIELD", "confirm", "match"},
+                {"Passwords do not match", "tester_" + account, "tester_" + account + "@example.com", "StrongPass123", "StrongPass124", "John S", "FIELD", "confirmPassWord", "Mật khẩu không khớp !"},
 
                 // Invalid email format
-                {"Invalid email missing @", "newuser123", "test.user.example.com", "StrongPass123", "StrongPass123", "John S", "FIELD", "email", "valid"},
+                {"Invalid email missing @", "tester_" + account, "tester." + account + ".example.com", "StrongPass123", "StrongPass123", "John S", "FIELD", "email", "valid"},
 
                 // Password too short
-                {"Password too short", "newuser123", "newuser123@example.com", "123", "123", "John S", "FIELD", "password", "length"},
+                {"Password too short", "tester_" + account, "tester_" + account + "@example.com", "123", "123", "John S", "FIELD", "matKhau", "Mật khẩu phải có ít nhất 6 kí tự !"},
 
                 //Full name with numbers
-                {"Full name with numbers", "newuser123", "newuser123@example.com", "StrongPass123", "StrongPass123", "John123", "FIELD", "name", "invalid"},
+                {"Full name with numbers", "tester_" + account, "tester_" + account + "@example.com", "StrongPass123", "StrongPass123", "John123", "FIELD", "hoTen", "Họ và tên không chứa số !"},
 
                 // full name with special characters
-                {"Full name with special characters", "newuser123", "newuser123@example.com", "StrongPass123", "StrongPass123", "John@#", "FIELD", "name", "invalid"},
+                {"Full name with special characters", "tester_" + account, "tester_" + account + "@example.com", "StrongPass123", "StrongPass123", "John@#", "FIELD", "hoTen", "invalid"},
 
-                // invalid password (leading/trailing  spaces)
-                {"Invalid password with leading/trailing spaces", "newuser123", "newuser123@example.com", "  StrongPass123  ", "  StrongPass123  ", "John S", "FIELD", "password", "no leading or trailing spaces"}
+                // invalid password (leading/trailing spaces)
+                {"Invalid password with leading/trailing spaces", "tester_" + account, "tester_" + account + "@example.com", "  StrongPass123  ", "  StrongPass123  ", "John S", "FIELD", "matKhau", "no leading or trailing spaces"}
 
         };
 
@@ -171,32 +173,48 @@ public class RegisterTest extends BaseTest {
                                                 String password,
                                                 String confirmPassword,
                                                 String fullName,
-                                               String expectedType, //FIELD or GLOBAL
+                                                String expectedType, //FIELD or GLOBAL
                                                 String expectedField, // which field has error
                                                 String expectedContains) {
         ExtentReportManager.info("TC_Negative_Register_Test_Cases - " + testcaseName);
         LOG.info("TC_Negative_Register_Test_Cases - " + testcaseName);
         // Enter registration details
+        ExtentReportManager.info("Fill in" + username + email + password + fullName);
+        LOG.info("Fill in username:" + username + ", email: " + email + ", password" + password + ", full name:" + fullName);
         registerPage.fillForm(username, email, password, confirmPassword, fullName);
         // Click register button
+        ExtentReportManager.info("Click register button");
+        LOG.info("Click register button");
         registerPage.clickRegister();
 
+
         if (expectedType.equals("FIELD")) {
-            // Field-level validation
+            // field-level validation
             String fieldErrorMsg = registerPage.getFieldErrorMessage(expectedField);
-            Assert.assertTrue(fieldErrorMsg.toLowerCase().contains(expectedContains.toLowerCase()),
-                    String.format("Expected field error message for '%s' to contain '%s', but got '%s'",
-                            expectedField, expectedContains, fieldErrorMsg));
+            if (fieldErrorMsg.isEmpty()) {
+                Assert.fail(
+                        "BUG FOUND: Expected validation error for field '" + expectedField +
+                                "' but no error message was displayed. Test case: " + testcaseName
+                );
+            }
+            Assert.assertTrue(
+                    fieldErrorMsg.toLowerCase().contains(expectedContains.toLowerCase()),
+                    String.format(
+                            "Expected field error message for '%s' to contain '%s', but got '%s'",
+                            expectedField, expectedContains, fieldErrorMsg
+                    )
+            );
+
+
         } else if (expectedType.equals("GLOBAL")) {
             // Global validation
-            String globalErrorMsg = registerPage.getGlobalMessage();
+            String globalErrorMsg = registerPage.getGlobalErrorMessage();
             Assert.assertTrue(globalErrorMsg.toLowerCase().contains(expectedContains.toLowerCase()),
                     String.format("Expected global error message to contain '%s', but got '%s'",
                             expectedContains, globalErrorMsg));
         } else {
             Assert.fail("Invalid expectedType provided in test data.");
         }
-
 
 
     }
@@ -206,9 +224,9 @@ public class RegisterTest extends BaseTest {
         ExtentReportManager.info("TC_Double_Click_Register_Only_One_Request");
         LOG.info("TC_Double_Click_Register_Only_One_Request");
 
-        String unique = String.valueOf(System.currentTimeMillis());
-        registerPage.fillForm("tester_" + unique,
-                "tester_" + unique + "@example.com",
+        String account = String.valueOf(System.currentTimeMillis());
+        registerPage.fillForm("tester_" + account,
+                "tester_" + account + "@example.com",
                 "StrongPass123",
                 "StrongPass123",
                 "Tester A");
@@ -217,14 +235,12 @@ public class RegisterTest extends BaseTest {
         registerPage.clickRegister(); // click nhanh lần 2
 
         // success message
-        ExtentReportManager.info("VP3.1: 'Đăng nhập thành công' message displays");
-        LOG.info("VP3.1: 'Đăng nhập thành công' message displays");
-        String actualLoginMsg = loginPage.getLoginMsg();
-        Assert.assertEquals(actualLoginMsg, "Đăng nhập thành công", "Login message failed!");
+        String actualRegisterMsg = registerPage.getRegisterMessage();
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertEquals(actualRegisterMsg, "Đăng ký thành công", "Register message failed!");
 
+        registerPage.waitRegisterMessageDisappear();
     }
-
-
 
 
 }
