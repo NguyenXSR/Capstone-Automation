@@ -40,7 +40,7 @@ public class AccountPageTest extends BaseTest {
         ExtentReportManager.info("Step 0: Login first");
         LOG.info("Step 0: Login first");
         homePage.getTopBarNavigation().navigateLoginPage();
-        loginPage.enterAccount("7b87c831-f41a-49df-bd97-04f505511854");
+        loginPage.enterAccount("4564g67273_3476g626");
         loginPage.enterPassword("Test123456@");
         loginPage.clickLogin();
 
@@ -60,6 +60,7 @@ public class AccountPageTest extends BaseTest {
         } catch (Exception ignored){
         }
     }
+
 
 
     @Test(description = "TC_Verify_Update_Profile_Success_With_Valid_Data")
@@ -97,6 +98,7 @@ public class AccountPageTest extends BaseTest {
         LOG.info("Step 4: read only fields check");
         Assert.assertTrue(accountPage.isUserNameDisplayed(), "Username field is not displayed");
         Assert.assertTrue(accountPage.isUserRoleDisplayed(), "User role field is not displayed");
+
 
         //Step 5: Click Update button
         ExtentReportManager.info("Step 5: Click Update button");
@@ -144,7 +146,7 @@ public class AccountPageTest extends BaseTest {
         ExtentReportManager.info("Step 9: login again to verify updated password works");
         LOG.info("Step 9: login again to verify updated password works");
         homePage.getTopBarNavigation().navigateLoginPage();
-        loginPage.enterAccount("7b87c831-f41a-49df-bd97-04f505511854");
+        loginPage.enterAccount("4564g67273_3476g626");
         loginPage.enterPassword(password);
         loginPage.clickLogin();
         try {
@@ -370,6 +372,7 @@ public class AccountPageTest extends BaseTest {
         Assert.assertEquals(passwordErrorMsg, "Mật khẩu không được chứa khoảng trắng !",
                 "Password validation message is incorrect");
     }
+
 
 
 
