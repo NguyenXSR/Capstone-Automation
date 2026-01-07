@@ -1,10 +1,7 @@
 package pages;
 
 import drivers.DriverFactory;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 
 
 public class LoginPage extends CommonPage {
@@ -50,7 +47,6 @@ public class LoginPage extends CommonPage {
     }
 
 
-
     public void togglePasswordVisibility() {
         click(driver(), eyeIcon);
     }
@@ -60,8 +56,10 @@ public class LoginPage extends CommonPage {
     }
 
     public void checkRememberAccount() {
-        WebElement cb = waitForVisibilityOfElementLocated(driver(), rememberCheckbox);
-        if (!cb.isSelected()) cb.click();
+        WebElement checkbox = waitForPresenceOfElementLocated(driver(), rememberCheckbox);
+        JavascriptExecutor js = (JavascriptExecutor) driver();
+        js.executeScript("arguments[0].click();", checkbox);
+
     }
 
     public String getUsernameValue() {
@@ -79,7 +77,7 @@ public class LoginPage extends CommonPage {
         waitForInvisibilityOfElementLocated(driver(), byLblLoginMsg);
     }
 
-      private void clearAndEnter(By locator, String value) {
+    private void clearAndEnter(By locator, String value) {
         WebElement element = waitForVisibilityOfElementLocated(driver(), locator);
 
         // Focus first (good for MUI)
@@ -98,6 +96,5 @@ public class LoginPage extends CommonPage {
     public void clearAndEnterAccount(String account) {
         clearAndEnter(byTxtAccountLogin, account);
     }
-
 
 }

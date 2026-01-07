@@ -5,15 +5,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 
 public class RegisterPage extends CommonPage{
 
-    //private > day la tinh dong goi (trong oop)
     private By byTxtAccount = By.id("taiKhoan");
     private By byTxtPassword = By.id("matKhau");
     private By byTxtConfirmPassword = By.id("confirmPassWord");
@@ -21,6 +22,8 @@ public class RegisterPage extends CommonPage{
     private By byTxtEmail = By.id("email");
     private By byBtnRegisterNewAcc = By.xpath("//button[.='Đăng ký']");
     private By byLblRegisterMsg = By.id("swal2-title");
+
+
     //pw eye icon
     private By byPasswordEyeIcon =
             By.xpath("(//button[@type='button' and contains(@class, 'MuiIconButton-edgeEnd')])[1]");
@@ -33,6 +36,16 @@ public class RegisterPage extends CommonPage{
 
     private WebDriver driver() {
         return DriverFactory.getDriver();
+    }
+
+
+    public boolean isRegisterSuccessful() {
+        LOG.info("Checking if registration was successful");
+        try {
+            return waitForVisibilityOfElementLocated(driver(), byLblRegisterMsg).isDisplayed();
+        }  catch (NoSuchElementException e) {
+            return false;
+        }
     }
 
 
@@ -69,7 +82,6 @@ public class RegisterPage extends CommonPage{
         enterConfirmPassword(confirmPass);
         enterName(name);
     }
-
     public void clickRegister() {
         LOG.info("clickRegister");
         click(driver(), byBtnRegisterNewAcc);
@@ -107,15 +119,17 @@ public class RegisterPage extends CommonPage{
 
 
     public String getFieldErrorMessage(String expectedField) {
-        By fieldErrorMsg = By.id(expectedField + "-helper-text");
-        LOG.info("getFieldErrorMessage");
-        return getText(driver(), fieldErrorMsg);
-    }
+        By errorHelper = By.id(expectedField + "-helper-text");
 
-    public String getGlobalMessage() {
-        By globalMsg = By.cssSelector("div[role='alert']");
-        LOG.info("getGlobalMessage");
-        return getText(driver(), globalMsg);
+        try {
+            WebDriverWait wait = new WebDriverWait(driver(), Duration.ofSeconds(5));
+            WebElement error = wait.until(
+                    ExpectedConditions.visibilityOfElementLocated(errorHelper)
+            );
+            return error.getText().trim();
+        } catch (TimeoutException e) {
+            return "";
+        }
     }
 
     public String getGlobalErrorMessage() {

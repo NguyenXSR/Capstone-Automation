@@ -805,3 +805,365 @@
 [2026-01-07 16:29:26] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //a[@href='/']/h3[text()='Đăng xuất'] in 10s
 [2026-01-07 16:29:27] [INFO ] LogOutConfirmModal - waitForVisibilityOfElementLocated: By.cssSelector: .swal2-popup.swal2-modal.swal2-icon-question.swal2-show] in 10s
 [2026-01-07 16:29:28] [INFO ] TestListener - onFinish
+[2026-01-07 22:04:36] [INFO ] RegisterTest - beforeSuite - Init Extent Report
+[2026-01-07 22:04:36] [INFO ] TestListener - onStart
+[2026-01-07 22:04:54] [INFO ] TopBarNavigation - navigateRegisterPage
+[2026-01-07 22:04:54] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:04:54] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:04:54] [INFO ] TestListener - onTestStart
+[2026-01-07 22:04:55] [INFO ] RegisterTest - TC_Toggle_Password_Eye_Icon
+[2026-01-07 22:04:55] [INFO ] RegisterPage - enterPassword: StrongPass123
+[2026-01-07 22:04:55] [INFO ] RegisterPage - sendKeys: By.id: matKhau with StrongPass123 in 10s
+[2026-01-07 22:04:55] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:04:55] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:04:55] [INFO ] RegisterPage - click: By.xpath: (//button[@type='button' and contains(@class, 'MuiIconButton-edgeEnd')])[1] in 10s
+[2026-01-07 22:04:55] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: (//button[@type='button' and contains(@class, 'MuiIconButton-edgeEnd')])[1] in 10s
+[2026-01-07 22:04:56] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:04:56] [INFO ] RegisterPage - click: By.xpath: (//button[@type='button' and contains(@class, 'MuiIconButton-edgeEnd')])[1] in 10s
+[2026-01-07 22:04:56] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: (//button[@type='button' and contains(@class, 'MuiIconButton-edgeEnd')])[1] in 10s
+[2026-01-07 22:04:56] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:04:56] [INFO ] TestListener - onTestSuccess: TC_Toggle_Password_Eye_Icon - PASSED
+[2026-01-07 22:04:56] [INFO ] RegisterTest - Test completed
+[2026-01-07 22:04:57] [INFO ] TopBarNavigation - navigateRegisterPage
+[2026-01-07 22:04:57] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:04:57] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:04:57] [INFO ] TestListener - onTestStart
+[2026-01-07 22:04:57] [INFO ] RegisterTest - TC_Already_Have_Account_Link_Redirects_Login
+[2026-01-07 22:04:57] [INFO ] RegisterPage - click: By.xpath: //h3[.='Bạn đã có tài khoản? Đăng nhập'] in 10s
+[2026-01-07 22:04:57] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //h3[.='Bạn đã có tài khoản? Đăng nhập'] in 10s
+[2026-01-07 22:04:57] [INFO ] TestListener - onTestSuccess: TC_Already_Have_Account_Link_Redirects_Login - PASSED
+[2026-01-07 22:04:57] [INFO ] RegisterTest - Test completed
+[2026-01-07 22:04:57] [INFO ] TopBarNavigation - navigateRegisterPage
+[2026-01-07 22:04:57] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:04:57] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:04:58] [INFO ] TestListener - onTestStart
+[2026-01-07 22:04:58] [INFO ] RegisterTest - TC_Double_Click_Register_Only_One_Request
+[2026-01-07 22:04:58] [INFO ] RegisterPage - enterAccount: tester_1767798298356
+[2026-01-07 22:04:58] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with tester_1767798298356 in 10s
+[2026-01-07 22:04:58] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2026-01-07 22:04:58] [INFO ] RegisterPage - enterEmail: tester_1767798298356@example.com
+[2026-01-07 22:04:58] [INFO ] RegisterPage - sendKeys: By.id: email with tester_1767798298356@example.com in 10s
+[2026-01-07 22:04:58] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2026-01-07 22:04:58] [INFO ] RegisterPage - enterPassword: StrongPass123
+[2026-01-07 22:04:58] [INFO ] RegisterPage - sendKeys: By.id: matKhau with StrongPass123 in 10s
+[2026-01-07 22:04:58] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:04:59] [INFO ] RegisterPage - enterConfirmPassword: StrongPass123
+[2026-01-07 22:04:59] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with StrongPass123 in 10s
+[2026-01-07 22:04:59] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2026-01-07 22:04:59] [INFO ] RegisterPage - enterName: Tester A
+[2026-01-07 22:04:59] [INFO ] RegisterPage - sendKeys: By.id: hoTen with Tester A in 10s
+[2026-01-07 22:04:59] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2026-01-07 22:04:59] [INFO ] RegisterPage - clickRegister
+[2026-01-07 22:04:59] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:04:59] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:04:59] [INFO ] RegisterPage - clickRegister
+[2026-01-07 22:04:59] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:04:59] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:01] [INFO ] TestListener - onTestFailure: TC_Double_Click_Register_Only_One_Request - FAILED
+[2026-01-07 22:05:08] [INFO ] TestListener - Saved screenshot: D:\Java learning\AutomationCapstone\test-output\screenshots\TC_Double_Click_Register_Only_One_Request_20260107_10_05_05.png
+[2026-01-07 22:05:08] [INFO ] RegisterTest - Test completed
+[2026-01-07 22:05:11] [INFO ] TopBarNavigation - navigateRegisterPage
+[2026-01-07 22:05:11] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:11] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:12] [INFO ] TestListener - onTestStart
+[2026-01-07 22:05:12] [INFO ] RegisterTest - TC_Negative_Register_Test_Cases - Required fields empty
+[2026-01-07 22:05:12] [INFO ] RegisterTest - Fill in username:, email: , password, full name:
+[2026-01-07 22:05:12] [INFO ] RegisterPage - enterAccount: 
+[2026-01-07 22:05:12] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with  in 10s
+[2026-01-07 22:05:12] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2026-01-07 22:05:12] [INFO ] RegisterPage - enterEmail: 
+[2026-01-07 22:05:12] [INFO ] RegisterPage - sendKeys: By.id: email with  in 10s
+[2026-01-07 22:05:12] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2026-01-07 22:05:12] [INFO ] RegisterPage - enterPassword: 
+[2026-01-07 22:05:12] [INFO ] RegisterPage - sendKeys: By.id: matKhau with  in 10s
+[2026-01-07 22:05:12] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:05:12] [INFO ] RegisterPage - enterConfirmPassword: 
+[2026-01-07 22:05:12] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with  in 10s
+[2026-01-07 22:05:12] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2026-01-07 22:05:12] [INFO ] RegisterPage - enterName: 
+[2026-01-07 22:05:12] [INFO ] RegisterPage - sendKeys: By.id: hoTen with  in 10s
+[2026-01-07 22:05:12] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2026-01-07 22:05:13] [INFO ] RegisterTest - Click register button
+[2026-01-07 22:05:13] [INFO ] RegisterPage - clickRegister
+[2026-01-07 22:05:13] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:13] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:13] [INFO ] TestListener - onTestSuccess: TC_Negative_Register_Test_Cases - PASSED
+[2026-01-07 22:05:13] [INFO ] RegisterTest - Test completed
+[2026-01-07 22:05:13] [INFO ] TopBarNavigation - navigateRegisterPage
+[2026-01-07 22:05:13] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:13] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:14] [INFO ] TestListener - onTestStart
+[2026-01-07 22:05:14] [INFO ] RegisterTest - TC_Negative_Register_Test_Cases - Username already exists
+[2026-01-07 22:05:14] [INFO ] RegisterTest - Fill in username:tester_1767361499026, email: tester_1767798310139@example.com, passwordStrongPass123, full name:John S
+[2026-01-07 22:05:14] [INFO ] RegisterPage - enterAccount: tester_1767361499026
+[2026-01-07 22:05:14] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with tester_1767361499026 in 10s
+[2026-01-07 22:05:14] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2026-01-07 22:05:15] [INFO ] RegisterPage - enterEmail: tester_1767798310139@example.com
+[2026-01-07 22:05:15] [INFO ] RegisterPage - sendKeys: By.id: email with tester_1767798310139@example.com in 10s
+[2026-01-07 22:05:15] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2026-01-07 22:05:15] [INFO ] RegisterPage - enterPassword: StrongPass123
+[2026-01-07 22:05:15] [INFO ] RegisterPage - sendKeys: By.id: matKhau with StrongPass123 in 10s
+[2026-01-07 22:05:15] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:05:15] [INFO ] RegisterPage - enterConfirmPassword: StrongPass123
+[2026-01-07 22:05:15] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with StrongPass123 in 10s
+[2026-01-07 22:05:15] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2026-01-07 22:05:16] [INFO ] RegisterPage - enterName: John S
+[2026-01-07 22:05:16] [INFO ] RegisterPage - sendKeys: By.id: hoTen with John S in 10s
+[2026-01-07 22:05:16] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2026-01-07 22:05:16] [INFO ] RegisterTest - Click register button
+[2026-01-07 22:05:16] [INFO ] RegisterPage - clickRegister
+[2026-01-07 22:05:16] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:16] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:16] [INFO ] RegisterPage - getGlobalErrorMessage
+[2026-01-07 22:05:17] [INFO ] TestListener - onTestSuccess: TC_Negative_Register_Test_Cases - PASSED
+[2026-01-07 22:05:17] [INFO ] RegisterTest - Test completed
+[2026-01-07 22:05:17] [INFO ] TopBarNavigation - navigateRegisterPage
+[2026-01-07 22:05:17] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:17] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:18] [INFO ] TestListener - onTestStart
+[2026-01-07 22:05:18] [INFO ] RegisterTest - TC_Negative_Register_Test_Cases - Email already exists
+[2026-01-07 22:05:18] [INFO ] RegisterTest - Fill in username:tester_1767798310139, email: testA@gmail.com, passwordStrongPass123, full name:John S
+[2026-01-07 22:05:18] [INFO ] RegisterPage - enterAccount: tester_1767798310139
+[2026-01-07 22:05:18] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with tester_1767798310139 in 10s
+[2026-01-07 22:05:18] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2026-01-07 22:05:18] [INFO ] RegisterPage - enterEmail: testA@gmail.com
+[2026-01-07 22:05:18] [INFO ] RegisterPage - sendKeys: By.id: email with testA@gmail.com in 10s
+[2026-01-07 22:05:18] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2026-01-07 22:05:18] [INFO ] RegisterPage - enterPassword: StrongPass123
+[2026-01-07 22:05:18] [INFO ] RegisterPage - sendKeys: By.id: matKhau with StrongPass123 in 10s
+[2026-01-07 22:05:18] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:05:19] [INFO ] RegisterPage - enterConfirmPassword: StrongPass123
+[2026-01-07 22:05:19] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with StrongPass123 in 10s
+[2026-01-07 22:05:19] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2026-01-07 22:05:19] [INFO ] RegisterPage - enterName: John S
+[2026-01-07 22:05:19] [INFO ] RegisterPage - sendKeys: By.id: hoTen with John S in 10s
+[2026-01-07 22:05:19] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2026-01-07 22:05:19] [INFO ] RegisterTest - Click register button
+[2026-01-07 22:05:19] [INFO ] RegisterPage - clickRegister
+[2026-01-07 22:05:19] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:19] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:19] [INFO ] RegisterPage - getGlobalErrorMessage
+[2026-01-07 22:05:19] [INFO ] TestListener - onTestSuccess: TC_Negative_Register_Test_Cases - PASSED
+[2026-01-07 22:05:19] [INFO ] RegisterTest - Test completed
+[2026-01-07 22:05:19] [INFO ] TopBarNavigation - navigateRegisterPage
+[2026-01-07 22:05:19] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:19] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:20] [INFO ] TestListener - onTestStart
+[2026-01-07 22:05:20] [INFO ] RegisterTest - TC_Negative_Register_Test_Cases - Passwords do not match
+[2026-01-07 22:05:20] [INFO ] RegisterTest - Fill in username:tester_1767798310139, email: tester_1767798310139@example.com, passwordStrongPass123, full name:John S
+[2026-01-07 22:05:20] [INFO ] RegisterPage - enterAccount: tester_1767798310139
+[2026-01-07 22:05:20] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with tester_1767798310139 in 10s
+[2026-01-07 22:05:20] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2026-01-07 22:05:20] [INFO ] RegisterPage - enterEmail: tester_1767798310139@example.com
+[2026-01-07 22:05:20] [INFO ] RegisterPage - sendKeys: By.id: email with tester_1767798310139@example.com in 10s
+[2026-01-07 22:05:20] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2026-01-07 22:05:20] [INFO ] RegisterPage - enterPassword: StrongPass123
+[2026-01-07 22:05:20] [INFO ] RegisterPage - sendKeys: By.id: matKhau with StrongPass123 in 10s
+[2026-01-07 22:05:20] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:05:21] [INFO ] RegisterPage - enterConfirmPassword: StrongPass124
+[2026-01-07 22:05:21] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with StrongPass124 in 10s
+[2026-01-07 22:05:21] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2026-01-07 22:05:21] [INFO ] RegisterPage - enterName: John S
+[2026-01-07 22:05:21] [INFO ] RegisterPage - sendKeys: By.id: hoTen with John S in 10s
+[2026-01-07 22:05:21] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2026-01-07 22:05:21] [INFO ] RegisterTest - Click register button
+[2026-01-07 22:05:21] [INFO ] RegisterPage - clickRegister
+[2026-01-07 22:05:21] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:21] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:21] [INFO ] TestListener - onTestSuccess: TC_Negative_Register_Test_Cases - PASSED
+[2026-01-07 22:05:21] [INFO ] RegisterTest - Test completed
+[2026-01-07 22:05:22] [INFO ] TopBarNavigation - navigateRegisterPage
+[2026-01-07 22:05:22] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:22] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:22] [INFO ] TestListener - onTestStart
+[2026-01-07 22:05:22] [INFO ] RegisterTest - TC_Negative_Register_Test_Cases - Invalid email missing @
+[2026-01-07 22:05:22] [INFO ] RegisterTest - Fill in username:tester_1767798310139, email: tester.1767798310139.example.com, passwordStrongPass123, full name:John S
+[2026-01-07 22:05:22] [INFO ] RegisterPage - enterAccount: tester_1767798310139
+[2026-01-07 22:05:22] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with tester_1767798310139 in 10s
+[2026-01-07 22:05:22] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2026-01-07 22:05:22] [INFO ] RegisterPage - enterEmail: tester.1767798310139.example.com
+[2026-01-07 22:05:22] [INFO ] RegisterPage - sendKeys: By.id: email with tester.1767798310139.example.com in 10s
+[2026-01-07 22:05:22] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2026-01-07 22:05:22] [INFO ] RegisterPage - enterPassword: StrongPass123
+[2026-01-07 22:05:22] [INFO ] RegisterPage - sendKeys: By.id: matKhau with StrongPass123 in 10s
+[2026-01-07 22:05:22] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:05:22] [INFO ] RegisterPage - enterConfirmPassword: StrongPass123
+[2026-01-07 22:05:22] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with StrongPass123 in 10s
+[2026-01-07 22:05:22] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2026-01-07 22:05:23] [INFO ] RegisterPage - enterName: John S
+[2026-01-07 22:05:23] [INFO ] RegisterPage - sendKeys: By.id: hoTen with John S in 10s
+[2026-01-07 22:05:23] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2026-01-07 22:05:23] [INFO ] RegisterTest - Click register button
+[2026-01-07 22:05:23] [INFO ] RegisterPage - clickRegister
+[2026-01-07 22:05:23] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:23] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:29] [INFO ] TestListener - onTestFailure: TC_Negative_Register_Test_Cases - FAILED
+[2026-01-07 22:05:30] [INFO ] TestListener - Saved screenshot: D:\Java learning\AutomationCapstone\test-output\screenshots\TC_Negative_Register_Test_Cases_20260107_10_05_30.png
+[2026-01-07 22:05:30] [INFO ] RegisterTest - Test completed
+[2026-01-07 22:05:33] [INFO ] TopBarNavigation - navigateRegisterPage
+[2026-01-07 22:05:33] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:33] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:34] [INFO ] TestListener - onTestStart
+[2026-01-07 22:05:34] [INFO ] RegisterTest - TC_Negative_Register_Test_Cases - Password too short
+[2026-01-07 22:05:34] [INFO ] RegisterTest - Fill in username:tester_1767798310139, email: tester_1767798310139@example.com, password123, full name:John S
+[2026-01-07 22:05:34] [INFO ] RegisterPage - enterAccount: tester_1767798310139
+[2026-01-07 22:05:34] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with tester_1767798310139 in 10s
+[2026-01-07 22:05:34] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2026-01-07 22:05:37] [INFO ] RegisterPage - enterEmail: tester_1767798310139@example.com
+[2026-01-07 22:05:37] [INFO ] RegisterPage - sendKeys: By.id: email with tester_1767798310139@example.com in 10s
+[2026-01-07 22:05:37] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2026-01-07 22:05:38] [INFO ] RegisterPage - enterPassword: 123
+[2026-01-07 22:05:38] [INFO ] RegisterPage - sendKeys: By.id: matKhau with 123 in 10s
+[2026-01-07 22:05:38] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:05:39] [INFO ] RegisterPage - enterConfirmPassword: 123
+[2026-01-07 22:05:39] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with 123 in 10s
+[2026-01-07 22:05:39] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2026-01-07 22:05:39] [INFO ] RegisterPage - enterName: John S
+[2026-01-07 22:05:39] [INFO ] RegisterPage - sendKeys: By.id: hoTen with John S in 10s
+[2026-01-07 22:05:39] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2026-01-07 22:05:39] [INFO ] RegisterTest - Click register button
+[2026-01-07 22:05:39] [INFO ] RegisterPage - clickRegister
+[2026-01-07 22:05:39] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:39] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:40] [INFO ] TestListener - onTestSuccess: TC_Negative_Register_Test_Cases - PASSED
+[2026-01-07 22:05:40] [INFO ] RegisterTest - Test completed
+[2026-01-07 22:05:41] [INFO ] TopBarNavigation - navigateRegisterPage
+[2026-01-07 22:05:41] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:41] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:42] [INFO ] TestListener - onTestStart
+[2026-01-07 22:05:42] [INFO ] RegisterTest - TC_Negative_Register_Test_Cases - Full name with numbers
+[2026-01-07 22:05:42] [INFO ] RegisterTest - Fill in username:tester_1767798310139, email: tester_1767798310139@example.com, passwordStrongPass123, full name:John123
+[2026-01-07 22:05:42] [INFO ] RegisterPage - enterAccount: tester_1767798310139
+[2026-01-07 22:05:42] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with tester_1767798310139 in 10s
+[2026-01-07 22:05:42] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2026-01-07 22:05:42] [INFO ] RegisterPage - enterEmail: tester_1767798310139@example.com
+[2026-01-07 22:05:42] [INFO ] RegisterPage - sendKeys: By.id: email with tester_1767798310139@example.com in 10s
+[2026-01-07 22:05:42] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2026-01-07 22:05:43] [INFO ] RegisterPage - enterPassword: StrongPass123
+[2026-01-07 22:05:43] [INFO ] RegisterPage - sendKeys: By.id: matKhau with StrongPass123 in 10s
+[2026-01-07 22:05:43] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:05:43] [INFO ] RegisterPage - enterConfirmPassword: StrongPass123
+[2026-01-07 22:05:43] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with StrongPass123 in 10s
+[2026-01-07 22:05:43] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2026-01-07 22:05:43] [INFO ] RegisterPage - enterName: John123
+[2026-01-07 22:05:43] [INFO ] RegisterPage - sendKeys: By.id: hoTen with John123 in 10s
+[2026-01-07 22:05:43] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2026-01-07 22:05:43] [INFO ] RegisterTest - Click register button
+[2026-01-07 22:05:43] [INFO ] RegisterPage - clickRegister
+[2026-01-07 22:05:43] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:43] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:45] [INFO ] TestListener - onTestSuccess: TC_Negative_Register_Test_Cases - PASSED
+[2026-01-07 22:05:45] [INFO ] RegisterTest - Test completed
+[2026-01-07 22:05:45] [INFO ] TopBarNavigation - navigateRegisterPage
+[2026-01-07 22:05:45] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:45] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:05:46] [INFO ] TestListener - onTestStart
+[2026-01-07 22:05:46] [INFO ] RegisterTest - TC_Negative_Register_Test_Cases - Full name with special characters
+[2026-01-07 22:05:46] [INFO ] RegisterTest - Fill in username:tester_1767798310139, email: tester_1767798310139@example.com, passwordStrongPass123, full name:John@#
+[2026-01-07 22:05:46] [INFO ] RegisterPage - enterAccount: tester_1767798310139
+[2026-01-07 22:05:46] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with tester_1767798310139 in 10s
+[2026-01-07 22:05:46] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2026-01-07 22:05:46] [INFO ] RegisterPage - enterEmail: tester_1767798310139@example.com
+[2026-01-07 22:05:46] [INFO ] RegisterPage - sendKeys: By.id: email with tester_1767798310139@example.com in 10s
+[2026-01-07 22:05:46] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2026-01-07 22:05:47] [INFO ] RegisterPage - enterPassword: StrongPass123
+[2026-01-07 22:05:47] [INFO ] RegisterPage - sendKeys: By.id: matKhau with StrongPass123 in 10s
+[2026-01-07 22:05:47] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:05:47] [INFO ] RegisterPage - enterConfirmPassword: StrongPass123
+[2026-01-07 22:05:47] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with StrongPass123 in 10s
+[2026-01-07 22:05:47] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2026-01-07 22:05:47] [INFO ] RegisterPage - enterName: John@#
+[2026-01-07 22:05:47] [INFO ] RegisterPage - sendKeys: By.id: hoTen with John@# in 10s
+[2026-01-07 22:05:47] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2026-01-07 22:05:48] [INFO ] RegisterTest - Click register button
+[2026-01-07 22:05:48] [INFO ] RegisterPage - clickRegister
+[2026-01-07 22:05:48] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:48] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:05:54] [INFO ] TestListener - onTestFailure: TC_Negative_Register_Test_Cases - FAILED
+[2026-01-07 22:05:58] [INFO ] TestListener - Saved screenshot: D:\Java learning\AutomationCapstone\test-output\screenshots\TC_Negative_Register_Test_Cases_20260107_10_05_58.png
+[2026-01-07 22:05:58] [INFO ] RegisterTest - Test completed
+[2026-01-07 22:06:02] [INFO ] TopBarNavigation - navigateRegisterPage
+[2026-01-07 22:06:02] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:06:02] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:06:03] [INFO ] TestListener - onTestStart
+[2026-01-07 22:06:03] [INFO ] RegisterTest - TC_Negative_Register_Test_Cases - Invalid password with leading/trailing spaces
+[2026-01-07 22:06:03] [INFO ] RegisterTest - Fill in username:tester_1767798310139, email: tester_1767798310139@example.com, password  StrongPass123  , full name:John S
+[2026-01-07 22:06:03] [INFO ] RegisterPage - enterAccount: tester_1767798310139
+[2026-01-07 22:06:03] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with tester_1767798310139 in 10s
+[2026-01-07 22:06:03] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2026-01-07 22:06:07] [INFO ] RegisterPage - enterEmail: tester_1767798310139@example.com
+[2026-01-07 22:06:07] [INFO ] RegisterPage - sendKeys: By.id: email with tester_1767798310139@example.com in 10s
+[2026-01-07 22:06:07] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2026-01-07 22:06:10] [INFO ] RegisterPage - enterPassword:   StrongPass123  
+[2026-01-07 22:06:10] [INFO ] RegisterPage - sendKeys: By.id: matKhau with   StrongPass123   in 10s
+[2026-01-07 22:06:10] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:06:12] [INFO ] RegisterPage - enterConfirmPassword:   StrongPass123  
+[2026-01-07 22:06:12] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with   StrongPass123   in 10s
+[2026-01-07 22:06:12] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2026-01-07 22:06:15] [INFO ] RegisterPage - enterName: John S
+[2026-01-07 22:06:15] [INFO ] RegisterPage - sendKeys: By.id: hoTen with John S in 10s
+[2026-01-07 22:06:15] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2026-01-07 22:06:16] [INFO ] RegisterTest - Click register button
+[2026-01-07 22:06:16] [INFO ] RegisterPage - clickRegister
+[2026-01-07 22:06:16] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:06:16] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:06:24] [INFO ] TestListener - onTestFailure: TC_Negative_Register_Test_Cases - FAILED
+[2026-01-07 22:06:26] [INFO ] TestListener - Saved screenshot: D:\Java learning\AutomationCapstone\test-output\screenshots\TC_Negative_Register_Test_Cases_20260107_10_06_26.png
+[2026-01-07 22:06:26] [INFO ] RegisterTest - Test completed
+[2026-01-07 22:06:29] [INFO ] TopBarNavigation - navigateRegisterPage
+[2026-01-07 22:06:29] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:06:29] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Ký'] in 10s
+[2026-01-07 22:06:30] [INFO ] TestListener - onTestStart
+[2026-01-07 22:06:30] [INFO ] RegisterTest - Step 1: Click link 'Đăng Ký'
+[2026-01-07 22:06:30] [INFO ] RegisterTest - Step 2: fill registration form with valid data
+[2026-01-07 22:06:30] [INFO ] RegisterPage - enterAccount: tester_1767798390681
+[2026-01-07 22:06:30] [INFO ] RegisterPage - sendKeys: By.id: taiKhoan with tester_1767798390681 in 10s
+[2026-01-07 22:06:30] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2026-01-07 22:06:56] [INFO ] RegisterPage - enterEmail: tester_1767798390681@example.com
+[2026-01-07 22:06:56] [INFO ] RegisterPage - sendKeys: By.id: email with tester_1767798390681@example.com in 10s
+[2026-01-07 22:06:56] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: email in 10s
+[2026-01-07 22:06:57] [INFO ] RegisterPage - enterPassword: Test123456@
+[2026-01-07 22:06:57] [INFO ] RegisterPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2026-01-07 22:06:57] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:06:58] [INFO ] RegisterPage - enterConfirmPassword: Test123456@
+[2026-01-07 22:06:58] [INFO ] RegisterPage - sendKeys: By.id: confirmPassWord with Test123456@ in 10s
+[2026-01-07 22:06:58] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: confirmPassWord in 10s
+[2026-01-07 22:06:58] [INFO ] RegisterPage - enterName: Tester A
+[2026-01-07 22:06:58] [INFO ] RegisterPage - sendKeys: By.id: hoTen with Tester A in 10s
+[2026-01-07 22:06:58] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: hoTen in 10s
+[2026-01-07 22:06:59] [INFO ] RegisterTest - Step 7: Click register button
+[2026-01-07 22:06:59] [INFO ] RegisterPage - clickRegister
+[2026-01-07 22:06:59] [INFO ] RegisterPage - click: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:06:59] [INFO ] RegisterPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng ký'] in 10s
+[2026-01-07 22:07:00] [INFO ] RegisterTest - Step 8: Verify user register successfully
+[2026-01-07 22:07:00] [INFO ] RegisterTest - VP1: 'Đăng ký thành công' message display
+[2026-01-07 22:07:00] [INFO ] RegisterPage - getRegisterMessage
+[2026-01-07 22:07:00] [INFO ] RegisterPage - getText: By.id: swal2-title in 10s
+[2026-01-07 22:07:00] [INFO ] RegisterPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2026-01-07 22:07:01] [INFO ] RegisterPage - waitRegisterMessageDisappear
+[2026-01-07 22:07:01] [INFO ] RegisterPage - waitForInvisibilityOfElementLocated: By.id: swal2-title in 10s
+[2026-01-07 22:07:03] [INFO ] RegisterTest - VP2: Check register page still displays
+[2026-01-07 22:07:03] [INFO ] RegisterTest - VP3: Check new account logins successfully
+[2026-01-07 22:07:03] [INFO ] RegisterTest - Click on Login button
+[2026-01-07 22:07:03] [INFO ] TopBarNavigation - navigateLoginPage
+[2026-01-07 22:07:03] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2026-01-07 22:07:03] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10s
+[2026-01-07 22:07:03] [INFO ] RegisterTest - Enter account to login
+[2026-01-07 22:07:03] [INFO ] LoginPage - enterAccount: tester_1767798390681
+[2026-01-07 22:07:03] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with tester_1767798390681 in 10s
+[2026-01-07 22:07:03] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10s
+[2026-01-07 22:07:04] [INFO ] RegisterTest - Enter password to login
+[2026-01-07 22:07:04] [INFO ] LoginPage - enterPassword: Test123456@
+[2026-01-07 22:07:04] [INFO ] LoginPage - sendKeys: By.id: matKhau with Test123456@ in 10s
+[2026-01-07 22:07:04] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10s
+[2026-01-07 22:07:04] [INFO ] RegisterTest - Click Login
+[2026-01-07 22:07:04] [INFO ] LoginPage - clickLogin
+[2026-01-07 22:07:04] [INFO ] LoginPage - click: By.xpath: //button[.='Đăng nhập'] in 10s
+[2026-01-07 22:07:04] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[.='Đăng nhập'] in 10s
+[2026-01-07 22:07:04] [INFO ] RegisterTest - VP3.1: 'Đăng nhập thành công' message displays
+[2026-01-07 22:07:04] [INFO ] LoginPage - getLoginMsg
+[2026-01-07 22:07:04] [INFO ] LoginPage - getText: By.id: swal2-title in 10s
+[2026-01-07 22:07:04] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10s
+[2026-01-07 22:07:05] [INFO ] TestListener - onTestSuccess: TC_Register_Success_When_Account_Not_Exist - PASSED
+[2026-01-07 22:07:06] [INFO ] RegisterTest - Test completed
+[2026-01-07 22:07:36] [INFO ] TestListener - onFinish

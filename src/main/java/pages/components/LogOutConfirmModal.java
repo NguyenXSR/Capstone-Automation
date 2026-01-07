@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 
 public class LogOutConfirmModal extends BasePage {
 
-    private final By byLogOutConfirmModal = By.cssSelector(".swal2-popup.swal2-modal.swal2-icon-question.swal2-show]");
+    private final By byLogOutConfirmModal = By.cssSelector(".swal2-popup.swal2-modal.swal2-icon-question.swal2-show");
     private final By byLogOutModalTxt = By.xpath("//h2[normalize-space()='Bạn có muốn đăng xuất ?']");
     private final By byModalBtnOk = By.xpath("//button[normalize-space()='Đồng ý']");
     private final By byModalBtnCancel = By.cssSelector(".swal2-icon-question .swal2-cancel");
@@ -15,12 +15,15 @@ public class LogOutConfirmModal extends BasePage {
     private WebDriver driver() {
         return DriverFactory.getDriver();
     }
+
     public void waitLogoutConfirmModalVisible() {
         waitForVisibilityOfElementLocated(driver(), byLogOutConfirmModal);
     }
+
     public boolean isVisible() {
         return waitForVisibilityOfElementLocated(DriverFactory.getDriver(), byLogOutConfirmModal).isDisplayed();
     }
+
     public String getModalText() {
         LOG.info("getModalText");
         return waitForVisibilityOfElementLocated(driver(), byLogOutModalTxt).getText();
@@ -30,11 +33,13 @@ public class LogOutConfirmModal extends BasePage {
         LOG.info("clickOkButton");
         click(driver(), byModalBtnOk);
     }
+
     public void clickCancelButton() {
         LOG.info("clickCancelButton");
         click(driver(), byModalBtnCancel);
     }
-    public void waitModalClosed() {
+
+    public void waitConfirmModalClosed() {
         waitForInvisibilityOfElementLocated(driver(), byLogOutConfirmModal);
     }
 

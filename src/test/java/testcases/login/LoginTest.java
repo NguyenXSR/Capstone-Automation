@@ -20,14 +20,12 @@ public class LoginTest extends BaseTest {
     private LoginPage loginPage;
     private LogOutConfirmModal confirmModal;
 
-
     //test data
-    private final String VALID_USER = "tester01";
-    private final String VALID_PASS = "123456";
-    private final String INVALID_USER = "invalid123";
-    private final String INVALID_PASS = "invalid123";
+    private final String VALID_USER = "tester_1767361653915";
+    private final String VALID_PASS = "StrongPass123";
     String expectedProfileName = "John S";
-
+    private final String INVALID_USER = "wrong123";
+    private final String INVALID_PASS = "wrong123";
 
 
     @BeforeClass
@@ -35,7 +33,6 @@ public class LoginTest extends BaseTest {
         homePage = new HomePage();
         loginPage = new LoginPage();
         confirmModal = new LogOutConfirmModal();
-
 
     }
 
@@ -95,7 +92,34 @@ public class LoginTest extends BaseTest {
 
     }
 
-    @Test (description = "Login with invalid data")
+
+    // test leave fields username and password blank
+    @Test(description = "Login with blank username and password")
+    public void TC_Login_With_Blank_Fields() {
+
+        //Step 2: leave username and password blank and click login
+        ExtentReportManager.info("Step 2: Leave username and password blank and click login");
+        LOG.info("Step 2: Leave username and password blank and click login");
+        loginPage.clickLogin();
+
+        Assert.assertTrue(loginPage.getUsernameRequiredError().contains("Đây là trường bắt buộc !"),
+                "Username required error not shown");
+        Assert.assertTrue(loginPage.getPasswordRequiredError().contains("Đây là trường bắt buộc !"),
+                "Password required error not shown");
+    }
+
+    @Test(description = "Login with only username filled")
+    public void TC_UsernameOnly_ShowsPasswordRequired() {
+        ExtentReportManager.info("Step 2: enter account only");
+        LOG.info("Step 2: enter account only");
+        loginPage.clearAndEnterAccount(VALID_USER);
+        loginPage.clickLogin();
+
+        Assert.assertTrue(loginPage.getPasswordRequiredError().contains("Đây là trường bắt buộc !"),
+                "Password required error not shown");
+    }
+
+    @Test(description = "Login with invalid data")
     public void TC_InvalidCredentials_ShowsError() {
         ExtentReportManager.info("Step 2: enter account with invalid data");
         LOG.info("Step 2: enter account with invalid data");
@@ -116,28 +140,17 @@ public class LoginTest extends BaseTest {
                 "Invalid credentials error not shown. Actual: " + err);
     }
 
-    // test leave fields username and password blank
-    @Test(description = "Login with blank username and password")
-    public void testLoginWithBlankFields() {
+    @Test(description = "Toggle password visibility")
+    public void TC_TogglePasswordVisibility() {
+        ExtentReportManager.info("Step 2: enter password");
+        LOG.info("Step 2: enter password");
+        loginPage.enterPassword("StrongPass123");
 
-        //Step 2: leave username and password blank and click login
-        ExtentReportManager.info("Step 2: Leave username and password blank and click login");
-        LOG.info("Step 2: Leave username and password blank and click login");
-        loginPage.clickLogin();
-
-        Assert.assertTrue(loginPage.getUsernameRequiredError().contains("Đây là trường bắt buộc !"),
-                "Username required error not shown");
-        Assert.assertTrue(loginPage.getPasswordRequiredError().contains("Đây là trường bắt buộc !"),
-                "Password required error not shown");
-    }
-
-    @Test(description = "Login with only username filled")
-    public void TC_UsernameOnly_ShowsPasswordRequired() {
-        loginPage.clearAndEnterAccount(VALID_USER);
-        loginPage.clickLogin();
-
-        Assert.assertTrue(loginPage.getPasswordRequiredError().contains("Đây là trường bắt buộc !"),
-                "Password required error not shown");
+        ExtentReportManager.info("VP: Verify password visibility toggle works");
+        LOG.info("VP: Verify password visibility toggle works");
+        Assert.assertEquals(loginPage.getPasswordType(), "password", "Password should be masked initially");
+        loginPage.togglePasswordVisibility();
+        Assert.assertEquals(loginPage.getPasswordType(), "text", "Password should be visible after toggle");
     }
 
     @Test(description = "Remember account persists username after reload", priority = 10)
@@ -155,19 +168,11 @@ public class LoginTest extends BaseTest {
             confirmModal.waitOkModalClosed();
         }
         homePage.getTopBarNavigation().navigateLoginPage();
-
+        ExtentReportManager.info("VP: Verify username is remembered after page reload");
+        LOG.info("VP: Verify username is remembered after page reload");
         // username should be remembered
         Assert.assertEquals(loginPage.getUsernameValue(), VALID_USER, "Username was not remembered");
-    }
 
-
-    @Test(description = "Toggle password visibility")
-    public void TC06_TogglePasswordVisibility() {
-        loginPage.enterPassword("StrongPass123");
-
-        Assert.assertEquals(loginPage.getPasswordType(), "password", "Password should be masked initially");
-        loginPage.togglePasswordVisibility();
-        Assert.assertEquals(loginPage.getPasswordType(), "text", "Password should be visible after toggle");
     }
 
     @Test(description = "Press Enter key to submit login form")
@@ -192,7 +197,8 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(driver.getCurrentUrl(), "https://demo1.cybersoft.edu.vn/",
                 "Enter key did not submit login");
 
-          // clean up: log out if logged in
+
+        // clean up: log out if logged in
         if (homePage.getTopBarNavigation().isLogoutLinkDisplayed()) {
             homePage.getTopBarNavigation().clickLogoutButton();
             confirmModal.waitLogoutConfirmModalVisible();
@@ -200,8 +206,6 @@ public class LoginTest extends BaseTest {
             confirmModal.waitOkModalClosed();
 
         }
-
-
     }
 
 }

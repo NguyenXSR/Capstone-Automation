@@ -1,50 +1,572 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="0" failed="1" skipped="8">
+<testng-results ignored="0" total="13" passed="9" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-07T16:28:50 ICT" name="Gradle suite" finished-at="2026-01-07T16:29:27 ICT" duration-ms="37136">
+  <suite started-at="2026-01-07T22:04:36 ICT" name="Gradle suite" finished-at="2026-01-07T22:07:36 ICT" duration-ms="179373">
     <groups>
     </groups>
-    <test started-at="2026-01-07T16:28:50 ICT" name="Gradle test" finished-at="2026-01-07T16:29:27 ICT" duration-ms="37136">
-      <class name="testcases.accountpage.AccountPageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:28:49 ICT" name="beforeSuite" finished-at="2026-01-07T16:28:50 ICT" duration-ms="288" status="PASS">
+    <test started-at="2026-01-07T22:04:36 ICT" name="Gradle test" finished-at="2026-01-07T22:07:36 ICT" duration-ms="179373">
+      <class name="testcases.register.RegisterTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:04:36 ICT" name="beforeSuite" finished-at="2026-01-07T22:04:36 ICT" duration-ms="491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:28:50 ICT" name="beforeClass" finished-at="2026-01-07T16:28:57 ICT" duration-ms="7194" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:04:36 ICT" name="beforeClass" finished-at="2026-01-07T22:04:47 ICT" duration-ms="11065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="setUpPages()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:28:57 ICT" name="setUpPages" finished-at="2026-01-07T16:28:57 ICT" duration-ms="32" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpPages -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:28:57 ICT" name="beforeMethod" finished-at="2026-01-07T16:28:58 ICT" duration-ms="1418" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:04:47 ICT" name="beforeMethod" finished-at="2026-01-07T22:04:53 ICT" duration-ms="5980" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=AccountPageTest.TC_Verify_Update_Profile_Failure_With_Invalid_Email_With_Spaces()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegisterTest.TC_Toggle_Password_Eye_Icon()[pri:-1, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setLoginPage()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:28:58 ICT" name="setLoginPage" finished-at="2026-01-07T16:29:00 ICT" duration-ms="1867" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:04:53 ICT" name="setupPages" finished-at="2026-01-07T22:04:54 ICT" duration-ms="927" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setLoginPage -->
-        <test-method signature="TC_Verify_Update_Profile_Failure_With_Invalid_Email_With_Spaces()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:00 ICT" name="TC_Verify_Update_Profile_Failure_With_Invalid_Email_With_Spaces" description="TC_Verify_Update_Profile_Failure_With_Invalid_Email_With_Spaces" finished-at="2026-01-07T16:29:08 ICT" duration-ms="7858" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC_Toggle_Password_Eye_Icon()[pri:-1, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:04:54 ICT" name="TC_Toggle_Password_Eye_Icon" description="TC_Toggle_Password_Eye_Icon" finished-at="2026-01-07T22:04:56 ICT" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Toggle_Password_Eye_Icon -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:04:56 ICT" name="afterMethod" finished-at="2026-01-07T22:04:56 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Toggle_Password_Eye_Icon status=SUCCESS method=RegisterTest.TC_Toggle_Password_Eye_Icon()[pri:-1, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:04:56 ICT" name="beforeMethod" finished-at="2026-01-07T22:04:57 ICT" duration-ms="519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegisterTest.TC_Already_Have_Account_Link_Redirects_Login()[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:04:57 ICT" name="setupPages" finished-at="2026-01-07T22:04:57 ICT" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC_Already_Have_Account_Link_Redirects_Login()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:04:57 ICT" name="TC_Already_Have_Account_Link_Redirects_Login" description="TC_Already_Have_Account_Link_Redirects_Login" finished-at="2026-01-07T22:04:57 ICT" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Already_Have_Account_Link_Redirects_Login -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:04:57 ICT" name="afterMethod" finished-at="2026-01-07T22:04:57 ICT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Already_Have_Account_Link_Redirects_Login status=SUCCESS method=RegisterTest.TC_Already_Have_Account_Link_Redirects_Login()[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:04:57 ICT" name="beforeMethod" finished-at="2026-01-07T22:04:57 ICT" duration-ms="58" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegisterTest.TC_Double_Click_Register_Only_One_Request()[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:04:57 ICT" name="setupPages" finished-at="2026-01-07T22:04:58 ICT" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC_Double_Click_Register_Only_One_Request()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:04:58 ICT" name="TC_Double_Click_Register_Only_One_Request" finished-at="2026-01-07T22:05:01 ICT" duration-ms="2988" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[BUG: Invalid email with spaces but no validation message is displayed expected [false] but found [true]]]>
+              <![CDATA[element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-contained jss83 MuiButton-containedPrimary MuiButton-fullWidth" tabindex="0" type="submit">...</button> is not clickable at point (760, 617). Other element would receive the click: <div class="swal2-container swal2-center swal2-backdrop-show" style="overflow-y: auto;">...</div>
+  (Session info: chrome=143.0.7499.170)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec6fb6aa213c1781017c2529375fe607, clickElement {id=f.0F8B7DD0F76658C94030968CBBEE0D64.d.ACEED54E99D1880F392B0226799FBA3E.e.74}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53251}, goog:processID: 17348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53251/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ec6fb6aa213c1781017c2529375fe607)] -> xpath: //button[.='Đăng ký']]
+Session ID: ec6fb6aa213c1781017c2529375fe607]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: BUG: Invalid email with spaces but no validation message is displayed expected [false] but found [true]
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-contained jss83 MuiButton-containedPrimary MuiButton-fullWidth" tabindex="0" type="submit">...</button> is not clickable at point (760, 617). Other element would receive the click: <div class="swal2-container swal2-center swal2-backdrop-show" style="overflow-y: auto;">...</div>
+  (Session info: chrome=143.0.7499.170)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec6fb6aa213c1781017c2529375fe607, clickElement {id=f.0F8B7DD0F76658C94030968CBBEE0D64.d.ACEED54E99D1880F392B0226799FBA3E.e.74}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53251}, goog:processID: 17348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53251/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ec6fb6aa213c1781017c2529375fe607)] -> xpath: //button[.='Đăng ký']]
+Session ID: ec6fb6aa213c1781017c2529375fe607
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at base.BasePage.click(BasePage.java:62)
+at base.BasePage.click(BasePage.java:66)
+at pages.RegisterPage.clickRegister(RegisterPage.java:87)
+at testcases.register.RegisterTest.TC_Double_Click_Register_Only_One_Request(RegisterTest.java:235)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:153)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:95)
+at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Double_Click_Register_Only_One_Request -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:08 ICT" name="afterMethod" finished-at="2026-01-07T22:05:10 ICT" duration-ms="1953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Double_Click_Register_Only_One_Request status=FAILURE method=RegisterTest.TC_Double_Click_Register_Only_One_Request()[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:10 ICT" name="beforeMethod" finished-at="2026-01-07T22:05:11 ICT" duration-ms="1035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:11 ICT" name="setupPages" finished-at="2026-01-07T22:05:12 ICT" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:12 ICT" name="TC_Negative_Register_Test_Cases" description="TC_Negative_Register_Test_Cases" data-provider="negativeRegisterData" finished-at="2026-01-07T22:05:13 ICT" duration-ms="1438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Required fields empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FIELD]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[taiKhoan]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Đây là trường bắt buộc !]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Negative_Register_Test_Cases -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:13 ICT" name="afterMethod" finished-at="2026-01-07T22:05:13 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Negative_Register_Test_Cases status=SUCCESS method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:13 ICT" name="beforeMethod" finished-at="2026-01-07T22:05:13 ICT" duration-ms="273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:13 ICT" name="setupPages" finished-at="2026-01-07T22:05:14 ICT" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:14 ICT" name="TC_Negative_Register_Test_Cases" description="TC_Negative_Register_Test_Cases" data-provider="negativeRegisterData" finished-at="2026-01-07T22:05:17 ICT" duration-ms="2956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username already exists]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester_1767361499026]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester_1767798310139@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StrongPass123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[StrongPass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[John S]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Tài khoản đã tồn tại!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Negative_Register_Test_Cases -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:17 ICT" name="afterMethod" finished-at="2026-01-07T22:05:17 ICT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Negative_Register_Test_Cases status=SUCCESS method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:17 ICT" name="beforeMethod" finished-at="2026-01-07T22:05:17 ICT" duration-ms="413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:17 ICT" name="setupPages" finished-at="2026-01-07T22:05:18 ICT" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:18 ICT" name="TC_Negative_Register_Test_Cases" description="TC_Negative_Register_Test_Cases" data-provider="negativeRegisterData" finished-at="2026-01-07T22:05:19 ICT" duration-ms="1430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Email already exists]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester_1767798310139]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testA@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StrongPass123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[StrongPass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[John S]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Email đã tồn tại!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Negative_Register_Test_Cases -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:19 ICT" name="afterMethod" finished-at="2026-01-07T22:05:19 ICT" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Negative_Register_Test_Cases status=SUCCESS method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:19 ICT" name="beforeMethod" finished-at="2026-01-07T22:05:19 ICT" duration-ms="37" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:19 ICT" name="setupPages" finished-at="2026-01-07T22:05:20 ICT" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:20 ICT" name="TC_Negative_Register_Test_Cases" description="TC_Negative_Register_Test_Cases" data-provider="negativeRegisterData" finished-at="2026-01-07T22:05:21 ICT" duration-ms="1401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Passwords do not match]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester_1767798310139]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester_1767798310139@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StrongPass123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[StrongPass124]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[John S]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FIELD]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[confirmPassWord]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Mật khẩu không khớp !]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Negative_Register_Test_Cases -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:21 ICT" name="afterMethod" finished-at="2026-01-07T22:05:21 ICT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Negative_Register_Test_Cases status=SUCCESS method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:21 ICT" name="beforeMethod" finished-at="2026-01-07T22:05:22 ICT" duration-ms="143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:22 ICT" name="setupPages" finished-at="2026-01-07T22:05:22 ICT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:22 ICT" name="TC_Negative_Register_Test_Cases" description="TC_Negative_Register_Test_Cases" data-provider="negativeRegisterData" finished-at="2026-01-07T22:05:28 ICT" duration-ms="6590" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid email missing @]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester_1767798310139]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester.1767798310139.example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StrongPass123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[StrongPass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[John S]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FIELD]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[BUG FOUND: Expected validation error for field 'email' but no error message was displayed. Test case: Invalid email missing @]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: BUG FOUND: Expected validation error for field 'email' but no error message was displayed. Test case: Invalid email missing @
 at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertFalse(Assert.java:79)
-at testcases.accountpage.AccountPageTest.TC_Verify_Update_Profile_Failure_With_Invalid_Email_With_Spaces(AccountPageTest.java:233)
+at testcases.register.RegisterTest.TC_Negative_Register_Test_Cases(RegisterTest.java:195)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -92,413 +614,247 @@ at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerM
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_Verify_Update_Profile_Failure_With_Invalid_Email_With_Spaces -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:09 ICT" name="tearDown" finished-at="2026-01-07T16:29:10 ICT" duration-ms="1078" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:10 ICT" name="afterMethod" finished-at="2026-01-07T16:29:11 ICT" duration-ms="280" status="PASS">
+        </test-method> <!-- TC_Negative_Register_Test_Cases -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:30 ICT" name="afterMethod" finished-at="2026-01-07T22:05:32 ICT" duration-ms="1530" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_Verify_Update_Profile_Failure_With_Invalid_Email_With_Spaces status=FAILURE method=AccountPageTest.TC_Verify_Update_Profile_Failure_With_Invalid_Email_With_Spaces()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b] output={null}]]]>
+                <![CDATA[[TestResult name=TC_Negative_Register_Test_Cases status=FAILURE method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:11 ICT" name="beforeMethod" finished-at="2026-01-07T16:29:11 ICT" duration-ms="363" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:32 ICT" name="beforeMethod" finished-at="2026-01-07T22:05:33 ICT" duration-ms="956" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=AccountPageTest.TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setLoginPage()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:11 ICT" name="setLoginPage" finished-at="2026-01-07T16:29:21 ICT" duration-ms="10438" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at base.BasePage.waitForElementToBeClickable(BasePage.java:33)
-at base.BasePage.click(BasePage.java:61)
-at base.BasePage.click(BasePage.java:66)
-at components.TopBarNavigation.navigateLoginPage(TopBarNavigation.java:68)
-at testcases.accountpage.AccountPageTest.setLoginPage(AccountPageTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:153)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:95)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
-at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
-at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:33 ICT" name="setupPages" finished-at="2026-01-07T22:05:34 ICT" duration-ms="1610" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setLoginPage -->
-        <test-method signature="TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:21 ICT" name="TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character" description="TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_@" finished-at="2026-01-07T16:29:21 ICT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at base.BasePage.waitForElementToBeClickable(BasePage.java:33)
-at base.BasePage.click(BasePage.java:61)
-at base.BasePage.click(BasePage.java:66)
-at components.TopBarNavigation.navigateLoginPage(TopBarNavigation.java:68)
-at testcases.accountpage.AccountPageTest.setLoginPage(AccountPageTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:153)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:95)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
-at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
-at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:34 ICT" name="TC_Negative_Register_Test_Cases" description="TC_Negative_Register_Test_Cases" data-provider="negativeRegisterData" finished-at="2026-01-07T22:05:40 ICT" duration-ms="6069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Password too short]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester_1767798310139]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester_1767798310139@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[John S]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FIELD]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[matKhau]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Mật khẩu phải có ít nhất 6 kí tự !]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:22 ICT" name="tearDown" finished-at="2026-01-07T16:29:22 ICT" duration-ms="696" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:22 ICT" name="afterMethod" finished-at="2026-01-07T16:29:22 ICT" duration-ms="0" status="SKIP">
+        </test-method> <!-- TC_Negative_Register_Test_Cases -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:40 ICT" name="afterMethod" finished-at="2026-01-07T22:05:40 ICT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Negative_Register_Test_Cases status=SUCCESS method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setLoginPage()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:22 ICT" name="setLoginPage" finished-at="2026-01-07T16:29:22 ICT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setLoginPage -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:22 ICT" name="beforeMethod" finished-at="2026-01-07T16:29:22 ICT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:40 ICT" name="beforeMethod" finished-at="2026-01-07T22:05:41 ICT" duration-ms="709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TC_Verify_Update_Profile_Failure_With_Invalid_FullName()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:22 ICT" name="TC_Verify_Update_Profile_Failure_With_Invalid_FullName" description="TC_Verify_Update_Profile_Failure_With_Invalid_FullName" finished-at="2026-01-07T16:29:22 ICT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at base.BasePage.waitForElementToBeClickable(BasePage.java:33)
-at base.BasePage.click(BasePage.java:61)
-at base.BasePage.click(BasePage.java:66)
-at components.TopBarNavigation.navigateLoginPage(TopBarNavigation.java:68)
-at testcases.accountpage.AccountPageTest.setLoginPage(AccountPageTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:153)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:95)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
-at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
-at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:41 ICT" name="setupPages" finished-at="2026-01-07T22:05:42 ICT" duration-ms="599" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_Verify_Update_Profile_Failure_With_Invalid_FullName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:22 ICT" name="tearDown" finished-at="2026-01-07T16:29:23 ICT" duration-ms="578" status="PASS">
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:42 ICT" name="TC_Negative_Register_Test_Cases" description="TC_Negative_Register_Test_Cases" data-provider="negativeRegisterData" finished-at="2026-01-07T22:05:45 ICT" duration-ms="2933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Full name with numbers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester_1767798310139]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester_1767798310139@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StrongPass123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[StrongPass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[John123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FIELD]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[hoTen]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Họ và tên không chứa số !]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:23 ICT" name="afterMethod" finished-at="2026-01-07T16:29:23 ICT" duration-ms="0" status="SKIP">
+        </test-method> <!-- TC_Negative_Register_Test_Cases -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:45 ICT" name="afterMethod" finished-at="2026-01-07T22:05:45 ICT" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Negative_Register_Test_Cases status=SUCCESS method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="TC_Verify_Update_Profile_Failure_With_Invalid_Password_Having_Leading_Spaces()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:23 ICT" name="TC_Verify_Update_Profile_Failure_With_Invalid_Password_Having_Leading_Spaces" description="TC_Verify_Update_Profile_Failure_With_Invalid_Password_Having_Leading_Spaces" finished-at="2026-01-07T16:29:23 ICT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at base.BasePage.waitForElementToBeClickable(BasePage.java:33)
-at base.BasePage.click(BasePage.java:61)
-at base.BasePage.click(BasePage.java:66)
-at components.TopBarNavigation.navigateLoginPage(TopBarNavigation.java:68)
-at testcases.accountpage.AccountPageTest.setLoginPage(AccountPageTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:153)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:95)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
-at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
-at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_Verify_Update_Profile_Failure_With_Invalid_Password_Having_Leading_Spaces -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:23 ICT" name="beforeMethod" finished-at="2026-01-07T16:29:23 ICT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:45 ICT" name="beforeMethod" finished-at="2026-01-07T22:05:45 ICT" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setLoginPage()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:23 ICT" name="setLoginPage" finished-at="2026-01-07T16:29:23 ICT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:45 ICT" name="setupPages" finished-at="2026-01-07T22:05:46 ICT" duration-ms="1037" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:23 ICT" name="tearDown" finished-at="2026-01-07T16:29:24 ICT" duration-ms="687" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:24 ICT" name="afterMethod" finished-at="2026-01-07T16:29:24 ICT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:24 ICT" name="beforeMethod" finished-at="2026-01-07T16:29:24 ICT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="TC_Verify_Update_Profile_Failure_With_Invalid_Password_Less_Than_6_Characters()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:24 ICT" name="TC_Verify_Update_Profile_Failure_With_Invalid_Password_Less_Than_6_Characters" description="TC_Verify_Update_Profile_Failure_With_Invalid_Password_Less_Than_6_Characters" finished-at="2026-01-07T16:29:24 ICT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:46 ICT" name="TC_Negative_Register_Test_Cases" description="TC_Negative_Register_Test_Cases" data-provider="negativeRegisterData" finished-at="2026-01-07T22:05:54 ICT" duration-ms="8404" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Full name with special characters]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester_1767798310139]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester_1767798310139@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[StrongPass123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[StrongPass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[John@#]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FIELD]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[hoTen]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8]]>
+              <![CDATA[BUG FOUND: Expected validation error for field 'hoTen' but no error message was displayed. Test case: Full name with special characters]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at base.BasePage.waitForElementToBeClickable(BasePage.java:33)
-at base.BasePage.click(BasePage.java:61)
-at base.BasePage.click(BasePage.java:66)
-at components.TopBarNavigation.navigateLoginPage(TopBarNavigation.java:68)
-at testcases.accountpage.AccountPageTest.setLoginPage(AccountPageTest.java:39)
+              <![CDATA[java.lang.AssertionError: BUG FOUND: Expected validation error for field 'hoTen' but no error message was displayed. Test case: Full name with special characters
+at org.testng.Assert.fail(Assert.java:111)
+at testcases.register.RegisterTest.TC_Negative_Register_Test_Cases(RegisterTest.java:195)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
@@ -539,54 +895,96 @@ at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMa
 at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_Verify_Update_Profile_Failure_With_Invalid_Password_Less_Than_6_Characters -->
-        <test-method is-config="true" signature="setLoginPage()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:24 ICT" name="setLoginPage" finished-at="2026-01-07T16:29:24 ICT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:24 ICT" name="tearDown" finished-at="2026-01-07T16:29:24 ICT" duration-ms="433" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:24 ICT" name="afterMethod" finished-at="2026-01-07T16:29:24 ICT" duration-ms="0" status="SKIP">
+        </test-method> <!-- TC_Negative_Register_Test_Cases -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:58 ICT" name="afterMethod" finished-at="2026-01-07T22:05:59 ICT" duration-ms="1444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Negative_Register_Test_Cases status=FAILURE method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="TC_Verify_Update_Profile_Failure_With_Invalid_Phone_Less_Than_10_Digits()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:24 ICT" name="TC_Verify_Update_Profile_Failure_With_Invalid_Phone_Less_Than_10_Digits" description="TC_Verify_Update_Profile_Failure_With_Invalid_Phone_Less_Than_10_Digits" finished-at="2026-01-07T16:29:24 ICT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:05:59 ICT" name="beforeMethod" finished-at="2026-01-07T22:06:02 ICT" duration-ms="2918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:06:02 ICT" name="setupPages" finished-at="2026-01-07T22:06:03 ICT" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:06:03 ICT" name="TC_Negative_Register_Test_Cases" description="TC_Negative_Register_Test_Cases" data-provider="negativeRegisterData" finished-at="2026-01-07T22:06:23 ICT" duration-ms="20069" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid password with leading/trailing spaces]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester_1767798310139]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester_1767798310139@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[  StrongPass123  ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[  StrongPass123  ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[John S]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FIELD]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[matKhau]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[no leading or trailing spaces]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8]]>
+              <![CDATA[BUG FOUND: Expected validation error for field 'matKhau' but no error message was displayed. Test case: Invalid password with leading/trailing spaces]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at base.BasePage.waitForElementToBeClickable(BasePage.java:33)
-at base.BasePage.click(BasePage.java:61)
-at base.BasePage.click(BasePage.java:66)
-at components.TopBarNavigation.navigateLoginPage(TopBarNavigation.java:68)
-at testcases.accountpage.AccountPageTest.setLoginPage(AccountPageTest.java:39)
+              <![CDATA[java.lang.AssertionError: BUG FOUND: Expected validation error for field 'matKhau' but no error message was displayed. Test case: Invalid password with leading/trailing spaces
+at org.testng.Assert.fail(Assert.java:111)
+at testcases.register.RegisterTest.TC_Negative_Register_Test_Cases(RegisterTest.java:195)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
@@ -627,311 +1025,60 @@ at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMa
 at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_Verify_Update_Profile_Failure_With_Invalid_Phone_Less_Than_10_Digits -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:24 ICT" name="beforeMethod" finished-at="2026-01-07T16:29:24 ICT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setLoginPage()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:24 ICT" name="setLoginPage" finished-at="2026-01-07T16:29:24 ICT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:24 ICT" name="tearDown" finished-at="2026-01-07T16:29:25 ICT" duration-ms="370" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:25 ICT" name="afterMethod" finished-at="2026-01-07T16:29:25 ICT" duration-ms="0" status="SKIP">
+        </test-method> <!-- TC_Negative_Register_Test_Cases -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:06:26 ICT" name="afterMethod" finished-at="2026-01-07T22:06:27 ICT" duration-ms="1132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Negative_Register_Test_Cases status=FAILURE method=RegisterTest.TC_Negative_Register_Test_Cases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:25 ICT" name="beforeMethod" finished-at="2026-01-07T16:29:25 ICT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:06:27 ICT" name="beforeMethod" finished-at="2026-01-07T22:06:29 ICT" duration-ms="1604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegisterTest.TC_Register_Success_When_Account_Not_Exist()[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setLoginPage()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:25 ICT" name="setLoginPage" finished-at="2026-01-07T16:29:25 ICT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:06:29 ICT" name="setupPages" finished-at="2026-01-07T22:06:30 ICT" duration-ms="1075" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setLoginPage -->
-        <test-method signature="TC_Verify_Update_Profile_Failure_With_Invalid_Phone_More_Than_10_Digits()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:25 ICT" name="TC_Verify_Update_Profile_Failure_With_Invalid_Phone_More_Than_10_Digits" description="TC_Verify_Update_Profile_Failure_With_Invalid_Phone_More_Than_10_Digits" finished-at="2026-01-07T16:29:25 ICT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at base.BasePage.waitForElementToBeClickable(BasePage.java:33)
-at base.BasePage.click(BasePage.java:61)
-at base.BasePage.click(BasePage.java:66)
-at components.TopBarNavigation.navigateLoginPage(TopBarNavigation.java:68)
-at testcases.accountpage.AccountPageTest.setLoginPage(AccountPageTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:153)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:95)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
-at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
-at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC_Register_Success_When_Account_Not_Exist()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:06:30 ICT" name="TC_Register_Success_When_Account_Not_Exist" description="TC_Register_Success_When_Account_Not_Exist" finished-at="2026-01-07T22:07:05 ICT" duration-ms="34959" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_Verify_Update_Profile_Failure_With_Invalid_Phone_More_Than_10_Digits -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:25 ICT" name="tearDown" finished-at="2026-01-07T16:29:25 ICT" duration-ms="514" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:25 ICT" name="afterMethod" finished-at="2026-01-07T16:29:25 ICT" duration-ms="0" status="SKIP">
+        </test-method> <!-- TC_Register_Success_When_Account_Not_Exist -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:07:05 ICT" name="afterMethod" finished-at="2026-01-07T22:07:06 ICT" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Register_Success_When_Account_Not_Exist status=SUCCESS method=RegisterTest.TC_Register_Success_When_Account_Not_Exist()[pri:0, instance:testcases.register.RegisterTest@6e4de19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:25 ICT" name="beforeMethod" finished-at="2026-01-07T16:29:25 ICT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="TC_Verify_Update_Profile_Failure_With_Invalid_Phone_With_Characters()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:25 ICT" name="TC_Verify_Update_Profile_Failure_With_Invalid_Phone_With_Characters" description="TC_Verify_Update_Profile_Failure_With_Invalid_Phone_With_Characters" finished-at="2026-01-07T16:29:25 ICT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at base.BasePage.waitForElementToBeClickable(BasePage.java:33)
-at base.BasePage.click(BasePage.java:61)
-at base.BasePage.click(BasePage.java:66)
-at components.TopBarNavigation.navigateLoginPage(TopBarNavigation.java:68)
-at testcases.accountpage.AccountPageTest.setLoginPage(AccountPageTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:153)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:95)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
-at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
-at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_Verify_Update_Profile_Failure_With_Invalid_Phone_With_Characters -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:25 ICT" name="tearDown" finished-at="2026-01-07T16:29:26 ICT" duration-ms="365" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setLoginPage()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:25 ICT" name="setLoginPage" finished-at="2026-01-07T16:29:25 ICT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setLoginPage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:26 ICT" name="afterMethod" finished-at="2026-01-07T16:29:26 ICT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="TC_Verify_Update_Profile_Success_With_Valid_Data()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:26 ICT" name="TC_Verify_Update_Profile_Success_With_Valid_Data" description="TC_Verify_Update_Profile_Success_With_Valid_Data" finished-at="2026-01-07T16:29:26 ICT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52063}, goog:processID: 14700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52063/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebab6bc911a9e0b15e4685a303a4cda8
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at base.BasePage.waitForElementToBeClickable(BasePage.java:33)
-at base.BasePage.click(BasePage.java:61)
-at base.BasePage.click(BasePage.java:66)
-at components.TopBarNavigation.navigateLoginPage(TopBarNavigation.java:68)
-at testcases.accountpage.AccountPageTest.setLoginPage(AccountPageTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:153)
-at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:95)
-at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
-at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
-at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
-at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
-at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_Verify_Update_Profile_Success_With_Valid_Data -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:26 ICT" name="beforeMethod" finished-at="2026-01-07T16:29:26 ICT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="setLoginPage()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:26 ICT" name="setLoginPage" finished-at="2026-01-07T16:29:26 ICT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:26 ICT" name="tearDown" finished-at="2026-01-07T16:29:27 ICT" duration-ms="1094" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:27 ICT" name="afterMethod" finished-at="2026-01-07T16:29:27 ICT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:27 ICT" name="afterClass" finished-at="2026-01-07T16:29:27 ICT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:07:06 ICT" name="afterClass" finished-at="2026-01-07T22:07:36 ICT" duration-ms="29614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.accountpage.AccountPageTest@6e4de19b]" started-at="2026-01-07T16:29:28 ICT" name="afterSuite" finished-at="2026-01-07T16:29:28 ICT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.register.RegisterTest@6e4de19b]" started-at="2026-01-07T22:07:36 ICT" name="afterSuite" finished-at="2026-01-07T22:07:36 ICT" duration-ms="532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.accountpage.AccountPageTest -->
+      </class> <!-- testcases.register.RegisterTest -->
     </test> <!-- Gradle test -->
   </suite> <!-- Gradle suite -->
 </testng-results>
