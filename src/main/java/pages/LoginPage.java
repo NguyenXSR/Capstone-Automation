@@ -79,6 +79,22 @@ public class LoginPage extends CommonPage {
         waitForInvisibilityOfElementLocated(driver(), byLblLoginMsg);
     }
 
+      private void clearAndEnter(By locator, String value) {
+        WebElement element = waitForVisibilityOfElementLocated(driver(), locator);
+
+        // Focus first (good for MUI)
+        element.click();
+
+        // Clear reliably
+        element.sendKeys(Keys.COMMAND + "a");
+        element.sendKeys(Keys.DELETE);
+
+        // Type new value
+        if (value != null) {
+            element.sendKeys(value);
+        }
+    }
+
     public void clearAndEnterAccount(String account) {
         clearAndEnter(byTxtAccountLogin, account);
     }

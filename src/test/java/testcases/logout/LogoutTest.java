@@ -67,11 +67,9 @@ public class LogoutTest extends BaseTest {
     }
 
 
-    @Test (description = "Double click Logout should show only one modal")
+    @Test (description = "Double click Logout should show only one modal", priority = 1)
     public void TC03_Double_Click_Logout_Should_Show_Only_One_Modal() {
 
-        ExtentReportManager.info("Login with valid credentials");
-        loginAsValidUser();
 
         ExtentReportManager.info("Click Đăng Xuất multiple times quickly");
         homePage.getTopBarNavigation().clickLogoutButton();
@@ -85,13 +83,13 @@ public class LogoutTest extends BaseTest {
         Assert.assertEquals(modalCount, 1, "Only one modal should be shown");
     }
 
-    @Test(description = "Check token cleared after logout")
+    @Test(description = "Check token cleared after logout", priority = 2)
     public void TC_Check_Token_Cleared_After_Logout() {
 
         // 1) Login
         ExtentReportManager.info("Step 1: Login with valid credentials");
         LOG.info("Step 1: Login with valid credentials");
-        loginAsValidUser();
+       // loginAsValidUser();
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
