@@ -4,10 +4,7 @@ import base.BaseTest;
 import drivers.DriverFactory;
 import listeners.TestListener;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 import pages.AccountPage;
 import pages.HomePage;
@@ -40,7 +37,7 @@ public class AccountPageTest extends BaseTest {
         ExtentReportManager.info("Step 0: Login first");
         LOG.info("Step 0: Login first");
         homePage.getTopBarNavigation().navigateLoginPage();
-        loginPage.enterAccount("7b87c831-f41a-49df-bd97-04f505511854");
+        loginPage.enterAccount("4564g67273_3476g626");
         loginPage.enterPassword("Test123456@");
         loginPage.clickLogin();
 
@@ -65,7 +62,7 @@ public class AccountPageTest extends BaseTest {
     @Test(description = "TC_Verify_Update_Profile_Success_With_Valid_Data")
     public void TC_Verify_Update_Profile_Success_With_Valid_Data() {
 
-        String fullName = "UserABCD";
+        String fullName = "HoangABCD";
         String email = fullName + "@example.com";
         String phone = "0156456789";
         String password = "Test123@@@";
@@ -144,7 +141,7 @@ public class AccountPageTest extends BaseTest {
         ExtentReportManager.info("Step 9: login again to verify updated password works");
         LOG.info("Step 9: login again to verify updated password works");
         homePage.getTopBarNavigation().navigateLoginPage();
-        loginPage.enterAccount("7b87c831-f41a-49df-bd97-04f505511854");
+        loginPage.enterAccount("4564g67273_3476g626");
         loginPage.enterPassword(password);
         loginPage.clickLogin();
         try {
@@ -196,7 +193,7 @@ public class AccountPageTest extends BaseTest {
         //Step 2: Update profile information with invalid email
         ExtentReportManager.info("Step 2: Verify error message is displayed for invalid email without '@'");
         LOG.info("Step 2: Verify error message is displayed for invalid email without '@'");
-        accountPage.setEmail("testuser.gmail.com"); //invalid email - no special character '@'
+        accountPage.setEmail("testuser1237b87c831-f41a-49df-bd97-04f505511854.gmail.com"); //invalid email - no special character '@'
         accountPage.clickUpdateButton();
         String error = accountPage.getEmailErrorNegative();
         if (error.isEmpty()) {
@@ -222,7 +219,7 @@ public class AccountPageTest extends BaseTest {
         //Step 2: Update profile information with invalid email
         ExtentReportManager.info("Step 2: Update profile information with invalid email");
         LOG.info("Step 2: Update profile information with invalid email");
-        accountPage.setEmail("test A@gmail.com"); //invalid email - having spaces
+        accountPage.setEmail("Hello A@gmail.com"); //invalid email - having spaces
         accountPage.clickUpdateButton();
 
         //Step 2 verify error message must be displayed

@@ -9,6 +9,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LoginPage;
+import pages.components.LogOutConfirmModal;
 import reports.ExtentReportManager;
 
 

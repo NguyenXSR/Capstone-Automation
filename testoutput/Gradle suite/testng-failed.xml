@@ -3,20 +3,28 @@
 <suite name="Failed suite [Gradle suite]" verbose="0">
   <test thread-count="5" name="Gradle test(failed)" verbose="0">
     <classes>
-      <class name="testcases.register.RegisterTest">
+      <class name="testcases.accountpage.AccountPageTest">
         <methods>
-          <include name="afterMethod"/>
-          <include name="TC_Toggle_Password_Eye_Icon"/>
-          <include name="TC_Negative_Register_Test_Cases" invocation-numbers="4 7 8"/>
           <include name="afterClass"/>
-          <include name="beforeSuite"/>
+          <include name="setLoginPage"/>
           <include name="afterSuite"/>
-          <include name="beforeMethod"/>
-          <include name="setupPages"/>
+          <include name="TC_Verify_Update_Profile_Success_With_Valid_Data"/>
+          <include name="TC_Verify_Update_Profile_Failure_With_Invalid_Email_Without_Special_Character"/>
+          <include name="TC_Verify_Update_Profile_Failure_With_Invalid_Email_With_Spaces"/>
+          <include name="TC_Verify_Update_Profile_Failure_With_Invalid_Phone_Less_Than_10_Digits"/>
+          <include name="TC_Verify_Update_Profile_Failure_With_Invalid_Phone_With_Characters"/>
+          <include name="TC_Verify_Update_Profile_Failure_With_Invalid_Phone_More_Than_10_Digits"/>
+          <include name="TC_Verify_Update_Profile_Failure_With_Invalid_FullName"/>
           <include name="beforeClass"/>
-          <include name="TC_Double_Click_Register_Only_One_Request"/>
+          <include name="afterMethod"/>
+          <include name="TC_Verify_Update_Profile_Failure_With_Invalid_Password_Less_Than_6_Characters"/>
+          <include name="beforeSuite"/>
+          <include name="setUpPages"/>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+          <include name="TC_Verify_Update_Profile_Failure_With_Invalid_Password_Having_Leading_Spaces"/>
         </methods>
-      </class> <!-- testcases.register.RegisterTest -->
+      </class> <!-- testcases.accountpage.AccountPageTest -->
     </classes>
   </test> <!-- Gradle test(failed) -->
 </suite> <!-- Failed suite [Gradle suite] -->
