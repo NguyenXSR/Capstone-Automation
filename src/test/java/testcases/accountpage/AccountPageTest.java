@@ -195,7 +195,7 @@ public class AccountPageTest extends BaseTest {
         //Step 2: Update profile information with invalid email
         ExtentReportManager.info("Step 2: Verify error message is displayed for invalid email without '@'");
         LOG.info("Step 2: Verify error message is displayed for invalid email without '@'");
-        accountPage.setEmail("testuser1237b87c831-f41a-49df-bd97-04f505511854.gmail.com"); //invalid email - no special character '@'
+        accountPage.setEmail("testuser1237b.gmail.com"); //invalid email - no special character '@'
         accountPage.clickUpdateButton();
         String error = accountPage.getEmailErrorNegative();
         if (error.isEmpty()) {
@@ -270,7 +270,7 @@ public class AccountPageTest extends BaseTest {
         //Step 2: Update profile information with invalid phone number
         ExtentReportManager.info("Step 2: Update profile information with invalid phone number");
         LOG.info("Step 2: Update profile information with invalid phone number");
-        accountPage.setPhone("01234567"); //invalid phone number - less than 10 digits
+        accountPage.setPhone("012398567"); //invalid phone number - less than 10 digits
         accountPage.clickUpdateButton();
 
         //Step 2 verify error message must be displayed
