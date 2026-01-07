@@ -59,6 +59,7 @@ public class AccountPageTest extends BaseTest {
     }
 
 
+
     @Test(description = "TC_Verify_Update_Profile_Success_With_Valid_Data")
     public void TC_Verify_Update_Profile_Success_With_Valid_Data() {
 
@@ -94,6 +95,7 @@ public class AccountPageTest extends BaseTest {
         LOG.info("Step 4: read only fields check");
         Assert.assertTrue(accountPage.isUserNameDisplayed(), "Username field is not displayed");
         Assert.assertTrue(accountPage.isUserRoleDisplayed(), "User role field is not displayed");
+
 
         //Step 5: Click Update button
         ExtentReportManager.info("Step 5: Click Update button");
@@ -367,6 +369,7 @@ public class AccountPageTest extends BaseTest {
         Assert.assertEquals(passwordErrorMsg, "Mật khẩu không được chứa khoảng trắng !",
                 "Password validation message is incorrect");
     }
+
 
 
 
