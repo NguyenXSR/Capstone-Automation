@@ -17,6 +17,8 @@ public class LoginTest extends BaseTest {
 
     private HomePage homePage;
     private LoginPage loginPage;
+    private LogOutConfirmModal confirmModal;
+
 
     //test data
     private final String VALID_USER = "tester01";
@@ -31,6 +33,8 @@ public class LoginTest extends BaseTest {
     public void setUpPages() {
         homePage = new HomePage();
         loginPage = new LoginPage();
+        confirmModal = new LogOutConfirmModal();
+
 
     }
 
@@ -42,6 +46,53 @@ public class LoginTest extends BaseTest {
         homePage.getTopBarNavigation().navigateLoginPage();
     }
 
+    @Test(description = "Login test")
+    public void TC_Login_Success() {
+        //Step2: enter account to login
+        ExtentReportManager.info("Step 2: Enter account to login");
+        LOG.info("Step 2: Enter account to login");
+        String account = "tester_1767361653915"; //get any account from register test
+        loginPage.enterAccount(account);
+
+        //Step 3: Enter password to login
+        ExtentReportManager.info("Step 3: Enter password to login");
+        LOG.info("Step 3: Enter password to login");
+        loginPage.enterPassword("StrongPass123");
+
+        //Step 4: Click Login
+        ExtentReportManager.info("Step 4: Click Login");
+        LOG.info("Step 4: Click Login");
+        loginPage.clickLogin();
+
+        //VP1: 'Đăng nhập thành công' message displays
+        ExtentReportManager.info("VP1: 'Đăng nhập thành công' message displays");
+        LOG.info("VP1: 'Đăng nhập thành công' message displays");
+        String actualLoginMsg = loginPage.getLoginMsg();
+        Assert.assertEquals(actualLoginMsg, "Đăng nhập thành công", "Login message failed!");
+
+        //VP2: Check 'Dang Xuat' button link displays on the top right
+        ExtentReportManager.info("VP2: Check 'Dang Xuat' button link displays on the top right");
+        LOG.info("VP2: Check 'Dang Xuat' button link displays on the top right");
+        boolean isLogoutLinkDisplayed = homePage.getTopBarNavigation().isLogoutLinkDisplayed();
+        Assert.assertTrue(isLogoutLinkDisplayed, "'Dang Xuat' link is not displayed!");
+
+        //VP3: Check user profile name displays
+        ExtentReportManager.info("VP3: Check user profile name displays");
+        LOG.info("VP3: Check user profile name displays");
+        String actualProfileName = homePage.getTopBarNavigation().getUserProfileName();
+        Assert.assertEquals(actualProfileName, expectedProfileName, "User profile name is incorrect!");
+        ExtentReportManager.pass("PASSED");
+
+        // clean up: log out if logged in
+        if (homePage.getTopBarNavigation().isLogoutLinkDisplayed()) {
+            homePage.getTopBarNavigation().clickLogoutButton();
+            confirmModal.waitLogoutConfirmModalVisible();
+            confirmModal.clickOkButton();
+            confirmModal.waitOkModalClosed();
+
+        }
+
+    }
 
     @Test (description = "Login with invalid data")
     public void TC_InvalidCredentials_ShowsError() {
@@ -81,14 +132,14 @@ public class LoginTest extends BaseTest {
 
     @Test(description = "Login with only username filled")
     public void TC_UsernameOnly_ShowsPasswordRequired() {
-        loginPage.enterAccount(VALID_USER);
+        loginPage.clearAndEnterAccount(VALID_USER);
         loginPage.clickLogin();
 
         Assert.assertTrue(loginPage.getPasswordRequiredError().contains("Đây là trường bắt buộc !"),
                 "Password required error not shown");
     }
 
-    @Test(description = "Remember account persists username after reload")
+    @Test(description = "Remember account persists username after reload", priority = 10)
     public void TC_RememberAccount_PersistsUsername_AfterReload() {
         loginPage.enterAccount(VALID_USER);
         loginPage.enterPassword(VALID_PASS);
@@ -96,6 +147,12 @@ public class LoginTest extends BaseTest {
         loginPage.clickLogin();
 
         // redirect to homepage and then back to login page
+        if (homePage.getTopBarNavigation().isLogoutLinkDisplayed()) {
+            homePage.getTopBarNavigation().clickLogoutButton();
+            confirmModal.waitLogoutConfirmModalVisible();
+            confirmModal.clickOkButton();
+            confirmModal.waitOkModalClosed();
+        }
         homePage.getTopBarNavigation().navigateLoginPage();
 
         // username should be remembered
@@ -133,6 +190,17 @@ public class LoginTest extends BaseTest {
         LOG.info("VP2: Verify redirected to homepage when pressing Enter key");
         Assert.assertEquals(driver.getCurrentUrl(), "https://demo1.cybersoft.edu.vn/",
                 "Enter key did not submit login");
+
+          // clean up: log out if logged in
+        if (homePage.getTopBarNavigation().isLogoutLinkDisplayed()) {
+            homePage.getTopBarNavigation().clickLogoutButton();
+            confirmModal.waitLogoutConfirmModalVisible();
+            confirmModal.clickOkButton();
+            confirmModal.waitOkModalClosed();
+
+        }
+
+
     }
 
 }

@@ -78,4 +78,10 @@ public class LoginPage extends CommonPage {
         LOG.info("waitLoginMsgDisappear");
         waitForInvisibilityOfElementLocated(driver(), byLblLoginMsg);
     }
+
+    public void clearAndEnterAccount(String account) {
+        clearAndEnter(byTxtAccountLogin, account);
+    }
+
+
 }

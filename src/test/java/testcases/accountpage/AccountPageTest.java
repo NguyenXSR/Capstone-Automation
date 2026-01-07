@@ -48,6 +48,18 @@ public class AccountPageTest extends BaseTest {
         Assert.assertEquals(actualLoginMsg, "Đăng nhập thành công", "Login message failed!");
 
     }
+    @AfterMethod(alwaysRun = true)
+    public void tearDown() {
+        try {
+            if (homePage.getTopBarNavigation().isLogoutLinkDisplayed()) {
+                homePage.getTopBarNavigation().clickLogoutButton();
+                confirmModal.waitLogoutConfirmModalVisible();
+                confirmModal.clickOkButton();
+                confirmModal.waitOkModalClosed();
+            }
+        } catch (Exception ignored){
+        }
+    }
 
 
     @Test(description = "TC_Verify_Update_Profile_Success_With_Valid_Data")
@@ -85,8 +97,6 @@ public class AccountPageTest extends BaseTest {
         LOG.info("Step 4: read only fields check");
         Assert.assertTrue(accountPage.isUserNameDisplayed(), "Username field is not displayed");
         Assert.assertTrue(accountPage.isUserRoleDisplayed(), "User role field is not displayed");
-//        Assert.assertFalse(accountPage.isUserNameEditable(), "Username field should not be editable");
-//        Assert.assertFalse(accountPage.isUserRoleEditable(), "User role field should not be  editable");
 
         //Step 5: Click Update button
         ExtentReportManager.info("Step 5: Click Update button");
